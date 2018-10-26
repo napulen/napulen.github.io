@@ -14,11 +14,20 @@
     
     <item>
       <title>Encoding Matters</title>
-      <link>/publication/encoding_matters/</link>
+      <link>/publication/encoding-matters/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
       
-      <guid>/publication/encoding_matters/</guid>
+      <guid>/publication/encoding-matters/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
   </channel>
