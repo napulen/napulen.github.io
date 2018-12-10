@@ -15,12 +15,12 @@
     <item>
       <title>Implementing a digital model of the Boss DS-1 distortion pedal</title>
       <link>/docs/mumt618/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
       
       <guid>/docs/mumt618/</guid>
       <description>This is a report for my final project of the MUMT 618: Computational Modeling of Musical Acoustic Systems class at McGill University.
-I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx Conference.
-This paper describes two models:</description>
+I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&amp;rsquo;07 Conference.
+Although this paper describes two models:</description>
     </item>
     
   </channel>
