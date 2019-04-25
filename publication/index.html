@@ -5,23 +5,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.0.0">
-  <meta name="generator" content="Hugo 0.49" />
-  <meta name="author" content="Néstor Nápoles López">
+  <meta name="generator" content="Source Themes Academic 4.2.5">
+
+  
 
   
   
   
   
+  
+  
+
+  
+
+  
+  
+  
     
   
-  <meta name="description" content="PhD student in Music Technology">
+  <meta name="description" content="">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/">
 
   
 
+
+  
+
+  
+
+  
 
   
 
@@ -40,9 +54,8 @@
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -54,7 +67,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -70,7 +84,11 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="/styles.css">
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.2ef9f7a4c06db867267e9afcb74077b5.css">
+
   
 
   
@@ -102,7 +120,14 @@
 
   <link rel="canonical" href="/publication/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="twitter:site" content="@napulen">
   <meta property="twitter:creator" content="@napulen">
@@ -110,11 +135,7 @@
   <meta property="og:site_name" content="Néstor Nápoles López">
   <meta property="og:url" content="/publication/">
   <meta property="og:title" content="Publications | Néstor Nápoles López">
-  <meta property="og:description" content="PhD student in Music Technology">
-  
-  
-    
-  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content=""><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2017-01-01T00:00:00-05:00">
@@ -128,6 +149,37 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -230,6 +282,15 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
       </ul>
 
     </div>
@@ -288,31 +349,37 @@
         
       
 
-      <div class="form-row mb-3">
+      <div class="form-row mb-4">
         <div class="col-auto">
-          Filter by type:
+          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
         </div>
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">All</option>
+            <option value="*">Type</option>
+            
+
             
             <option value=".pubtype-1">
+              
               Conference paper
             </option>
             
             <option value=".pubtype-2">
+              
               Journal article
             </option>
             
             <option value=".pubtype-7">
-              Poster
+              
+              Thesis
             </option>
             
           </select>
         </div>
         <div class="col-auto">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">All</option>
+            <option value="*">Date</option>
             
             
             
@@ -342,14 +409,8 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Néstor Nápoles López, Gabriel Vigliensoni, Ichiro Fujinaga</span>.
-  <a href="/publication/encoding-matters/" itemprop="name">Encoding Matters</a>.
-  In <em>DLFM</em>,
-  2018.
-  <p>
+            
+
 
 
 
@@ -357,12 +418,83 @@
 
 
   
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/encoding-matters/" itemprop="url">Encoding Matters</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>In this paper, we discuss how different encodings in symbolic music files can have consequences for music analysis, where a truthful …</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Néstor Nápoles López</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Gabriel Vigliensoni</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Ichiro Fujinaga</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
 
 
 
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/citation.cfm?id=3273027" target="_blank" rel="noopener">
@@ -377,11 +509,15 @@
 </button>
 
 
-
-
+  
+  
+    
+  
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/napulen/encoding_matters" target="_blank" rel="noopener">
   Code
 </a>
+
+
 
 
 
@@ -397,7 +533,20 @@
 </a>
 
 
-</p>
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/encoding-matters/">
+      <img src="/publication/encoding-matters/featured_hu20356ed76b7db2ea263086d3415ec8d0_82124_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
 </div>
 
           
@@ -411,15 +560,17 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2018">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Néstor Nápoles López, Claire Arthur, Ichiro Fujinaga</span>.
-  <a href="/publication/key-detection/" itemprop="name">Symbolic and Audio Key Detection Based on a Hidden Markov Model</a>.
-  In <em>MIREX</em>,
-  2018.
-  <p>
+            
 
+
+
+
+
+
+
+  
+  
+  
 
 
 
@@ -428,8 +579,71 @@
   
 
 
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/key-detection/" itemprop="url">Symbolic and Audio Key Detection Based on a Hidden Markov Model</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      This project started as a symbolic key detection algorithm. In order to participate in the Music Information Retrieval EXchange (MIREX) …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Néstor Nápoles López</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Claire Arthur</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Ichiro Fujinaga</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
 
   
+
 
 
 
@@ -440,8 +654,10 @@
 </button>
 
 
-
-
+  
+  
+    
+  
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/napulen/justkeydding" target="_blank" rel="noopener">
   Code
 </a>
@@ -451,8 +667,10 @@
 
 
 
-
-
+  
+  
+    
+  
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://napulen.github.io/posters/key-detection.pdf" target="_blank" rel="noopener">
   Poster
 </a>
@@ -462,7 +680,22 @@
 
 
 
-</p>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/key-detection/">
+      <img src="/publication/key-detection/featured_huc32f119635cc7714557b65b4853daeb0_118366_150x0_resize_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
 </div>
 
           
@@ -476,14 +709,8 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    GA Cushen</span>.
-  <a href="/publication/person-re-id/" itemprop="name">A Person Re-Identification System For Mobile Devices</a>.
-  In <em>SITIS</em>,
-  2015.
-  <p>
+            
+
 
 
 
@@ -491,12 +718,69 @@
 
 
   
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/person-re-id/" itemprop="url">A Person Re-Identification System For Mobile Devices</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">GA Cushen</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
 
 
 
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
@@ -516,7 +800,22 @@
 
 
 
-</p>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/person-re-id/">
+      <img src="/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
 </div>
 
           
@@ -530,19 +829,82 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    GA Cushen, MS Nixon</span>.
-  <a href="/publication/clothing-search/" itemprop="name">Mobile visual clothing search</a>.
-  In <em>ICMEW</em>,
-  2013.
-  <p>
+            
 
 
 
 
 
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/clothing-search/" itemprop="url">Mobile visual clothing search</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">GA Cushen</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">MS Nixon</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+  
+  
+    
+  
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
   Preprint
 </a>
@@ -551,12 +913,9 @@
 
 
   
-
-
-
-  
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
@@ -571,20 +930,20 @@
 </button>
 
 
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Code
 </a>
 
 
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Dataset
 </a>
 
@@ -598,50 +957,59 @@
 
 
 
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Poster
 </a>
 
 
 
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Slides
 </a>
 
 
 
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Video
 </a>
 
 
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication%5cclothing-search%5c#" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
   Source Document
 </a>
 
 
 
 
+    </div>
+    
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-  Custom Link
-</a>
-
-</p>
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/clothing-search/">
+      <img src="/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
 </div>
 
           
@@ -709,17 +1077,15 @@
     
     
     
-    
-    <script src="/js/mathjax-config.500a6cbb2c0f345fcecc21b3116d6637aa78f1f11db8081ea581abe05390c2e8f3bbffe61be3cf0217baf785c40efceabe51050a4f007e69af94efd3643260e8.js" integrity="sha512-UApsuywPNF/OzCGzEW1mN6p48fEduAgepYGr4FOQwujzu//mG&#43;PPAhe694XEDvzqvlEFCk8AfmmvlO/TZDJg6A=="></script>
+    <script src="/js/mathjax-config.js"></script>
     
 
     
     
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
@@ -736,9 +1102,6 @@
       
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
-    
-
-    <script src="/js/hugo-academic.js"></script>
     
 
     
@@ -759,7 +1122,7 @@
       const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
-        'results': "Search Results",
+        'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
@@ -793,11 +1156,26 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

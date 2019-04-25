@@ -5,11 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.0.0">
-  <meta name="generator" content="Hugo 0.49" />
-  <meta name="author" content="Néstor Nápoles López">
+  <meta name="generator" content="Source Themes Academic 4.2.5">
 
   
+
+  
+  
+  
+  
+  
+  
+
+  
+
   
   
   
@@ -31,6 +39,12 @@
   
 
   
+
+  
+
+  
+
+  
   
   
   <meta name="theme-color" content="hsl(339, 90%, 68%)">
@@ -41,9 +55,8 @@
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -55,7 +68,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -71,7 +85,11 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="/styles.css">
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.2ef9f7a4c06db867267e9afcb74077b5.css">
+
   
 
   
@@ -93,9 +111,6 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Néstor Nápoles López">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Néstor Nápoles López">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
@@ -103,6 +118,12 @@
 
   <link rel="canonical" href="/publication/key-detection/">
 
+  
+  
+  
+  
+    
+  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@napulen">
@@ -112,11 +133,7 @@
   <meta property="og:url" content="/publication/key-detection/">
   <meta property="og:title" content="Symbolic and Audio Key Detection Based on a Hidden Markov Model | Néstor Nápoles López">
   <meta property="og:description" content="This project started as a symbolic key detection algorithm. In order to participate in the Music Information Retrieval EXchange (MIREX) key detection task, additional audio processing stages have been included. The user input---whether it is a symbolic or an audio file---is pre-processed to obtain a sequence of pitch classes, which becomes the input of the Hidden Markov Model (HMM). The HMM is divided in two parts, the first part outputs a sequence of temporary keys (i.e., tonicizations) and the second part outputs a main key. Both parts rely on a geometric model of key distance (for transition probabilities) and key-profiles (for emission probabilities). The model has been evaluated in both its symbolic and audio implementations. This project was presented as a poster in the annual meeting of MIREX at the International Society for Music Information Retrieval Conference (ISMIR) in Paris, France.
-">
-  
-  
-    
-  <meta property="og:image" content="/img/icon-192.png">
+"><meta property="og:image" content="/publication/key-detection/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-09-27T00:00:00-04:00">
@@ -132,6 +149,37 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -234,6 +282,15 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
       </ul>
 
     </div>
@@ -257,7 +314,7 @@
 
 
 <div class="article-header d-xl-none">
-  <img src="/publication/key-detection/featured_huc32f119635cc7714557b65b4853daeb0_118366_1600x400_fill_q90_box_smart1_2.png" class="article-banner" itemprop="image" alt="">
+  <div class="featured-image" style="background-image: url('/publication/key-detection/featured_huc32f119635cc7714557b65b4853daeb0_118366_800x0_resize_box_2.png');"></div>
   <span class="article-header-caption"></span>
 </div>
 
@@ -272,35 +329,36 @@
 
         
 
+
+
+<meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="datePublished">
+<meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="dateModified">
+
 <div class="article-metadata">
 
   
   
   
+  
   <div>
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Néstor Nápoles López</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Claire Arthur</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Ichiro Fujinaga</span>
-    </span>
     
+
+
   </div>
   
+  
 
+  
   <span class="article-date">
     
-    <meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2018-09-27 00:00:00 -0400 EDT" itemprop="dateModified">
-      Sep 27, 2018
-    </time>
+    
+      
+    
+    <time>September, 2018</time>
   </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Néstor Nápoles López">
-  </span>
+  
+
+  
 
   
 
@@ -312,6 +370,82 @@
   
 
 </div>
+
+
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/key-detection/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/napulen/justkeydding" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://napulen.github.io/posters/key-detection.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+
 
 
         
@@ -373,88 +507,125 @@
 
   
 
+
+
+<meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="datePublished">
+<meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="dateModified">
+
 <div class="article-metadata">
 
   
   
   
+  
   <div>
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Néstor Nápoles López</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Claire Arthur</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Ichiro Fujinaga</span>
-    </span>
     
+
+
   </div>
   
+  
 
+  
   <span class="article-date">
     
-    <meta content="2018-09-27 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2018-09-27 00:00:00 -0400 EDT" itemprop="dateModified">
-      Sep 27, 2018
-    </time>
+    
+      
+    
+    <time>September, 2018</time>
   </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Néstor Nápoles López">
-  </span>
-
   
 
-  
   
 
   
 
   
   
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Symbolic%20and%20Audio%20Key%20Detection%20Based%20on%20a%20Hidden%20Markov%20Model&amp;url=%2fpublication%2fkey-detection%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fkey-detection%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fkey-detection%2f&amp;title=Symbolic%20and%20Audio%20Key%20Detection%20Based%20on%20a%20Hidden%20Markov%20Model"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fkey-detection%2f&amp;title=Symbolic%20and%20Audio%20Key%20Detection%20Based%20on%20a%20Hidden%20Markov%20Model"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Symbolic%20and%20Audio%20Key%20Detection%20Based%20on%20a%20Hidden%20Markov%20Model&amp;body=%2fpublication%2fkey-detection%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
 
+  
+
+  
+    
 
   
 
 </div>
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/key-detection/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/napulen/justkeydding" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://napulen.github.io/posters/key-detection.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+
 
 </div>
 
@@ -475,8 +646,11 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
+
+            
+            
             <a href="/publication/#7">
-              Poster
+              Thesis
             </a>
             
           </div>
@@ -501,80 +675,6 @@
     <div class="d-md-none space-below"></div>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            September, 2018
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
-
-    <div class="row" style="padding-top: 10px">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-12 col-md-9">
-
-            
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/key-detection/cite.bib">
-  Cite
-</button>
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/napulen/justkeydding" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://napulen.github.io/posters/key-detection.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
-
     <div class="space-below"></div>
 
     <div class="article-style"></div>
@@ -588,55 +688,18 @@
 
 
 
+
+
+
   
-
-
-
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
   
-  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
-  
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Néstor Nápoles López</a></h5>
-    <h6 class="card-subtitle">PhD student in Music Technology</h6>
     
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="//twitter.com/napulen" target="_blank" rel="noopener">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.ca/citations?user=flGxOu0AAAAJ" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/napulen" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
+  
+  
+
+
+
+
 
 
 
@@ -702,17 +765,15 @@
     
     
     
-    
-    <script src="/js/mathjax-config.500a6cbb2c0f345fcecc21b3116d6637aa78f1f11db8081ea581abe05390c2e8f3bbffe61be3cf0217baf785c40efceabe51050a4f007e69af94efd3643260e8.js" integrity="sha512-UApsuywPNF/OzCGzEW1mN6p48fEduAgepYGr4FOQwujzu//mG&#43;PPAhe694XEDvzqvlEFCk8AfmmvlO/TZDJg6A=="></script>
+    <script src="/js/mathjax-config.js"></script>
     
 
     
     
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
@@ -729,9 +790,6 @@
       
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
-    
-
-    <script src="/js/hugo-academic.js"></script>
     
 
     
@@ -752,7 +810,7 @@
       const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
-        'results': "Search Results",
+        'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
@@ -786,11 +844,26 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>
