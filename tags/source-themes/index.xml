@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Source Themes on Academic</title>
+    <link>/tags/source-themes/</link>
+    <description>Recent content in Source Themes on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musical Tic-Tac-Toe</title>
+      <link>/publication/musical_tictactoe/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/musical_tictactoe/</guid>
+      <description>A music-based game mechanic based where players compete to complete cadences</description>
+    </item>
+    
+  </channel>
+</rss>

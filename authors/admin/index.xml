@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Academic</title>
+    <link>/authors/admin/</link>
+    <description>Recent content in admin on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jupyter/</guid>
+      <description>Learn how to blog in Academic using Jupyter notebooks</description>
+    </item>
+    
+    <item>
+      <title>Encoding Matters</title>
+      <link>/publication/encoding-matters/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/encoding-matters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>Create a beautifully simple website in under 10 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Dandelot - Reading Music as a Game</title>
+      <link>/publication/dandelot/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/dandelot/</guid>
+      <description>Dandelot is a computer game that trains your skills for reading music in the treble, bass, and alto clefs.</description>
+    </item>
+    
+    <item>
+      <title>Musical Tic-Tac-Toe</title>
+      <link>/publication/musical_tictactoe/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/musical_tictactoe/</guid>
+      <description>A music-based game mechanic based where players compete to complete cadences</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/admin/</guid>
+      <description>I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.</description>
+    </item>
+    
+  </channel>
+</rss>

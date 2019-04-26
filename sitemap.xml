@@ -3,88 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/home/hero_carousel/</loc>
-    <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/home/hero/</loc>
-    <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+    <loc>/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    <loc>/talk/</loc>
+    <lastmod>2030-06-01T13:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/skills/</loc>
-    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/home/experience/</loc>
+    <loc>/post/jupyter/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/publications_selected/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/publications/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/talks_selected/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/talks/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/posts/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/projects/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/teaching/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/tags/</loc>
-    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/search/</loc>
-    <lastmod>2018-07-23T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/contact/</loc>
-    <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/docs/mumt618/</loc>
     <lastmod>2018-12-09T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-12-09T00:00:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -99,13 +57,42 @@
   </url>
   
   <url>
+    <loc>/authors/gabriel-vigliensoni/</loc>
+    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ichiro-fujinaga/</loc>
+    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication_types/7/</loc>
+    <loc>/publication/</loc>
+    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2018-09-27T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/claire-arthur/</loc>
+    <lastmod>2018-09-27T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/n%C3%A9stor-n%C3%A1poles-l%C3%B3pez/</loc>
     <lastmod>2018-09-27T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -118,32 +105,6 @@
   <url>
     <loc>/docs/</loc>
     <lastmod>2018-09-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/home/</loc>
-    <lastmod>2018-07-23T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -176,35 +137,44 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/academic/</loc>
-    <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/getting-started/</loc>
-    <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+    <lastmod>2019-04-17T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2015-09-01T00:00:00-04:00</lastmod>
+    <loc>/publication/dandelot/</loc>
+    <lastmod>2013-07-01T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/musical_tictactoe/</loc>
+    <lastmod>2013-07-01T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/source-themes/</loc>
+    <lastmod>2013-07-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/person-re-id/</loc>
-    <lastmod>2015-09-01T00:00:00-04:00</lastmod>
+    <loc>/author/admin/</loc>
   </url>
   
   <url>
-    <loc>/publication/clothing-search/</loc>
-    <lastmod>2013-07-01T00:00:00-04:00</lastmod>
+    <loc>/author/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -218,7 +188,7 @@
   </url>
   
   <url>
-    <loc>/slides/example-slides/</loc>
+    <loc>/slides/example/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ichiro Fujinaga on Academic</title>
+    <link>/authors/ichiro-fujinaga/</link>
+    <description>Recent content in Ichiro Fujinaga on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/authors/ichiro-fujinaga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Encoding Matters</title>
+      <link>/publication/encoding-matters/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/encoding-matters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symbolic and Audio Key Detection Based on a Hidden Markov Model</title>
+      <link>/publication/key-detection/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/key-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dandelot - Reading Music as a Game</title>
+      <link>/publication/dandelot/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/dandelot/</guid>
+      <description>Dandelot is a computer game that trains your skills for reading music in the treble, bass, and alto clefs.</description>
+    </item>
+    
+    <item>
+      <title>Musical Tic-Tac-Toe</title>
+      <link>/publication/musical_tictactoe/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/musical_tictactoe/</guid>
+      <description>A music-based game mechanic based where players compete to complete cadences</description>
+    </item>
+    
+  </channel>
+</rss>

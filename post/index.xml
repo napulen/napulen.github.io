@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Néstor Nápoles López</title>
+    <title>Posts on Academic</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Néstor Nápoles López</description>
+    <description>Recent content in Posts on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Academic: the website designer for Hugo</title>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jupyter/</guid>
+      <description>Learn how to blog in Academic using Jupyter notebooks</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/post/getting-started/</guid>
-      <description>Create a beautifully simple website or blog in under 10 minutes.</description>
+      <description>Create a beautifully simple website in under 10 minutes.</description>
     </item>
     
   </channel>

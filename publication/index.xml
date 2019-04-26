@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Néstor Nápoles López</title>
+    <title>Publications on Academic</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Néstor Nápoles López</description>
+    <description>Recent content in Publications on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -31,21 +30,21 @@
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
+      <title>Dandelot - Reading Music as a Game</title>
+      <link>/publication/dandelot/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
       
-      <guid>/publication/person-re-id/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/dandelot/</guid>
+      <description>Dandelot is a computer game that trains your skills for reading music in the treble, bass, and alto clefs.</description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
+      <title>Musical Tic-Tac-Toe</title>
+      <link>/publication/musical_tictactoe/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/musical_tictactoe/</guid>
+      <description>A music-based game mechanic based where players compete to complete cadences</description>
     </item>
     
   </channel>

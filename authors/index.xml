@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Academic</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gabriel Vigliensoni</title>
+      <link>/authors/gabriel-vigliensoni/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/authors/gabriel-vigliensoni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ichiro Fujinaga</title>
+      <link>/authors/ichiro-fujinaga/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/authors/ichiro-fujinaga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Claire Arthur</title>
+      <link>/authors/claire-arthur/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/authors/claire-arthur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Néstor Nápoles López</title>
+      <link>/authors/n%C3%A9stor-n%C3%A1poles-l%C3%B3pez/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/authors/n%C3%A9stor-n%C3%A1poles-l%C3%B3pez/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
