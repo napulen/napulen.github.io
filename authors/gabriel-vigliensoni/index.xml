@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gabriel Vigliensoni on Néstor Nápoles López</title>
+    <title>Gabriel Vigliensoni | Néstor Nápoles López</title>
     <link>/authors/gabriel-vigliensoni/</link>
-    <description>Recent content in Gabriel Vigliensoni on Néstor Nápoles López</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Néstor Nápoles López</copyright>
-    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 -0400</lastBuildDate>
+      <atom:link href="/authors/gabriel-vigliensoni/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gabriel Vigliensoni</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Néstor Nápoles López</copyright><lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Gabriel Vigliensoni</title>
+      <link>/authors/gabriel-vigliensoni/</link>
+    </image>
     
-	<atom:link href="/authors/gabriel-vigliensoni/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>The Effects of Translation Between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML</title>
+      <link>/publication/effects_of_translation/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/effects_of_translation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Encoding Matters</title>
-      <link>/publication/encoding-matters/</link>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/encoding-matters/</guid>
-      <description>Examples of encoding discrepancies that have been introduced either during the encoding of the symbolic music files or during the translation of the original file into other symbolic formats.</description>
+      <link>/publication/encoding_matters/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/encoding_matters/</guid>
+      <description></description>
     </item>
     
   </channel>

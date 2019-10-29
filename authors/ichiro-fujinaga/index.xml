@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ichiro Fujinaga on Néstor Nápoles López</title>
+    <title>Ichiro Fujinaga | Néstor Nápoles López</title>
     <link>/authors/ichiro-fujinaga/</link>
-    <description>Recent content in Ichiro Fujinaga on Néstor Nápoles López</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Néstor Nápoles López</copyright>
-    <lastBuildDate>Sun, 14 Apr 2019 00:00:00 -0400</lastBuildDate>
+      <atom:link href="/authors/ichiro-fujinaga/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ichiro Fujinaga</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ichiro Fujinaga</title>
+      <link>/authors/ichiro-fujinaga/</link>
+    </image>
     
-	<atom:link href="/authors/ichiro-fujinaga/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title>
+      <link>/publication/keydetection19/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/keydetection19/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>The Effects of Translation Between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML</title>
+      <link>/publication/effects_of_translation/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/effects_of_translation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Musical Tic-Tac-Toe</title>
       <link>/publication/musical_tictactoe/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 -0400</pubDate>
-      
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/publication/musical_tictactoe/</guid>
-      <description>A music-based game mechanic based where players compete to complete cadences</description>
+      <description></description>
     </item>
     
     <item>
       <title>Dandelot - Reading Music as a Game</title>
       <link>/publication/dandelot/</link>
-      <pubDate>Sat, 13 Apr 2019 00:00:00 -0400</pubDate>
-      
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/publication/dandelot/</guid>
-      <description>Dandelot is a computer game that trains your skills for reading music in the treble, bass, and alto clefs.</description>
+      <description>
+
+&lt;h2 id=&#34;the-video-looks-promising-where-is-the-code&#34;&gt;The video looks promising, where is the code?&lt;/h2&gt;
+
+&lt;p&gt;Although the intention of &lt;em&gt;dandelot&lt;/em&gt; is to be available for free for anyone to play, some of the assets used for developing the game are proprietary. For the time being, the code is not available online.&lt;/p&gt;
+
+&lt;p&gt;If you &lt;strong&gt;really&lt;/strong&gt; want to play it, drop an email and I will send you a compiled version of the game. If you want the code to extend it or fork it into your own, we can talk about that.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Encoding Matters</title>
-      <link>/publication/encoding-matters/</link>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/encoding-matters/</guid>
-      <description>Examples of encoding discrepancies that have been introduced either during the encoding of the symbolic music files or during the translation of the original file into other symbolic formats.</description>
-    </item>
-    
-    <item>
-      <title>Symbolic and Audio Key Detection Based on a Hidden Markov Model</title>
-      <link>/publication/key-detection/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/key-detection/</guid>
-      <description>Symbolic and audio key estimation algorithm based on Hidden Markov Models. Implemented in C++.</description>
+      <link>/publication/encoding_matters/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/encoding_matters/</guid>
+      <description></description>
     </item>
     
   </channel>

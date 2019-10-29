@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Néstor Nápoles López</title>
+    <title>Authors | Néstor Nápoles López</title>
     <link>/authors/</link>
-    <description>Recent content in Authors on Néstor Nápoles López</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Néstor Nápoles López</copyright>
-    <lastBuildDate>Sun, 14 Apr 2019 00:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
     
     <item>
-      <title>Ichiro Fujinaga</title>
-      <link>/authors/ichiro-fujinaga/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 -0400</pubDate>
-      
-      <guid>/authors/ichiro-fujinaga/</guid>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Claire Arthur</title>
+      <link>/authors/claire-arthur/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/claire-arthur/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 -0400</pubDate>
-      
-      <guid>/authors/admin/</guid>
+      <title>Ichiro Fujinaga</title>
+      <link>/authors/ichiro-fujinaga/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ichiro-fujinaga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gabriel Vigliensoni</title>
       <link>/authors/gabriel-vigliensoni/</link>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
-      
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
       <guid>/authors/gabriel-vigliensoni/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Claire Arthur</title>
-      <link>/authors/claire-arthur/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/authors/claire-arthur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Néstor Nápoles López</title>
-      <link>/authors/n%C3%A9stor-n%C3%A1poles-l%C3%B3pez/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/authors/n%C3%A9stor-n%C3%A1poles-l%C3%B3pez/</guid>
       <description></description>
     </item>
     

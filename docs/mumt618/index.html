@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.2.5">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -38,21 +39,9 @@ Although this paper describes two models:">
 
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
   
-  
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -61,8 +50,8 @@ Although this paper describes two models:">
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -73,13 +62,15 @@ Although this paper describes two models:">
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
     
 
@@ -87,38 +78,28 @@ Although this paper describes two models:">
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.3e9b16882e629b6ab9110a1e6abe488f.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-127095189-1', 'auto');
-      
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
-  
+
+
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="/docs/mumt618/">
@@ -130,32 +111,45 @@ Although this paper describes two models:">
     
     
   
-  <meta property="twitter:card" content="summary">
   
-  <meta property="twitter:site" content="@napulen">
-  <meta property="twitter:creator" content="@napulen">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Néstor Nápoles López">
   <meta property="og:url" content="/docs/mumt618/">
   <meta property="og:title" content="Implementing a digital model of the Boss DS-1 distortion pedal | Néstor Nápoles López">
   <meta property="og:description" content="This is a report for my final project of the MUMT 618: Computational Modeling of Musical Acoustic Systems class at McGill University.
 I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&rdquo;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&rsquo;07 Conference.
-Although this paper describes two models:"><meta property="og:image" content="/img/portrait.jpg">
-  <meta property="og:locale" content="en-us">
+Although this paper describes two models:"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-12-09T00:00:00-05:00">
-  
-  <meta property="article:modified_time" content="2019-04-25T22:56:01-04:00">
+    
+      <meta property="article:published_time" content="2018-12-09T00:00:00-05:00">
+    
+    <meta property="article:modified_time" content="2018-12-09T00:00:00-05:00">
   
 
   
 
+
+
   
+
+
+  
+
+
+  
+
+
+
+
 
   <title>Implementing a digital model of the Boss DS-1 distortion pedal | Néstor Nápoles López</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -172,7 +166,7 @@ Although this paper describes two models:"><meta property="og:image" content="/i
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -188,7 +182,8 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 </aside>
 
 
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -216,12 +211,22 @@ Although this paper describes two models:"><meta property="og:image" content="/i
           
         
 
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a class="nav-link" href="/#about">
-            
-            <span>Home</span>
-            
-          </a>
+          <a class="nav-link " href="/#about"><span>Home</span></a>
         </li>
 
         
@@ -235,12 +240,22 @@ Although this paper describes two models:"><meta property="og:image" content="/i
           
         
 
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a class="nav-link" href="/#featured">
-            
-            <span>Publications</span>
-            
-          </a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -254,12 +269,22 @@ Although this paper describes two models:"><meta property="og:image" content="/i
           
         
 
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a class="nav-link" href="/docs/">
-            
-            <span>Docs</span>
-            
-          </a>
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -273,12 +298,44 @@ Although this paper describes two models:"><meta property="og:image" content="/i
           
         
 
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">
-            
-            <span>Contact</span>
-            
-          </a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/docs/"><span>Docs</span></a>
         </li>
 
         
@@ -312,11 +369,18 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 </nav>
 
 
+  
 
 <div class="container-fluid docs">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
       
+
+
+
+
+
+  
 
 
 
@@ -327,11 +391,15 @@ Although this paper describes two models:"><meta property="og:image" content="/i
   </button>
 
   
-  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
   
 </form>
 
 <nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
   
   
   <div class="docs-toc-item">
@@ -359,9 +427,9 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 
     
     <div class="d-none d-xl-block col-xl-2 docs-toc">
-      
-      <p class="docs-toc-title">On this page</p>
-      
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
 
       <nav id="TableOfContents">
 <ul>
@@ -380,22 +448,18 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 </ul>
 </nav>
 
-      <ul class="nav toc-top">
-        <li><a href="#">Back to top</a></li>
-      </ul>
-
       
     </div>
     
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
+      <article class="article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Implementing a digital model of the Boss DS-1 distortion pedal</h1>
+          <h1>Implementing a digital model of the Boss DS-1 distortion pedal</h1>
 
-          <div class="article-style" itemprop="articleBody">
+          <div class="article-style">
             
 
 <p>This is a report for my final project of the <a href="https://www.music.mcgill.ca/~gary/618/" target="_blank">MUMT 618: Computational Modeling of Musical Acoustic Systems</a> class at McGill University.</p>
@@ -420,18 +484,32 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/overview.png" />
+
+  <a data-fancybox="" href="/img/mumt618/overview.png" data-caption="Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)">
+<img src="/img/mumt618/overview.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)
+  </figcaption>
+
 
 </figure>
+
 
 <p>It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the <code>Gain + filter</code> and the <code>Saturating nonlin</code> stages, therefore, this implementation concentrates in these two stages only.</p>
 
@@ -442,18 +520,32 @@ Although this paper describes two models:"><meta property="og:image" content="/i
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/schematic.jpg" />
+
+  <a data-fancybox="" href="/img/mumt618/schematic.jpg" data-caption="Schematic of the Boss DS-1, obtained from ElectroSmash.com">
+<img src="/img/mumt618/schematic.jpg" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Schematic of the Boss DS-1, obtained from ElectroSmash.com</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Schematic of the Boss DS-1, obtained from ElectroSmash.com
+  </figcaption>
+
 
 </figure>
+
 
 <p>The <code>Gain + filter</code> stage in the paper&rsquo;s diagram corresponds to the <code>Transistor Booster</code> stage of the schematic, its main component is a bipolar junction transistor. The <code>Saturating nonlin</code> stage of the paper&rsquo;s diagram corresponds roughly to the <code>Op-Amp Gain Stage</code>. From now on, I will refer to the names of the schematic as I find them more intuitive.</p>
 
@@ -591,18 +683,32 @@ $$</p>
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/original_plot_bjt.png" />
+
+  <a data-fancybox="" href="/img/mumt618/original_plot_bjt.png" data-caption="Magnitude response of the implemented Transistor Booster Stage (uncorrected)">
+<img src="/img/mumt618/original_plot_bjt.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Magnitude response of the implemented Transistor Booster Stage (uncorrected)</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Magnitude response of the implemented Transistor Booster Stage (uncorrected)
+  </figcaption>
+
 
 </figure>
+
 
 <p>By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.</p>
 
@@ -611,18 +717,32 @@ $$</p>
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/corrected_plot_bjt.png" />
+
+  <a data-fancybox="" href="/img/mumt618/corrected_plot_bjt.png" data-caption="Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)">
+<img src="/img/mumt618/corrected_plot_bjt.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)
+  </figcaption>
+
 
 </figure>
+
 
 <p>Luckily, in the corresponding section of this stage, the paper mentions that the expected gain in the bandpass is, in fact, $36dB$. Using this information, an additional gain, $g$, is included in the discrete-time transfer function:</p>
 
@@ -643,18 +763,32 @@ $$</p>
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/corrected_plot_bjt.png" />
+
+  <a data-fancybox="" href="/img/mumt618/corrected_plot_bjt.png" data-caption="Magnitude response of the implemented Transistor Booster Stage (corrected)">
+<img src="/img/mumt618/corrected_plot_bjt.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Magnitude response of the implemented Transistor Booster Stage (corrected)</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Magnitude response of the implemented Transistor Booster Stage (corrected)
+  </figcaption>
+
 
 </figure>
+
 
 <p>This filter&mdash;including its correction&mdash;can be implemented with the following <code>MATLAB</code> function:</p>
 
@@ -760,18 +894,32 @@ $$</p>
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/opamp_original.png" />
+
+  <a data-fancybox="" href="/img/mumt618/opamp_original.png" data-caption="Magnitude response of the implemented Op-Amp Gain Stage">
+<img src="/img/mumt618/opamp_original.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Magnitude response of the implemented Op-Amp Gain Stage</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Magnitude response of the implemented Op-Amp Gain Stage
+  </figcaption>
+
 
 </figure>
+
 
 <p>is quite similar to the magnitude response shown in the paper</p>
 
@@ -780,18 +928,32 @@ $$</p>
 
   
 
+
+
+
+
+
+
+
+
+
+
 <figure>
 
-<img src="/img/mumt618/opamp_paper.png" />
+
+  <a data-fancybox="" href="/img/mumt618/opamp_paper.png" data-caption="Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)">
+<img src="/img/mumt618/opamp_paper.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" class="numbered">
-  <h4>Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)</h4>
   
-</figcaption>
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)
+  </figcaption>
+
 
 </figure>
+
 
 <p>The different colors of the first plot represent the magnitude response with values of $D$ going from $0.1$ to $1.0$. This is the  <code>MATLAB</code> function that implements this filter:</p>
 
@@ -884,13 +1046,13 @@ play(s);
 
 <p>Here is an example of the model applied to an audio sample of a clean electric guitar<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>:</p>
 
-<p><a href="/img/mumt618/guitar_clean.wav">Original audio</a> $ $</p>
+<p><a href="/audio/mumt618/guitar_clean.wav">Original audio</a> $ $</p>
 
-<p><a href="/img/mumt618/bjt.wav">Transistor Booster Stage only</a> $ $</p>
+<p><a href="/audio/mumt618/bjt.wav">Transistor Booster Stage only</a> $ $</p>
 
-<p><a href="/img/mumt618/opamp.wav">Op-Amp Gain Stage only</a> $ $</p>
+<p><a href="/audio/mumt618/opamp.wav">Op-Amp Gain Stage only</a> $ $</p>
 
-<p><a href="/img/mumt618/bjt_opamp.wav">Transistor Booster Stage and Op-Amp Gain Stage</a> $ $</p>
+<p><a href="/audio/mumt618/bjt_opamp.wav">Transistor Booster Stage and Op-Amp Gain Stage</a> $ $</p>
 <div class="footnotes">
 
 <hr />
@@ -905,10 +1067,28 @@ play(s);
 
           
 
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
         </div>
 
         <div class="body-footer">
-          Last updated on Apr 25, 2019
+          <p>Last updated on Dec 9, 2018</p>
+
+          
+
+
+          
+
         </div>
 
       </article>
@@ -932,7 +1112,8 @@ play(s);
   </div>
 </div>
 
-    
+
+      
 
     
     
@@ -943,34 +1124,32 @@ play(s);
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" integrity="sha256-vOIuDSYDirTfyr+S2MjFnhOz6Rgiz4ODFAHATG0rFxw=" crossorigin="anonymous" title="mermaid"></script>
+      
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
         
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/matlab.min.js"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
         
       
 
       
       
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
 
     
     
-
-    
-    
-    
-    <script id="dsq-count-scr" src="//napulen.disqus.com/count.js" async></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     
@@ -980,13 +1159,13 @@ play(s);
 
     
     
+    
+    
+    
+    
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -1030,6 +1209,9 @@ play(s);
 
     
     
+
+    
+    
     
     
     
@@ -1042,9 +1224,43 @@ play(s);
     
     
     
-    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
-  </body>
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-
-
