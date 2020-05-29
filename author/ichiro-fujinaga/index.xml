@@ -5,12 +5,20 @@
     <link>/author/ichiro-fujinaga/</link>
       <atom:link href="/author/ichiro-fujinaga/index.xml" rel="self" type="application/rss+xml" />
     <description>Ichiro Fujinaga</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
       <title>Ichiro Fujinaga</title>
       <link>/author/ichiro-fujinaga/</link>
     </image>
+    
+    <item>
+      <title>Harmalysis: A Language for the Annotation of Roman Numerals in Symbolic Music Representations</title>
+      <link>/publication/harmalysis/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/harmalysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title>

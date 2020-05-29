@@ -5,12 +5,20 @@
     <link>/author/nestor-napoles-lopez/</link>
       <atom:link href="/author/nestor-napoles-lopez/index.xml" rel="self" type="application/rss+xml" />
     <description>Néstor Nápoles López</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/author/nestor-napoles-lopez/avatar_hu2e13d9839e311bbd5a630ded88065b94_37127_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Néstor Nápoles López</title>
       <link>/author/nestor-napoles-lopez/</link>
     </image>
+    
+    <item>
+      <title>Harmalysis: A Language for the Annotation of Roman Numerals in Symbolic Music Representations</title>
+      <link>/publication/harmalysis/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/harmalysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title>
