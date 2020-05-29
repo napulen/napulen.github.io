@@ -5,45 +5,12 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Claire Arthur</title>
-      <link>/authors/claire-arthur/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/claire-arthur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ichiro Fujinaga</title>
-      <link>/authors/ichiro-fujinaga/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/ichiro-fujinaga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gabriel Vigliensoni</title>
-      <link>/authors/gabriel-vigliensoni/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/gabriel-vigliensoni/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

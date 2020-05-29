@@ -33,12 +33,7 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,17 +43,22 @@
   </url>
   
   <url>
-    <loc>/authors/claire-arthur/</loc>
+    <loc>/author/claire-arthur/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/ichiro-fujinaga/</loc>
+    <loc>/author/ichiro-fujinaga/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/keydetection19/</loc>
+    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nestor-napoles-lopez/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,13 +83,18 @@
   </url>
   
   <url>
-    <loc>/authors/gabriel-vigliensoni/</loc>
+    <loc>/author/gabriel-vigliensoni/</loc>
     <lastmod>2019-05-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/effects_of_translation/</loc>
     <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -103,7 +108,7 @@
   </url>
   
   <url>
-    <loc>/tags/source-themes/</loc>
+    <loc>/tag/source-themes/</loc>
     <lastmod>2019-04-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,12 +148,12 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,7 +173,7 @@
   </url>
   
   <url>
-    <loc>/tags/academic/</loc>
+    <loc>/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,12 +188,8 @@
   </url>
   
   <url>
-    <loc>/categories/demo/</loc>
+    <loc>/category/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
   </url>
   
 </urlset>
