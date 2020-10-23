@@ -34,12 +34,10 @@
   
     
   
-  <meta name="description" content="During the course MUMT 616: Timbre as a Form-Bearing Dimension in Music, I talked about inharmonicity in the context of plucked strings.
-The slides are available here.
-Five examples with varying degrees of inharmonicity are discussed.">
+  <meta name="description" content="During the course MUMT 501: Digital Audio Signal Processing, I implemented one of the barberpole phasing and flanging illusions discussed in a paper by Esqueda et al. (2015). The paper write-up can also be accessed in PDF form.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/mcgill/mumt616/">
+  <link rel="alternate" hreflang="en-us" href="/courses/mcgill/mumt501/">
 
   
 
@@ -300,7 +298,7 @@ Five examples with varying degrees of inharmonicity are discussed.">
   <link rel="icon" type="image/png" href="/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/courses/mcgill/mumt616/">
+  <link rel="canonical" href="/courses/mcgill/mumt501/">
 
   
   
@@ -316,11 +314,9 @@ Five examples with varying degrees of inharmonicity are discussed.">
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Néstor Nápoles López">
-  <meta property="og:url" content="/courses/mcgill/mumt616/">
-  <meta property="og:title" content="MUMT 616 | Néstor Nápoles López">
-  <meta property="og:description" content="During the course MUMT 616: Timbre as a Form-Bearing Dimension in Music, I talked about inharmonicity in the context of plucked strings.
-The slides are available here.
-Five examples with varying degrees of inharmonicity are discussed."><meta property="og:image" content="/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/courses/mcgill/mumt501/">
+  <meta property="og:title" content="MUMT 501 | Néstor Nápoles López">
+  <meta property="og:description" content="During the course MUMT 501: Digital Audio Signal Processing, I implemented one of the barberpole phasing and flanging illusions discussed in a paper by Esqueda et al. (2015). The paper write-up can also be accessed in PDF form."><meta property="og:image" content="/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -345,7 +341,7 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
 
 
 
-  <title>MUMT 616 | Néstor Nápoles López</title>
+  <title>MUMT 501 | Néstor Nápoles López</title>
 
 </head>
 
@@ -736,7 +732,7 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
     <a class="docs-toc-link" href="/courses/mcgill/mumt501/">MUMT 501</a>
     <ul class="nav docs-sidenav">
       
-      <li >
+      <li class="active">
         <a href="/courses/mcgill/mumt501/">Barberpole Phasing and Flanging Illusions</a>
       </li>
 
@@ -764,7 +760,7 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
     <a class="docs-toc-link" href="/courses/mcgill/mumt616/">MUMT 616</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
+      <li >
         <a href="/courses/mcgill/mumt616/">Inharmonicity</a>
       </li>
 
@@ -843,12 +839,12 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#no-inharmonicity">No inharmonicity</a></li>
-    <li><a href="#low-inharmonicity">Low inharmonicity</a></li>
-    <li><a href="#mid-inharmonicity">Mid inharmonicity</a></li>
-    <li><a href="#high-inharmonicity">High inharmonicity</a></li>
-    <li><a href="#extreme-inharmonicity">Extreme inharmonicity</a></li>
-    <li><a href="#supercollider-code-for-generating-the-audio-samples">SuperCollider code for generating the audio samples</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#cascaded-time-varying-notch-filters">Cascaded Time-Varying Notch Filters</a></li>
+    <li><a href="#synchronized-dual-flanger">Synchronized Dual Flanger</a></li>
+    <li><a href="#single-sideband-modulation">Single-Sideband Modulation</a></li>
+    <li><a href="#implementation-of-the-cascaded-time-varying-notch-filters">Implementation of the cascaded time-varying notch-filters</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
   </ul>
 </nav>
 
@@ -861,66 +857,487 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>MUMT 616</h1>
+          <h1>MUMT 501</h1>
 
           <div class="article-style">
-            <p>During the course <a href="https://www.mcgill.ca/study/2018-2019/courses/mumt-616" target="_blank" rel="noopener">MUMT 616: Timbre as a Form-Bearing Dimension in Music</a>, I talked about inharmonicity in the context of plucked strings.</p>
-<p>The slides are available <a href="mumt616/inharmonicity_presentation.pdf">here</a>.</p>
-<p>Five examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:</p>
+            <p>During the course <a href="https://perceptionofcompositionalstructures.github.io/" target="_blank" rel="noopener">MUMT 501: Digital Audio Signal Processing</a>, I implemented one of the barberpole phasing and flanging illusions discussed in a paper by Esqueda et al. (2015). The paper write-up can also be accessed in <a href="/media/mumt501/mumt501_finalproject.pdf">PDF</a> form. The slides of the final presentation I made can be accessed <a href="/media/mumt501/mumt501_slides.pdf">here</a>.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>In his work of additive synthesis, Shepard  introduced an infinitely
+ascending chromatic scale.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-an-infinitely-ascending-chromatic-scale-as-presented-by-shepard">
+
+
+  <a data-fancybox="" href="/media/mumt501/shepard_notation.png" data-caption="An infinitely ascending chromatic scale as presented by Shepard">
+
+
+  <img src="/media/mumt501/shepard_notation.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    An infinitely ascending chromatic scale as presented by Shepard
+  </figcaption>
+
+
+</figure>
+
+<p>This auditory illusion resembles some similarity to the effect caused by
+barber-poles in american and british barber shops. In the case of the
+barber-poles, one image with colored stripes in diagonal is attached to
+a rotating cylinder and presented over and over in circles. The
+interesting thing about this process is that the cycle is difficult to
+perceive, and therefore, creates the illusion of the stripes ascending
+forever.</p>
+<p>Similarly, the auditory illusion proposed by Shepard is nothing but an
+analogy in the auditory domain, presenting a cycle of raising harmonics
+that repeats every octave.</p>
+<p>In order to achieve this auditory illusion, we could summarize the steps
+proposed by Shepard as following:</p>
+<ol>
+<li>
+<p>Computing several harmonics <em>one octave apart</em> from each other</p>
+</li>
+<li>
+<p>The harmonics in the middle must be <em>louder</em> than the ones at the
+beginning or end of the frequency spectrum</p>
+</li>
+<li>
+<p>We need to change the gain of each harmonic as time goes on, for
+example, using some spectral envelope</p>
+</li>
+</ol>
+<p>Shepard achieves the change of gain for each harmonic by using a
+raised-cosine spectral envelope.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-a-time-varying-spectral-envelope-used-to-create-the-illusion-of-the-infinitely-ascending-chromatic-scale-as-presented-by-shepard">
+
+
+  <a data-fancybox="" href="/media/mumt501/shepard_envelope.png" data-caption="A time-varying spectral envelope used to create the illusion of the infinitely ascending chromatic scale, as presented by Shepard">
+
+
+  <img src="/media/mumt501/shepard_envelope.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    A time-varying spectral envelope used to create the illusion of the infinitely ascending chromatic scale, as presented by Shepard
+  </figcaption>
+
+
+</figure>
+
+<p>It is mainly this idea of the raised-cosine spectral envelope that has
+been preserved and reformulated in the audio effects proposed by
+Esqueda, Välimäki, and Parker. This type of effects have been called
+<em>barber-pole</em> flanging and phasing illusions, in accordance to the
+similarity to the barber-poles, mentioned before in the introduction.</p>
+<p>Esqueda, Välimäki, and Parker present three different ideas for
+implementing barber-pole phasing and flanging audio effects: A network
+of cascaded time-varying notch filters, a synchronized dual flanger, and
+a single-sideband modulation filter.</p>
+<p>In the following sections of this paper, I will briefly introduce the
+concept of each of these filters proposed by Esqueda, Välimäki, and
+Parker. Then, in the following section I am going to provide my
+experience implementing one of them, the network of cascaded
+time-varying notch filters.</p>
+<h2 id="cascaded-time-varying-notch-filters">Cascaded Time-Varying Notch Filters</h2>
+<p>In the original proposal by Shepard, the methodology considers the
+creation of the auditory illusion by means of the additive synthesis of
+several harmonics, which are one octave apart, and whose gain is shaped
+by the raised-cosine spectral envelope.</p>
+<p>This and the other audio effects, however, are dealing with a different
+problem, which involves not the attempt to <em>synthesize</em> the illusion
+from scratch, but instead, having an input signal and filtering it in
+some way so the illusion emerges from the content of the signal itself.</p>
+<p>Phasers and flangers work by creating sweeping <em>notches</em> in the spectrum
+of the original signal, these are the selected mechanisms by Esqueda,
+Välimäki, and Parker to create the barber-pole illusions.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-the-magnitude-response-of-a-cascaded-network-of-notch-filters-as-presented-by-esqueda-välimäki-and-parker">
+
+
+  <a data-fancybox="" href="/media/mumt501/esqueda_magnituderesponse.png" data-caption="The magnitude response of a cascaded network of notch-filters as presented by Esqueda, Välimäki, and Parker">
+
+
+  <img src="/media/mumt501/esqueda_magnituderesponse.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    The magnitude response of a cascaded network of notch-filters as presented by Esqueda, Välimäki, and Parker
+  </figcaption>
+
+
+</figure>
+
+<p>The magnitude of a network of cascaded notch-filters is presented.</p>
+<p>Each notch in the magnitude response represents the contribution of a
+different notch-filter.</p>
+<p>In general, this method of generating the auditory illusion is the one
+that feels the closest to the original proposal by Shepard. For
+Shepard, each harmonic represented an additional element in the chain of
+additive synthesis. By contrast, in this audio effect each notch-filter
+is an additional element in the network that shapes the spectrum of the
+original signal so that the barber-pole illusion emerges.</p>
+<p>The level of gain of each notch-filter, in this case attenuation, is
+also controlled by a raised-cosine envelope, and time-varying for every
+sample of the signal.</p>
+<h2 id="synchronized-dual-flanger">Synchronized Dual Flanger</h2>
+<p>The second effect proposed by Esqueda, Välimäki, and Parker is a dual
+flanger.</p>
+<p>The design of the system starts as a single flanger. The first
+interesting characteristic of this flanger is the decision of using a
+sawtooth waves as the Low-Frequency Oscillator (LFO) that modulates the
+gain of the delayed signal, as well as another sawtooth wave that
+modulates the length of the delay.</p>
+<p>The motivation for using a sawtooth LFO is simple and elegant, it
+provides an <em>unidirectional</em> growth over time that abruptly restarts for
+the beginning of the next cycle. The auditory illusion requires that the
+sweeping of the notches moves in the same direction for the entire
+cycle, the sawtooth LFO provides exactly that.</p>
+<p>One drawback introduced by this approach is the abrupt interruption
+introduced by restarting the cycle from one instant to another, which
+can give away the cyclic behavior of the system, and which is enemy to
+the purpose of creating the auditory illusion. In order to soften the
+transition between one cycle and another, the second flanger is added.
+Hence, the dual flanger system.</p>
+<p>The second flanger is an identical copy of the first flanger, it also
+has a sawtooth LFO modulating the delay range and gain of the flanger,
+the main difference is that both LFOs are in a $\frac{pi}{2}$ phase
+with respect to their corresponding LFOs in the first flanger.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-the-phase-relationship-between-the-four-lfos-involved-in-the-dual-flanger-system-as-presented-by-esqueda-välimäki-and-parker">
+
+
+  <a data-fancybox="" href="/media/mumt501/esqueda_flangerphase.png" data-caption="The phase relationship between the four LFOs involved in the dual flanger system as presented by Esqueda, Välimäki, and Parker">
+
+
+  <img src="/media/mumt501/esqueda_flangerphase.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    The phase relationship between the four LFOs involved in the dual flanger system as presented by Esqueda, Välimäki, and Parker
+  </figcaption>
+
+
+</figure>
+
+<p>Figure 4 shows the phase relationship between the two flangers in the dual-flanger system.</p>
+<h2 id="single-sideband-modulation">Single-Sideband Modulation</h2>
+<p>The third method presented by Esqueda, Välimäki, and Parker consists of
+a system based on the combination of a signal and a frequency-shifted
+version of the same signal (single-sideband modulation).</p>
+<p>Three main important considerations have to be addressed in the method
+proposed by Esqueda, Välimäki, and Parker. The first consideration is
+that the frequency-shifted copy of the signal should be added to the
+original signal only after delaying it for a short period. It is the
+short delay that generates the notches in the spectrum of the output
+signal of the system.</p>
+<p>The second consideration is that it is necessary to have linearity
+between the frequency shifter and the delay given to the modulated
+signal. Once this two considerations are met, the system will produce
+notches that are linearly distributed across the spectrum and that sweep
+in the same direction.</p>
+<p>Since the notches produced by the system are linearly distributed, this
+does not favor the emergence of the barber-pole illusion. In order for
+this to happen, the notches need to be one octave apart from each other,
+as in the method by Shepard.</p>
+<p>The third consideration deals with this problem, Esqueda, Välimäki, and
+Parker suggest replacing the delay line of the system for a chain of
+first-order all-pass filters acting as an spectral delay.</p>
+<p>With this final modification, the system is able to produce sweeping
+notches that are one octave from each other provided that the settings
+on each of the all-pass filters are accurately optimized to meet the
+desired group-delay curve.</p>
+<h2 id="implementation-of-the-cascaded-time-varying-notch-filters">Implementation of the cascaded time-varying notch-filters</h2>
+<p>The description of the systems presented by Esqueda, Välimäki, and
+Parker is informative regarding the methodologies that should be
+followed to accomplish an implementation of each of the systems.</p>
+<p>Here we follow the methodologies proposed for the first system, the
+network of cascaded notch-filters, to implement a prototype of the audio
+effect in MATLAB.</p>
+<p>The code of the implementation is given as an accompanying resource to
+this paper, the code consists of several functions that compute all of
+the parameters required for the system to operate on any given input
+signal. The accompanying implementation also provides two main scripts,
+one that provides an entry-point for the filter, which should be called
+to process an input signal, furthermore, another script tests and makes
+use of this entry-point with a white-noise signal and a combination of
+parameters that successfully create a barber-pole auditory illusion.</p>
+<p>The first step in the process of implementing this audio effect is to
+separate the global parameters of the system from the time-varying
+parameters, i.e., the parameters that should be computed every
+short-time (in practice, every sample) in which the filter is operating.</p>
+<p>This division between global and time-varying parameters is not given by
+the original proposal of Esqueda, Välimäki, and Parker. Therefore, it
+represents an interpretation of the parameters and workflow of the
+original methodology that must be made in order to effectively implement
+a prototype of the working system.</p>
+<p>The global parameters of the audio effect are the following:</p>
 <ul>
-<li><a href="#no-inharmonicity">No inharmonicity</a></li>
-<li><a href="#low-inharmonicity">Low inharmonicity</a></li>
-<li><a href="#mid-inharmonicity">Mid inharmonicity</a></li>
-<li><a href="#high-inharmonicity">High inharmonicity</a></li>
-<li><a href="#extreme-inharmonicity">Extreme inharmonicity</a></li>
-<li><a href="#supercollider-code-for-generating-the-audio-samples">SuperCollider code for generating the audio samples</a></li>
+<li>
+<p>$M$: The number of notch-filters in the cascade</p>
+</li>
+<li>
+<p>$F_s$: The sampling rate of the system</p>
+</li>
+<li>
+<p>$K$: The number of frequencies per cycle. Given by
+$K = \text{floor}(F_s/p)$</p>
+</li>
+<li>
+<p>$Q$: A control of the bandwidth of the notch-filters</p>
+</li>
+<li>
+<p>$p$: The repetition rate of the cycle (how many times is the
+system reaching an octave every second), in Hertz</p>
+</li>
+<li>
+<p>$L_{min}$: Minimum loudness level, in decibels</p>
+</li>
+<li>
+<p>$L_{max}$: Maximum loudness level, in decibels</p>
+</li>
 </ul>
-<p>The musical examples were generated from <a href="http://www.classclef.com/valse-by-manuel-maria-ponce-2/" target="_blank" rel="noopener">Manuel María Ponce&rsquo;s Valse for Solo Guitar</a>.</p>
-<p>The inharmonicity was computed for each partial using the following formula:</p>
-<p>$$ f_n = nf_0 \sqrt{1 + Bn^2} $$</p>
-<p>where $f_n$ is the frequency of a given partial, and the $B$ parameter controls the inharmonicity.</p>
-<p>The <a href="https://supercollider.github.io/" target="_blank" rel="noopener">SuperCollider programming language</a> was used to generate the audio examples with varying inharmonicity.</p>
-<p>The code is <a href="#supercollider-code-for-generating-the-audio-samples">listed here</a> for reference.</p>
-<h2 id="no-inharmonicity">No inharmonicity</h2>
-<p>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-no-inharmonicity">
-
-
-  <a data-fancybox="" href="/media/mumt616/noinh.png" data-caption="No inharmonicity">
-
-
-  <img src="/media/mumt616/noinh.png" alt=""  >
-</a>
-
-
-  
-  
-  <figcaption data-pre="Figure " data-post=":" class="numbered">
-    No inharmonicity
-  </figcaption>
-
-
-</figure>
-
+<p>The time-varying parameters of the audio effect are the following:</p>
+<ul>
+<li>
+<p>$f_c(m,k)$: Center frequency of the $m^{th}$ filter in the
+$k^{th}$ frequency index of the cycle</p>
+</li>
+<li>
+<p>$L_c(m,k)$: Loudness of the $k^{th}$ frequency of the $m^{th}$
+filter, in decibels</p>
+</li>
+<li>
+<p>$G$: The normalized version of gain $L_c$, in the range
+$[0,1]$</p>
+</li>
+<li>
+<p>$\beta$: A factor that involves the bandwidth and the gain at the
+bandwidth, used to compute the coefficients of the notch-filters</p>
+</li>
+</ul>
+<p>Once the most important parameters of the system have been defined and
+classified accordingly, the next step is to define the workflow of the
+system, especially for the time-varying part of the system which is the
+most complicated to implement, as it involves the computation of the
+coefficients for all of the filters involved in the network.</p>
+<p>Given that the parameter $K$ dictates the number of frequencies that
+have to be computed every cycle, this parameter defines the length of
+the short-time sections of the signal that have to be processed by the
+system. In fact, using the definition provided by Esqueda, Välimäki,
+and Parker for computing the value of $K$, we can observe that it is
+equivalent to <em>the number of samples that exist in one cycle</em>. This
+means that there is a relationship of one sample for one frequency in
+every case, for any sampling rate or repetition rate of the system. At
+this point, we can safely assume that our implementation of the audio
+effect has to effectively compute a new set of notch-filters for every
+sample of the input signal.</p>
+<p>The implementation that we followed, considers then, that the global
+parameters will be provided by the user to the system. One exception are
+the global parameters which can be obtained from other global parameters
+(e.g., $K$), these are not required from the user and are computed
+internally instead.</p>
+<p>Once the global parameters are present in the system, we then start
+processing the signal.</p>
+<p>The methodology from Esqueda, Välimäki, and Parker provides the
+transfer function used to compute each of the notch-filters of the
+system.</p>
+<p>$$H(z) =
+\frac{
+\big(
+\frac{
+1 + g \beta
+}{
+1 + \beta
+}
+\big) -
+2 \big(
+\frac{
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+}
+)
+}{
+1 + \beta
+}
+\big) z^{-1} +
+\big(
+\frac{
+1 - G \beta
+}{
+1 + \beta
+}
+\big) z^{-2}
+}{
+1 -
+2 \big(
+\frac{
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+}
+)
+}{
+1 + \beta
+}
+\big) z^{-1} +
+\big(
+\frac{
+1 - \beta
+}{
+1 + \beta
+}
+\big) z^{-2}
+}
+$$</p>
+<p>The most efficient way to compute the network of cascaded notch-filters
+would be to anticipate the system by multiplying the transfer function
+of a network of notch-filters to get one resulting system and use this
+system to filter the input signal, however, since the number of
+notch-filters in our network is an unknown parameter, $M$, controlled
+by the user, it is not easy to come with a strategy to pre-compute all
+the possible numbers of notch-filters in the network and their
+combinations with different parameters, such as the rate of the cycle of
+the audio effect.</p>
+<p>Therefore, I have decided that it is probably an easier strategy to use
+this transfer function to go back to the difference equation of the
+system, and compute the pertinent values of the coefficients of the
+system <em>as they are needed</em>.</p>
+<p>The difference equation of a notch-filter is the following:</p>
+<p>$$y[n] = b_0 x[n] - b_1 x[n-1] + b_2 x[n-2] + a_1 y[n-1] - a_2 y[n-2]$$</p>
+<p>Where the coefficients of the system correspond to</p>
+<p>$$b_0 =   \frac{
+1 + G \beta
+}{
+1 + \beta
+}$$</p>
+<p>$$b_1 =
+\frac{
+2
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+})
+}{
+1 + \beta
+}$$</p>
+<p>$$b_2 = \frac{
+1 - G \beta
+}{
+1 + \beta
+}$$</p>
+<p>$$a_1 = b_1$$</p>
+<p>$$a_2 = \frac{
+1 - \beta
+}{
+1 + \beta
+}$$</p>
+<p>The final implementation consists then of a delay-line of second order
+which filters the input signal through a cascade of $M$ notch-filters.
+The coefficients of the notch-filters are computed for every sample,
+according to the properties of each notch-filter, namely, their center
+frequency $f_c$ and the attenuation computed for that center frequency
+$(L_c, G)$.</p>
+<p>The implementation was done in Matlab, and all the source code is
+available <a href="/media/mumt501/barberpole.zip">here</a>.</p>
+<p>As an example, here is an audio input to the system and what it comes out.</p>
+<p>Input [<a href="/media/mumt501/input.wav">wav</a>]</p>
 
 
 
@@ -939,50 +1356,11 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
 
 
   <audio controls >
-    <source src="/media/mumt616/noinh.mp3" type="audio/mpeg">
+    <source src="/media/mumt501/input.wav" type="audio/wav">
   </audio>
 
-</p>
-<h2 id="low-inharmonicity">Low inharmonicity</h2>
-<p>
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-low-inharmonicity">
-
-
-  <a data-fancybox="" href="/media/mumt616/lowinh.png" data-caption="Low inharmonicity">
-
-
-  <img src="/media/mumt616/lowinh.png" alt=""  >
-</a>
-
-
-  
-  
-  <figcaption data-pre="Figure " data-post=":" class="numbered">
-    Low inharmonicity
-  </figcaption>
-
-
-</figure>
-
+<p>Output [<a href="/media/mumt501/output.wav">wav</a>]
 
 
 
@@ -1001,423 +1379,21 @@ Five examples with varying degrees of inharmonicity are discussed."><meta proper
 
 
   <audio controls >
-    <source src="/media/mumt616/lowinh.mp3" type="audio/mpeg">
+    <source src="/media/mumt501/output.wav" type="audio/wav">
   </audio>
 
 </p>
-<h2 id="mid-inharmonicity">Mid inharmonicity</h2>
-<p>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-mid-inharmonicity">
-
-
-  <a data-fancybox="" href="/media/mumt616/midinh.png" data-caption="Mid inharmonicity">
-
-
-  <img src="/media/mumt616/midinh.png" alt=""  >
-</a>
-
-
-  
-  
-  <figcaption data-pre="Figure " data-post=":" class="numbered">
-    Mid inharmonicity
-  </figcaption>
-
-
-</figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <audio controls >
-    <source src="/media/mumt616/midinh.mp3" type="audio/mpeg">
-  </audio>
-
-</p>
-<h2 id="high-inharmonicity">High inharmonicity</h2>
-<p>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-high-inharmonicity">
-
-
-  <a data-fancybox="" href="/media/mumt616/highinh.png" data-caption="High inharmonicity">
-
-
-  <img src="/media/mumt616/highinh.png" alt=""  >
-</a>
-
-
-  
-  
-  <figcaption data-pre="Figure " data-post=":" class="numbered">
-    High inharmonicity
-  </figcaption>
-
-
-</figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <audio controls >
-    <source src="/media/mumt616/highinh.mp3" type="audio/mpeg">
-  </audio>
-
-</p>
-<h2 id="extreme-inharmonicity">Extreme inharmonicity</h2>
-<p>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-extreme-inharmonicity">
-
-
-  <a data-fancybox="" href="/media/mumt616/crazyinh.png" data-caption="Extreme inharmonicity">
-
-
-  <img src="/media/mumt616/crazyinh.png" alt=""  >
-</a>
-
-
-  
-  
-  <figcaption data-pre="Figure " data-post=":" class="numbered">
-    Extreme inharmonicity
-  </figcaption>
-
-
-</figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <audio controls >
-    <source src="/media/mumt616/crazyinh.mp3" type="audio/mpeg">
-  </audio>
-
-</p>
-<h2 id="supercollider-code-for-generating-the-audio-samples">SuperCollider code for generating the audio samples</h2>
-<pre><code>(
-SynthDef(\inh, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0,fB = 180|
-    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
-    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
-	var son = DWGPluckedStiff.ar(freq, amp, gate,0.1,1,c3,inp,1,MouseX.kr(0,200));
-    DetectSilence.ar(son, 0.001, doneAction:2);
-    Out.ar(out, Pan2.ar(son * 0.1, pan));
-}).add;
-)
-
-(
-SynthDef(\har, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0|
-    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
-    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
-    var son = DWGPlucked.ar(freq, amp, gate,0.1,1,c3,inp,1);
-    DetectSilence.ar(son, 0.001, doneAction:2);
-    Out.ar(out, Pan2.ar(son * 0.1, pan));
-}).add;
-)
-
-
-(
-SynthDef(\noinh,
-	{
-		|out=0, freq=440, amp=0.4, fB=0| //partials = 4
-		// Number of partials cannot change dynamically in the SynthDef :(
-		var sig, env, partials = 16;
-		// Need an envelope, otherwise the sinewaves play forever
-		env = Env.linen(0.03, 0.5, 0.15, amp);
-		// Summing the sinewaves
-		sig = Mix.fill(partials,
-			{
-				arg i;
-				// Need a 1-based-index for the partials
-				var n = i+1, harmonic, partial, ampdecay;
-				harmonic = n*freq;
-				partial = harmonic * sqrt(1 + (fB* n**2));
-				ampdecay = 1/n;
-				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
-			}
-		);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-(
-SynthDef(\sineSynth,
-	{
-		|out=0, freq=440, amp=0.4|
-		var sig;
-		sig = SinOsc.ar(freq, 0, amp);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-
-
-
-(
-SynthDef(\lowinh,
-	{
-		|out=0, freq=440, amp=0.4, fB=0.005| //partials = 4
-		// Number of partials cannot change dynamically in the SynthDef :(
-		var sig, env, partials = 20;
-		// Need an envelope, otherwise the sinewaves play forever
-		env = Env.linen(0.03, 0.4, 0.15, amp);
-		// Summing the sinewaves
-		sig = Mix.fill(partials,
-			{
-				arg i;
-				// Need a 1-based-index for the partials
-				var n = i+1, harmonic, partial, ampdecay;
-				harmonic = n*freq;
-				partial = harmonic * sqrt(1 + (fB* n**2));
-				ampdecay = 1/n;
-				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
-			}
-		);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-(
-SynthDef(\midinh,
-	{
-		|out=0, freq=440, amp=0.4, fB=0.015| //partials = 4
-		// Number of partials cannot change dynamically in the SynthDef :(
-		var sig, env, partials = 20;
-		// Need an envelope, otherwise the sinewaves play forever
-		env = Env.linen(0.03, 0.4, 0.15, amp);
-		// Summing the sinewaves
-		sig = Mix.fill(partials,
-			{
-				arg i;
-				// Need a 1-based-index for the partials
-				var n = i+1, harmonic, partial, ampdecay;
-				harmonic = n*freq;
-				partial = harmonic * sqrt(1 + (fB* n**2));
-				ampdecay = 1/n;
-				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
-			}
-		);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-(
-SynthDef(\highinh,
-	{
-		|out=0, freq=440, amp=0.4, fB=0.0874| //partials = 4
-		// Number of partials cannot change dynamically in the SynthDef :(
-		var sig, env, partials = 20;
-		// Need an envelope, otherwise the sinewaves play forever
-		env = Env.linen(0.03, 0.4, 0.15, amp);
-		// Summing the sinewaves
-		sig = Mix.fill(partials,
-			{
-				arg i;
-				// Need a 1-based-index for the partials
-				var n = i+1, harmonic, partial, ampdecay;
-				harmonic = n*freq;
-				partial = harmonic * sqrt(1 + (fB* n**2));
-				ampdecay = 1/n;
-				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
-			}
-		);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-(
-SynthDef(\crazyinh,
-	{
-		|out=0, freq=440, amp=0.4, fB=1| //partials = 4
-		// Number of partials cannot change dynamically in the SynthDef :(
-		var sig, env, partials = 20;
-		// Need an envelope, otherwise the sinewaves play forever
-		env = Env.linen(0.03, 0.4, 0.15, amp);
-		// Summing the sinewaves
-		sig = Mix.fill(partials,
-			{
-				arg i;
-				// Need a 1-based-index for the partials
-				var n = i+1, harmonic, partial, ampdecay;
-				harmonic = n*freq;
-				partial = harmonic * sqrt(1 + (fB* n**2));
-				ampdecay = 1/n;
-				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
-			}
-		);
-		Out.ar(out, Pan2.ar(sig));
-}).add;
-)
-
-(
-m = SimpleMIDIFile.read(&quot;/Stimulus 1 major.mid&quot;);
-m.p(\noinh).play;
-)
-
-(
-m = SimpleMIDIFile.read(&quot;/op28n20.mid&quot;);
-m.p(\lowinh).play;
-)
-
-(
-m = SimpleMIDIFile.read(&quot;/op28n20.mid&quot;);
-m.p(\lowinh).play;
-)
-
-(
-m = SimpleMIDIFile.read(&quot;/op28n20.mid&quot;);
-m.p(\lowinh).play;
-)
-
-(
-Routine.run {
-	var s, m, synth, release;
-	s = Server.default;
-	s.sync;
-    s.record(path: &quot;~/out.wav&quot;.standardizePath);
-
-	release = 0.3;
-	m = SimpleMIDIFile.read(&quot;/Stimulus 1 major.mid&quot;);
-	m.p(\lowinh).play;
-	3.wait;
-
-	// Wait for the Synth to release before stopping the recording.
-	release.wait;
-	s.stopRecording;
-    };
-)
-s.stopRecording;
-
-(
-    Routine.run {
-        var s, synth, release;
-        s = Server.default;
-
-        s.sync;
-
-        s.record(path: &quot;~/out.wav&quot;.standardizePath);
-
-        release = 0.3;
-        synth = Synth(\noinh, [freq: 30.midicps]);
-        2.wait;
-        synth.set(0);
-
-        // Wait for the Synth to release before stopping the recording.
-        release.wait;
-        s.stopRecording;
-    };
-)
-
-
-(
-x = Synth(\sineSynth);
-f = {
-	arg m;
-	x.set(&quot;freq&quot;, m.midicps);
-	m.postln;
-};
-m = SimpleMIDIFile.read(&quot;/Stimulus 1 major.mid&quot;);
-//x = Synth(\sineSynth);
-m.playNotesWithFunction(f)
-)
-</code></pre>
+<h2 id="conclusions">Conclusions</h2>
+<p>In this paper, I outline the implementation of a cascaded notch-filter
+system to create auditory illusions from an input signal. The reference
+methodology by Esqueda, Välimäki, and Parker  was very informative
+about the parameters, formulas and methodologies used to test the filter
+and generate the sound samples and the plots presented in their paper.
+The implementation proposed here used the transfer function presented in
+the reference methodology and used it to get the difference equation of
+a notch-filter, computing its parameters for every sample and using
+those coefficients to filter the input signal through a delay-line of
+second order.</p>
 
           </div>
 
@@ -1433,15 +1409,8 @@ m.playNotesWithFunction(f)
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Previous</div>
-    <a href="/courses/mcgill/mumt615/" rel="next">MUMT 615</a>
-  </div>
-  
-  
-  
-  <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/mcgill/mumt618/" rel="prev">MUMT 618</a>
+    <a href="/courses/mcgill/mumt615/" rel="prev">MUMT 615</a>
   </div>
   
 </div>
