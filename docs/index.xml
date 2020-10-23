@@ -5,7 +5,7 @@
     <link>/docs/</link>
       <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <description>Overview</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
       <title>Overview</title>
@@ -17,8 +17,7 @@
       <link>/docs/mumt618/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
       <guid>/docs/mumt618/</guid>
-      <description>&lt;p&gt;This is a report for my final project of the 
-&lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
+      <description>&lt;p&gt;This is a report for my final project of the &lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
 &lt;p&gt;I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &lt;em&gt;&amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;&lt;/em&gt;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&#39;07 Conference.&lt;/p&gt;
 &lt;p&gt;Although this paper describes two models:&lt;/p&gt;
 &lt;ol&gt;
@@ -28,6 +27,9 @@
 &lt;p&gt;I have only implemented the model of the &lt;strong&gt;Boss DS-1&lt;/strong&gt; distortion pedal. The implementation provided has been done in &lt;code&gt;MATLAB&lt;/code&gt; and does not opertate in real-time, however, a real-time implementation should not be difficult to derivate from the given code. I also provide a few audio examples of the audio effect. As of my knowledge, there are no existing audio examples or code for this model previous to this write-up, therefore, I consider it is a valuable contribution for anyone following the ideas of this paper for reproducing or improving the model.&lt;/p&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A high-level overview can be seen in the following diagram from the paper&lt;/p&gt;
+
+
+
 
 
 
@@ -48,10 +50,10 @@
 &lt;figure id=&#34;figure-overview-of-the-boss-ds-1-model-obtained-from-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -65,8 +67,10 @@
 &lt;/figure&gt;
 
 &lt;p&gt;It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the &lt;code&gt;Gain + filter&lt;/code&gt; and the &lt;code&gt;Saturating nonlin&lt;/code&gt; stages, therefore, this implementation concentrates in these two stages only.&lt;/p&gt;
-&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from 
-&lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from &lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+
+
+
 
 
 
@@ -87,10 +91,10 @@
 &lt;figure id=&#34;figure-schematic-of-the-boss-ds-1-obtained-from-electrosmashcom&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -214,6 +218,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -229,10 +236,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-uncorrected&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -246,6 +253,9 @@ $$&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.&lt;/p&gt;
+
+
+
 
 
 
@@ -266,10 +276,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-transistor-booster-stage-shown-at-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -296,6 +306,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -311,10 +324,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-corrected&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -422,6 +435,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -437,10 +453,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-op-amp-gain-stage&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -454,6 +470,9 @@ $$&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;is quite similar to the magnitude response shown in the paper&lt;/p&gt;
+
+
+
 
 
 
@@ -474,10 +493,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-op-amp-gain-stage-shown-at-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -578,8 +597,7 @@ play(s);
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;This audio sample has been obtained from 
-&lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This audio sample has been obtained from &lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

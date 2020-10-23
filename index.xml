@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Néstor Nápoles López</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
       <title>Néstor Nápoles López</title>
@@ -13,544 +13,480 @@
     </image>
     
     <item>
-      <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <title>MUMT 615</title>
+      <link>/courses/mcgill/mumt615/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>/courses/mcgill/mumt615/</guid>
+      <description>&lt;p&gt;During the course &lt;a href=&#34;https://perceptionofcompositionalstructures.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perception of Compositional Structures&lt;/a&gt;, I participated in the design and development of an experiment on melodic tension.&lt;/p&gt;
+&lt;p&gt;I participated developing the code of the experiment. &lt;a href=&#34;https://www.mcgill.ca/music/erica-huynh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Erica Huynh&lt;/a&gt; designed the experiment and wrote the paper, and &lt;a href=&#34;https://www.timothymledger.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timothy Ledger&lt;/a&gt; composed the musical examples.&lt;/p&gt;
+&lt;p&gt;The experiment was implemented using the &lt;a href=&#34;https://www.jspsych.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jsPsych&lt;/a&gt; library, and it can be found &lt;a href=&#34;https://melodictension-7fd48.firebaseapp.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The source code of the experiment is available in a &lt;a href=&#34;https://github.com/napulen/melodictension&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The paper with our results is available &lt;a href=&#34;https://perceptionofcompositionalstructures.github.io/Docs/Group2_TensionInMelody_FinalProject_HuynhLedgerNapoles.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <title>MUMT 616</title>
+      <link>/courses/mcgill/mumt616/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+      <guid>/courses/mcgill/mumt616/</guid>
+      <description>&lt;p&gt;During the class &lt;em&gt;Timbre as a Form-Bearing Dimension in Music&lt;/em&gt;, I talked about inharmonicity in the context of plucked strings.&lt;/p&gt;
+&lt;p&gt;The slides are available &lt;a href=&#34;mumt616/inharmonicity_presentation.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Four examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#no-inharmonicity&#34;&gt;No inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#low-inharmonicity&#34;&gt;Low inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mid-inharmonicity&#34;&gt;Mid inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#high-inharmonicity&#34;&gt;High inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extreme-inharmonicity&#34;&gt;Extreme inharmonicity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Harmalysis: A Language for the Annotation of Roman Numerals in Symbolic Music Representations</title>
-      <link>/publication/harmalysis/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/harmalysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Do-Re-Myth: An Ear Training Game</title>
-      <link>/publication/doremyth/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/doremyth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title>
-      <link>/publication/keydetection19/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/keydetection19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\\\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+&lt;p&gt;The musical examples were generated from &lt;a href=&#34;http://www.classclef.com/valse-by-manuel-maria-ponce-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manuel María Ponce&amp;rsquo;s Valse for Solo Guitar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The inharmonicity was computed for each partial using the following formula:&lt;/p&gt;
+&lt;p&gt;$$ f_n = nf_0 \sqrt{1 + Bn^2} $$&lt;/p&gt;
+&lt;p&gt;where $f_n$ is the frequency of a given partial, and the $B$ parameter controls the inharmonicity.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://supercollider.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SuperCollider programming language&lt;/a&gt; was used to generate the audio examples with varying inharmonicity.&lt;/p&gt;
+&lt;p&gt;The code is &lt;a href=&#34;#supercollider-code-for-generating-the-audio-samples&#34;&gt;listed here&lt;/a&gt; for reference.&lt;/p&gt;
+&lt;h2 id=&#34;no-inharmonicity&#34;&gt;No inharmonicity&lt;/h2&gt;
 
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
 
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Effects of Translation Between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML</title>
-      <link>/publication/effects_of_translation/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/effects_of_translation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Musical Tic-Tac-Toe</title>
-      <link>/publication/musical_tictactoe/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/musical_tictactoe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dandelot - Reading Music as a Game</title>
-      <link>/publication/dandelot/</link>
-      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/dandelot/</guid>
-      <description>&lt;h2 id=&#34;the-video-looks-promising-where-is-the-code&#34;&gt;The video looks promising, where is the code?&lt;/h2&gt;
-&lt;p&gt;Although the intention of &lt;em&gt;dandelot&lt;/em&gt; is to be available for free for anyone to play, some of the assets used for developing the game are proprietary. For the time being, the code is not available online.&lt;/p&gt;
-&lt;p&gt;If you &lt;strong&gt;really&lt;/strong&gt; want to play it, drop an email and I will send you a compiled version of the game. If you want the code to extend it or fork it into your own, we can talk about that.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
 
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
 
-&lt;section data-noprocess data-shortcode-slide
+
+
+
   
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
 
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-no-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/noinh.png&#34; data-caption=&#34;No inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/noinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    No inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/noinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;low-inharmonicity&#34;&gt;Low inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-low-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/lowinh.png&#34; data-caption=&#34;Low inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/lowinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Low inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/lowinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mid-inharmonicity&#34;&gt;Mid inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-mid-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/midinh.png&#34; data-caption=&#34;Mid inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/midinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Mid inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/midinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;high-inharmonicity&#34;&gt;High inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-high-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/highinh.png&#34; data-caption=&#34;High inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/highinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    High inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/highinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;extreme-inharmonicity&#34;&gt;Extreme inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-extreme-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/crazyinh.png&#34; data-caption=&#34;Extreme inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/crazyinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Extreme inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/crazyinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;supercollider-code-for-generating-the-audio-samples&#34;&gt;SuperCollider code for generating the audio samples&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;(
+SynthDef(\inh, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0,fB = 180|
+    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+	var son = DWGPluckedStiff.ar(freq, amp, gate,0.1,1,c3,inp,1,MouseX.kr(0,200));
+    DetectSilence.ar(son, 0.001, doneAction:2);
+    Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+
+(
+SynthDef(\har, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0|
+    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+    var son = DWGPlucked.ar(freq, amp, gate,0.1,1,c3,inp,1);
+    DetectSilence.ar(son, 0.001, doneAction:2);
+    Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+
+
+(
+SynthDef(\noinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 16;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.5, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\sineSynth,
+	{
+		|out=0, freq=440, amp=0.4|
+		var sig;
+		sig = SinOsc.ar(freq, 0, amp);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+
+
+
+(
+SynthDef(\lowinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.005| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\midinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.015| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\highinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.0874| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\crazyinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=1| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+m.p(\noinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+Routine.run {
+	var s, m, synth, release;
+	s = Server.default;
+	s.sync;
+    s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+
+	release = 0.3;
+	m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+	m.p(\lowinh).play;
+	3.wait;
+
+	// Wait for the Synth to release before stopping the recording.
+	release.wait;
+	s.stopRecording;
+    };
+)
+s.stopRecording;
+
+(
+    Routine.run {
+        var s, synth, release;
+        s = Server.default;
+
+        s.sync;
+
+        s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+
+        release = 0.3;
+        synth = Synth(\noinh, [freq: 30.midicps]);
+        2.wait;
+        synth.set(0);
+
+        // Wait for the Synth to release before stopping the recording.
+        release.wait;
+        s.stopRecording;
+    };
+)
+
+
+(
+x = Synth(\sineSynth);
+f = {
+	arg m;
+	x.set(&amp;quot;freq&amp;quot;, m.midicps);
+	m.postln;
+};
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+//x = Synth(\sineSynth);
+m.playNotesWithFunction(f)
+)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Implementing a digital model of the Boss DS-1 distortion pedal</title>
-      <link>/docs/mumt618/</link>
-      <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
-      <guid>/docs/mumt618/</guid>
-      <description>&lt;p&gt;This is a report for my final project of the 
-&lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
+      <title>MUMT 618</title>
+      <link>/courses/mcgill/mumt618/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/mcgill/mumt618/</guid>
+      <description>&lt;p&gt;This is a report for my final project of the &lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
 &lt;p&gt;I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &lt;em&gt;&amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;&lt;/em&gt;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&#39;07 Conference.&lt;/p&gt;
 &lt;p&gt;Although this paper describes two models:&lt;/p&gt;
 &lt;ol&gt;
@@ -560,6 +496,9 @@ Three
 &lt;p&gt;I have only implemented the model of the &lt;strong&gt;Boss DS-1&lt;/strong&gt; distortion pedal. The implementation provided has been done in &lt;code&gt;MATLAB&lt;/code&gt; and does not opertate in real-time, however, a real-time implementation should not be difficult to derivate from the given code. I also provide a few audio examples of the audio effect. As of my knowledge, there are no existing audio examples or code for this model previous to this write-up, therefore, I consider it is a valuable contribution for anyone following the ideas of this paper for reproducing or improving the model.&lt;/p&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A high-level overview can be seen in the following diagram from the paper&lt;/p&gt;
+
+
+
 
 
 
@@ -580,10 +519,10 @@ Three
 &lt;figure id=&#34;figure-overview-of-the-boss-ds-1-model-obtained-from-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -597,8 +536,10 @@ Three
 &lt;/figure&gt;
 
 &lt;p&gt;It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the &lt;code&gt;Gain + filter&lt;/code&gt; and the &lt;code&gt;Saturating nonlin&lt;/code&gt; stages, therefore, this implementation concentrates in these two stages only.&lt;/p&gt;
-&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from 
-&lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from &lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+
+
+
 
 
 
@@ -619,10 +560,10 @@ Three
 &lt;figure id=&#34;figure-schematic-of-the-boss-ds-1-obtained-from-electrosmashcom&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -746,6 +687,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -761,10 +705,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-uncorrected&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -778,6 +722,9 @@ $$&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.&lt;/p&gt;
+
+
+
 
 
 
@@ -798,10 +745,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-transistor-booster-stage-shown-at-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -828,6 +775,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -843,10 +793,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-corrected&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -954,6 +904,9 @@ $$&lt;/p&gt;
 
 
 
+
+
+
   
 
 
@@ -969,10 +922,10 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-implemented-op-amp-gain-stage&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -986,6 +939,9 @@ $$&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;is quite similar to the magnitude response shown in the paper&lt;/p&gt;
+
+
+
 
 
 
@@ -1006,10 +962,669 @@ $$&lt;/p&gt;
 &lt;figure id=&#34;figure-magnitude-response-of-the-op-amp-gain-stage-shown-at-yeh-et-al-2007&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
 
 
-  &lt;img src=&#34;/img/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/media/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The different colors of the first plot represent the magnitude response with values of $D$ going from $0.1$ to $1.0$. This is the  &lt;code&gt;MATLAB&lt;/code&gt; function that implements this filter:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Op-Amp Gain Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+
+function y = opampfilt(x, fs, DIST)
+
+% Resistors and capacitors from the model
+Rt = 100000 * DIST;
+Rb = 100000*(1-DIST) + 4700;
+Cz = 0.000001;
+Cc = 0.000000000250;
+
+% Constant for the bilinear transform
+c = 2*fs;
+
+% Continuous-time coefficients (reduced)
+ab0 = 1 / (Rt*Cc*Rb*Cz);
+a1 = 1/(Rb*Cz) + 1/(Rt*Cc);
+b1 = a1 + 1/(Rb*Cc);
+
+% Discrete-time coefficients
+B0 = ab0 + b1*c + c.^2;
+B1 = 2*ab0 - 2*c.^2;
+B2 = ab0 - b1*c + c.^2;
+
+A0 = ab0 + a1*c + c.^2;
+A1 = B1;
+A2 = ab0 - a1*c + c.^2;
+
+B = [B0, B1, B2];
+A = [A0, A1, A2];
+
+y = filter(B, A, x);
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;diode-clipper&#34;&gt;Diode-Clipper&lt;/h3&gt;
+&lt;p&gt;At the end of the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt;, there is an additional step that simulates the diode that clips the samples exceeding a gain threshold, in the case of the digital implementation, that threshold consists of $abs(x[n]) \geq 1.0$. The diode-clipper has been implemented using one of the proposed methods in the paper:&lt;/p&gt;
+&lt;p&gt;$$
+\text{clipper}(x) = \frac{x}{(1 + |x|^n)^{1/n}}
+$$&lt;/p&gt;
+&lt;p&gt;with $n = 2.5$&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;MATLAB&lt;/code&gt; code for the clipping function is the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Diode clipper
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+
+function x = diodeclip(x)
+
+n = 2.5;
+
+for i=1:length(x)
+    x(i) = x(i) / (1 + abs(x(i)).^n).^(1/n);
+end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a final step, I provide a script that cascades the two stages of the models to process an input audio example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% DS-1, main script
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+
+% Sample audio
+[x, fs] = audioread(&#39;guitar_clean.wav&#39;);
+
+% Bipolar Junction Transistor Stage
+y = bjtfilt(x, fs);
+
+% Op-amp Gain Stage
+D = 1; % D lies between [0, 1]
+y = opampfilt(y, fs, D);
+
+% Diode clipper
+y = diodeclip(y);
+
+s = audioplayer(y, fs);
+play(s);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here is an example of the model applied to an audio sample of a clean electric guitar&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/guitar_clean.wav&#34;&gt;Original audio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/bjt.wav&#34;&gt;Transistor Booster Stage only&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/opamp.wav&#34;&gt;Op-Amp Gain Stage only&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/bjt_opamp.wav&#34;&gt;Transistor Booster Stage and Op-Amp Gain Stage&lt;/a&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This audio sample has been obtained from &lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Harmonic Reductions As a Strategy for Creative Data Augmentation</title>
+      <link>/publication/harmonic_reductions/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/harmonic_reductions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Local Keys, Modulations, and Tonicizations</title>
+      <link>/publication/modulation_tonicization/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/modulation_tonicization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmalysis: A Language for the Annotation of Roman Numerals in Symbolic Music Representations</title>
+      <link>/publication/harmalysis/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/harmalysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do-Re-Myth: An Ear Training Game</title>
+      <link>/publication/doremyth/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/doremyth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title>
+      <link>/publication/keydetection19/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/keydetection19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effects of Translation Between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML</title>
+      <link>/publication/effects_of_translation/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/effects_of_translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Musical Tic-Tac-Toe</title>
+      <link>/publication/musical_tictactoe/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/musical_tictactoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dandelot - Reading Music as a Game</title>
+      <link>/publication/dandelot/</link>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dandelot/</guid>
+      <description>&lt;h2 id=&#34;the-video-looks-promising-where-is-the-code&#34;&gt;The video looks promising, where is the code?&lt;/h2&gt;
+&lt;p&gt;Although the intention of &lt;em&gt;dandelot&lt;/em&gt; is to be available for free for anyone to play, some of the assets used for developing the game are proprietary. For the time being, the code is not available online.&lt;/p&gt;
+&lt;p&gt;If you &lt;strong&gt;really&lt;/strong&gt; want to play it, drop an email and I will send you a compiled version of the game. If you want the code to extend it or fork it into your own, we can talk about that.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementing a digital model of the Boss DS-1 distortion pedal</title>
+      <link>/docs/mumt618/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>/docs/mumt618/</guid>
+      <description>&lt;p&gt;This is a report for my final project of the &lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
+&lt;p&gt;I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &lt;em&gt;&amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;&lt;/em&gt;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&#39;07 Conference.&lt;/p&gt;
+&lt;p&gt;Although this paper describes two models:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Boss DS-1&lt;/strong&gt;, a distortion pedal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ibanez TS-9&lt;/strong&gt;, an overdrive pedal&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have only implemented the model of the &lt;strong&gt;Boss DS-1&lt;/strong&gt; distortion pedal. The implementation provided has been done in &lt;code&gt;MATLAB&lt;/code&gt; and does not opertate in real-time, however, a real-time implementation should not be difficult to derivate from the given code. I also provide a few audio examples of the audio effect. As of my knowledge, there are no existing audio examples or code for this model previous to this write-up, therefore, I consider it is a valuable contribution for anyone following the ideas of this paper for reproducing or improving the model.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A high-level overview can be seen in the following diagram from the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-overview-of-the-boss-ds-1-model-obtained-from-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the &lt;code&gt;Gain + filter&lt;/code&gt; and the &lt;code&gt;Saturating nonlin&lt;/code&gt; stages, therefore, this implementation concentrates in these two stages only.&lt;/p&gt;
+&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from &lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-schematic-of-the-boss-ds-1-obtained-from-electrosmashcom&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Schematic of the Boss DS-1, obtained from ElectroSmash.com
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;code&gt;Gain + filter&lt;/code&gt; stage in the paper&amp;rsquo;s diagram corresponds to the &lt;code&gt;Transistor Booster&lt;/code&gt; stage of the schematic, its main component is a bipolar junction transistor. The &lt;code&gt;Saturating nonlin&lt;/code&gt; stage of the paper&amp;rsquo;s diagram corresponds roughly to the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt;. From now on, I will refer to the names of the schematic as I find them more intuitive.&lt;/p&gt;
+&lt;h2 id=&#34;transistor-booster-stage&#34;&gt;Transistor Booster Stage&lt;/h2&gt;
+&lt;p&gt;This stage corresponds to a single bipolar junction transistor, the continuous-time transfer function provided in the paper is the following:&lt;/p&gt;
+&lt;p&gt;$$
+H(s) = \frac{s^{2}}{(s + \omega_1) (s + \omega_2)}
+$$&lt;/p&gt;
+&lt;p&gt;where $ \omega_1 = 2\pi3 $ and $ \omega_2 = 2\pi600 $&lt;/p&gt;
+&lt;h2 id=&#34;op-amp-gain-stage&#34;&gt;Op-Amp Gain Stage&lt;/h2&gt;
+&lt;p&gt;This stage corresponds to the main nonlinearity of the circuit, according to the paper. One parameter is provided in this stage to control the amount of distortion that the audio effect will output. The continuous-time transfer function is defined as following:&lt;/p&gt;
+&lt;p&gt;$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p&gt;
+&lt;p&gt;where
+$$R_t = 100 000 D $$
+$$R_b = (1-D)100 000 + 4700$$
+$$C_z = 0.000 001$$
+$$C_c = 0.000 000 000 250$$
+and $D$ is the &lt;strong&gt;distortion&lt;/strong&gt; knob that controls the depth of the effect and ranges from $[0, 1]$.&lt;/p&gt;
+&lt;p&gt;As one may guess, these continuous-time transfer functions require discretization in order to be implemented in a digital system. In order to discretize them, Yeh et al. propose the use of the &lt;em&gt;bilinear transform&lt;/em&gt;. In the paper&amp;mdash;as well as in David Yeh&amp;rsquo;s PhD dissertation&amp;mdash;a list of (very useful) templates has been included, which helps in the process of discretizing the two continuous-time transfer functions used in this model. The relevant templates for this implementation are the templates corresponding to second-order filters.&lt;/p&gt;
+&lt;h2 id=&#34;bilinear-transform&#34;&gt;Bilinear Transform&lt;/h2&gt;
+&lt;p&gt;In order to discretize a continuous-time transfer function, first, we should put the continuous-time transfer function in the following form
+$$
+H(s) = \frac{b_2 s^2 + b_1 s + b_0}{a_2 s^2 + a_1 s + a_0}
+$$&lt;/p&gt;
+&lt;p&gt;Once we compute the corresponding coefficients, they can be placed in a discrete-time transfer function of the form&lt;/p&gt;
+&lt;p&gt;$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p&gt;
+&lt;p&gt;The discrete-time coefficients of this transfer function can be obtained from the following equations
+$$
+B_0 = b_0 + b_1 c = b_2 c^2
+$$
+$$
+B_1 = 2b_0 - 2b_2 c^2
+$$
+$$
+B_2 = b_0 - b_1 c = b_2 c^2
+$$
+$$
+A_0 = a_0 + a_1 c = a_2 c^2
+$$
+$$
+A_1 = 2a_0 - 2a_2 c^2
+$$
+$$
+A_2 = a_0 - a_1 c = a_2 c^2
+$$&lt;/p&gt;
+&lt;p&gt;After plugging the coefficients into the discrete-time transfer function, we should be able to implement the resulting transfer function as a digital filter.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-of-the-transistor-booster-stage&#34;&gt;Implementation of the Transistor Booster Stage&lt;/h2&gt;
+&lt;p&gt;Using the steps described above, I now describe the implementation of the &lt;code&gt;Transistor Booster Stage&lt;/code&gt; part of the model.&lt;/p&gt;
+&lt;p&gt;The first step would be to put the given continuous-time transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2}{s^2 + (\omega_1 + \omega_2)s + \omega_1 \omega_2}
+$$
+From here, the continuous-time coefficients can be easily extracted
+$$
+b_2 = 1
+$$
+$$
+b_1 = 0
+$$
+$$
+b_0 = 0
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \omega_1 + \omega_2 = 2\pi 3 + 2\pi 600 = 1206\pi
+$$
+$$
+a_0 = \omega_1 \omega_2 = (2\pi 3)(2 \pi 600) = 7200\pi^2
+$$&lt;/p&gt;
+&lt;p&gt;Working the templates for the discrete-time coefficients results in the following
+$$
+B_0 = 4fs^2
+$$
+$$
+B_1 = -8fs^2
+$$
+$$
+B_2 = 4fs^2
+$$
+$$
+A_0 = 7200\pi^2 + 2412\pi fs + 4fs^2
+$$
+$$
+A_1 = 14400\pi^2 - 8fs^2
+$$
+$$
+A_2 = 7200\pi^2 - 2412\pi fs + 4fs^2
+$$&lt;/p&gt;
+&lt;p&gt;Showing once again the template of the second-order discrete-time transfer function
+$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p&gt;
+&lt;p&gt;Plugging the values of the coefficients recently found, gives the following equation
+$$
+{\scriptsize H(z) = \frac{4fs^2 - 8fs^2 z^{-1} + 4fs^2 z^{-2}}{(7200\pi^2 + 2412\pi fs + 4fs^2) +(14400\pi^2 - 8fs^2) z^{-1} + (7200\pi^2 - 2412\pi fs + 4fs^2) z^{-2}}}
+$$&lt;/p&gt;
+&lt;p&gt;After dividing by $4$, factorizing $fs$, and doing some algebra to simplify the equation, this can be expressed as:
+$$
+{\small H(z) = \frac{1 -2 z^{-1} + z^{-2}}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p&gt;
+&lt;p&gt;with $\Omega = \frac{\pi}{fs}$&lt;/p&gt;
+&lt;p&gt;The implementation of this discrete-time transfer function results in a filter with the following magnitude response:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-uncorrected&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Transistor Booster Stage (uncorrected)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-transistor-booster-stage-shown-at-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Luckily, in the corresponding section of this stage, the paper mentions that the expected gain in the bandpass is, in fact, $36dB$. Using this information, an additional gain, $g$, is included in the discrete-time transfer function:&lt;/p&gt;
+&lt;p&gt;$$
+{\small H(z) = \frac{g(1 -2 z^{-1} + z^{-2})}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p&gt;
+&lt;p&gt;where the equation, $36dB = \log_{10}(g) * 20$, can be used to obtain the value of $g$&lt;/p&gt;
+&lt;p&gt;$$
+g = 10^{\frac{36}{20}} = 63.0957
+$$&lt;/p&gt;
+&lt;p&gt;The resulting magnitude response resembles much more the magnitude response shown in the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-corrected&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Transistor Booster Stage (corrected)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This filter&amp;mdash;including its correction&amp;mdash;can be implemented with the following &lt;code&gt;MATLAB&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Transistor Booster Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+
+function y = bjtfilt(x, fs)
+
+% After working the math, I put all the discrete-time
+% coefficients in terms of this variable coeff
+coeff = pi/fs;
+
+B0 = 1;
+B1 = -2;
+B2 = 1;
+
+A0 = 1800.*coeff.^2 + 603.*coeff + 1;
+A1 = 3600.*coeff.^2 - 2;
+A2 = 1800.*coeff.^2 - 603.*coeff + 1;
+
+% We obtain the gain from
+% 36dB = log10(x) * 20
+amp = 10.^(36/20);
+B = amp .* [B0, B1, B2];
+A = [A0, A1, A2];
+
+y = filter(B, A, x);
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;implementation-of-the-op-amp-gain-stage&#34;&gt;Implementation of the Op-Amp Gain Stage&lt;/h2&gt;
+&lt;p&gt;Just as done during the &lt;code&gt;Transistor Booster Stage&lt;/code&gt;, the implementation of the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt; starts from a given continuous-time transfer function
+$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p&gt;
+&lt;p&gt;Putting this transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c})s + \frac{1}{R_t C_c R_b C_z}}{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c})s + \frac{1}{R_t C_c R_b C_z}}
+$$&lt;/p&gt;
+&lt;p&gt;The continous-time coefficients can be obtained
+$$
+b_2 = 1
+$$
+$$
+b_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c}
+$$
+$$
+b_0 = \frac{1}{R_t C_c R_b C_z}
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+a_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p&gt;
+&lt;p&gt;Some of these coefficients are equivalent (e.g., $a_0 = b_0$), therefore, they can be summarized in the following coefficients:
+$$
+ab_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+b_1 = a_1 + \frac{1}{R_b C_c}
+$$
+$$
+ab_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p&gt;
+&lt;p&gt;The next step is to obtain the discrete-time coefficients, these can be expressed in terms of the simplified list of continuous-time coefficients presented above:
+$$
+B_0 = ab_0 + b_1 c + c^2
+$$
+$$
+B_1 = 2ab_0 - 2c^2
+$$
+$$
+B_2 = ab_0 - b_1 c + c^2
+$$
+$$
+A_0 = ab_0 + a_1 c + c^2
+$$
+$$
+A_1 = 2ab_0 - 2c^2
+$$
+$$
+A_2 = ab_0 - a_1 c + c^2
+$$&lt;/p&gt;
+&lt;p&gt;In this case, the resulting magnitude response&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-op-amp-gain-stage&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Op-Amp Gain Stage
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;is quite similar to the magnitude response shown in the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-op-amp-gain-stage-shown-at-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1110,8 +1725,7 @@ play(s);
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;This audio sample has been obtained from 
-&lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This audio sample has been obtained from &lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1124,171 +1738,6 @@ play(s);
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/publication/encoding_matters/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 
-&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 
-&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
-&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ 
-&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 
-&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ 
-&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 
-&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
-&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
-&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

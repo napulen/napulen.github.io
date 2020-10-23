@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects at McGill | Néstor Nápoles López</title>
+    <link>/courses/mcgill/</link>
+      <atom:link href="/courses/mcgill/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects at McGill</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects at McGill</title>
+      <link>/courses/mcgill/</link>
+    </image>
+    
+    <item>
+      <title>MUMT 615</title>
+      <link>/courses/mcgill/mumt615/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/mcgill/mumt615/</guid>
+      <description>&lt;p&gt;During the course &lt;a href=&#34;https://perceptionofcompositionalstructures.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perception of Compositional Structures&lt;/a&gt;, I participated in the design and development of an experiment on melodic tension.&lt;/p&gt;
+&lt;p&gt;I participated developing the code of the experiment. &lt;a href=&#34;https://www.mcgill.ca/music/erica-huynh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Erica Huynh&lt;/a&gt; designed the experiment and wrote the paper, and &lt;a href=&#34;https://www.timothymledger.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timothy Ledger&lt;/a&gt; composed the musical examples.&lt;/p&gt;
+&lt;p&gt;The experiment was implemented using the &lt;a href=&#34;https://www.jspsych.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jsPsych&lt;/a&gt; library, and it can be found &lt;a href=&#34;https://melodictension-7fd48.firebaseapp.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The source code of the experiment is available in a &lt;a href=&#34;https://github.com/napulen/melodictension&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The paper with our results is available &lt;a href=&#34;https://perceptionofcompositionalstructures.github.io/Docs/Group2_TensionInMelody_FinalProject_HuynhLedgerNapoles.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MUMT 616</title>
+      <link>/courses/mcgill/mumt616/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/mcgill/mumt616/</guid>
+      <description>&lt;p&gt;During the class &lt;em&gt;Timbre as a Form-Bearing Dimension in Music&lt;/em&gt;, I talked about inharmonicity in the context of plucked strings.&lt;/p&gt;
+&lt;p&gt;The slides are available &lt;a href=&#34;mumt616/inharmonicity_presentation.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Four examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#no-inharmonicity&#34;&gt;No inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#low-inharmonicity&#34;&gt;Low inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mid-inharmonicity&#34;&gt;Mid inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#high-inharmonicity&#34;&gt;High inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extreme-inharmonicity&#34;&gt;Extreme inharmonicity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The musical examples were generated from &lt;a href=&#34;http://www.classclef.com/valse-by-manuel-maria-ponce-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manuel María Ponce&amp;rsquo;s Valse for Solo Guitar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The inharmonicity was computed for each partial using the following formula:&lt;/p&gt;
+&lt;p&gt;$$ f_n = nf_0 \sqrt{1 + Bn^2} $$&lt;/p&gt;
+&lt;p&gt;where $f_n$ is the frequency of a given partial, and the $B$ parameter controls the inharmonicity.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://supercollider.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SuperCollider programming language&lt;/a&gt; was used to generate the audio examples with varying inharmonicity.&lt;/p&gt;
+&lt;p&gt;The code is &lt;a href=&#34;#supercollider-code-for-generating-the-audio-samples&#34;&gt;listed here&lt;/a&gt; for reference.&lt;/p&gt;
+&lt;h2 id=&#34;no-inharmonicity&#34;&gt;No inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-no-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/noinh.png&#34; data-caption=&#34;No inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/noinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    No inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/noinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;low-inharmonicity&#34;&gt;Low inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-low-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/lowinh.png&#34; data-caption=&#34;Low inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/lowinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Low inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/lowinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mid-inharmonicity&#34;&gt;Mid inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-mid-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/midinh.png&#34; data-caption=&#34;Mid inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/midinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Mid inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/midinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;high-inharmonicity&#34;&gt;High inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-high-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/highinh.png&#34; data-caption=&#34;High inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/highinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    High inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/highinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;extreme-inharmonicity&#34;&gt;Extreme inharmonicity&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-extreme-inharmonicity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt616/crazyinh.png&#34; data-caption=&#34;Extreme inharmonicity&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt616/crazyinh.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Extreme inharmonicity
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;/media/mumt616/crazyinh.mp3&#34;&gt;Audio example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;supercollider-code-for-generating-the-audio-samples&#34;&gt;SuperCollider code for generating the audio samples&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;(
+SynthDef(\inh, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0,fB = 180|
+    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+	var son = DWGPluckedStiff.ar(freq, amp, gate,0.1,1,c3,inp,1,MouseX.kr(0,200));
+    DetectSilence.ar(son, 0.001, doneAction:2);
+    Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+
+(
+SynthDef(\har, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0|
+    var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+    var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+    var son = DWGPlucked.ar(freq, amp, gate,0.1,1,c3,inp,1);
+    DetectSilence.ar(son, 0.001, doneAction:2);
+    Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+
+
+(
+SynthDef(\noinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 16;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.5, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\sineSynth,
+	{
+		|out=0, freq=440, amp=0.4|
+		var sig;
+		sig = SinOsc.ar(freq, 0, amp);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+
+
+
+(
+SynthDef(\lowinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.005| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\midinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.015| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\highinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=0.0874| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+SynthDef(\crazyinh,
+	{
+		|out=0, freq=440, amp=0.4, fB=1| //partials = 4
+		// Number of partials cannot change dynamically in the SynthDef :(
+		var sig, env, partials = 20;
+		// Need an envelope, otherwise the sinewaves play forever
+		env = Env.linen(0.03, 0.4, 0.15, amp);
+		// Summing the sinewaves
+		sig = Mix.fill(partials,
+			{
+				arg i;
+				// Need a 1-based-index for the partials
+				var n = i+1, harmonic, partial, ampdecay;
+				harmonic = n*freq;
+				partial = harmonic * sqrt(1 + (fB* n**2));
+				ampdecay = 1/n;
+				SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+			}
+		);
+		Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+m.p(\noinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+
+(
+Routine.run {
+	var s, m, synth, release;
+	s = Server.default;
+	s.sync;
+    s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+
+	release = 0.3;
+	m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+	m.p(\lowinh).play;
+	3.wait;
+
+	// Wait for the Synth to release before stopping the recording.
+	release.wait;
+	s.stopRecording;
+    };
+)
+s.stopRecording;
+
+(
+    Routine.run {
+        var s, synth, release;
+        s = Server.default;
+
+        s.sync;
+
+        s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+
+        release = 0.3;
+        synth = Synth(\noinh, [freq: 30.midicps]);
+        2.wait;
+        synth.set(0);
+
+        // Wait for the Synth to release before stopping the recording.
+        release.wait;
+        s.stopRecording;
+    };
+)
+
+
+(
+x = Synth(\sineSynth);
+f = {
+	arg m;
+	x.set(&amp;quot;freq&amp;quot;, m.midicps);
+	m.postln;
+};
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+//x = Synth(\sineSynth);
+m.playNotesWithFunction(f)
+)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MUMT 618</title>
+      <link>/courses/mcgill/mumt618/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/mcgill/mumt618/</guid>
+      <description>&lt;p&gt;This is a report for my final project of the &lt;a href=&#34;https://www.music.mcgill.ca/~gary/618/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a&gt; class at McGill University.&lt;/p&gt;
+&lt;p&gt;I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &lt;em&gt;&amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;&lt;/em&gt;, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx&#39;07 Conference.&lt;/p&gt;
+&lt;p&gt;Although this paper describes two models:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Boss DS-1&lt;/strong&gt;, a distortion pedal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ibanez TS-9&lt;/strong&gt;, an overdrive pedal&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have only implemented the model of the &lt;strong&gt;Boss DS-1&lt;/strong&gt; distortion pedal. The implementation provided has been done in &lt;code&gt;MATLAB&lt;/code&gt; and does not opertate in real-time, however, a real-time implementation should not be difficult to derivate from the given code. I also provide a few audio examples of the audio effect. As of my knowledge, there are no existing audio examples or code for this model previous to this write-up, therefore, I consider it is a valuable contribution for anyone following the ideas of this paper for reproducing or improving the model.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A high-level overview can be seen in the following diagram from the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-overview-of-the-boss-ds-1-model-obtained-from-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/overview.png&#34; data-caption=&#34;Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/overview.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the &lt;code&gt;Gain + filter&lt;/code&gt; and the &lt;code&gt;Saturating nonlin&lt;/code&gt; stages, therefore, this implementation concentrates in these two stages only.&lt;/p&gt;
+&lt;p&gt;The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from &lt;a href=&#34;https://www.electrosmash.com/boss-ds1-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ElectroSmash&lt;/a&gt;. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-schematic-of-the-boss-ds-1-obtained-from-electrosmashcom&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/schematic.jpg&#34; data-caption=&#34;Schematic of the Boss DS-1, obtained from ElectroSmash.com&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/schematic.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Schematic of the Boss DS-1, obtained from ElectroSmash.com
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;code&gt;Gain + filter&lt;/code&gt; stage in the paper&amp;rsquo;s diagram corresponds to the &lt;code&gt;Transistor Booster&lt;/code&gt; stage of the schematic, its main component is a bipolar junction transistor. The &lt;code&gt;Saturating nonlin&lt;/code&gt; stage of the paper&amp;rsquo;s diagram corresponds roughly to the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt;. From now on, I will refer to the names of the schematic as I find them more intuitive.&lt;/p&gt;
+&lt;h2 id=&#34;transistor-booster-stage&#34;&gt;Transistor Booster Stage&lt;/h2&gt;
+&lt;p&gt;This stage corresponds to a single bipolar junction transistor, the continuous-time transfer function provided in the paper is the following:&lt;/p&gt;
+&lt;p&gt;$$
+H(s) = \frac{s^{2}}{(s + \omega_1) (s + \omega_2)}
+$$&lt;/p&gt;
+&lt;p&gt;where $ \omega_1 = 2\pi3 $ and $ \omega_2 = 2\pi600 $&lt;/p&gt;
+&lt;h2 id=&#34;op-amp-gain-stage&#34;&gt;Op-Amp Gain Stage&lt;/h2&gt;
+&lt;p&gt;This stage corresponds to the main nonlinearity of the circuit, according to the paper. One parameter is provided in this stage to control the amount of distortion that the audio effect will output. The continuous-time transfer function is defined as following:&lt;/p&gt;
+&lt;p&gt;$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p&gt;
+&lt;p&gt;where
+$$R_t = 100 000 D $$
+$$R_b = (1-D)100 000 + 4700$$
+$$C_z = 0.000 001$$
+$$C_c = 0.000 000 000 250$$
+and $D$ is the &lt;strong&gt;distortion&lt;/strong&gt; knob that controls the depth of the effect and ranges from $[0, 1]$.&lt;/p&gt;
+&lt;p&gt;As one may guess, these continuous-time transfer functions require discretization in order to be implemented in a digital system. In order to discretize them, Yeh et al. propose the use of the &lt;em&gt;bilinear transform&lt;/em&gt;. In the paper&amp;mdash;as well as in David Yeh&amp;rsquo;s PhD dissertation&amp;mdash;a list of (very useful) templates has been included, which helps in the process of discretizing the two continuous-time transfer functions used in this model. The relevant templates for this implementation are the templates corresponding to second-order filters.&lt;/p&gt;
+&lt;h2 id=&#34;bilinear-transform&#34;&gt;Bilinear Transform&lt;/h2&gt;
+&lt;p&gt;In order to discretize a continuous-time transfer function, first, we should put the continuous-time transfer function in the following form
+$$
+H(s) = \frac{b_2 s^2 + b_1 s + b_0}{a_2 s^2 + a_1 s + a_0}
+$$&lt;/p&gt;
+&lt;p&gt;Once we compute the corresponding coefficients, they can be placed in a discrete-time transfer function of the form&lt;/p&gt;
+&lt;p&gt;$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p&gt;
+&lt;p&gt;The discrete-time coefficients of this transfer function can be obtained from the following equations
+$$
+B_0 = b_0 + b_1 c = b_2 c^2
+$$
+$$
+B_1 = 2b_0 - 2b_2 c^2
+$$
+$$
+B_2 = b_0 - b_1 c = b_2 c^2
+$$
+$$
+A_0 = a_0 + a_1 c = a_2 c^2
+$$
+$$
+A_1 = 2a_0 - 2a_2 c^2
+$$
+$$
+A_2 = a_0 - a_1 c = a_2 c^2
+$$&lt;/p&gt;
+&lt;p&gt;After plugging the coefficients into the discrete-time transfer function, we should be able to implement the resulting transfer function as a digital filter.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-of-the-transistor-booster-stage&#34;&gt;Implementation of the Transistor Booster Stage&lt;/h2&gt;
+&lt;p&gt;Using the steps described above, I now describe the implementation of the &lt;code&gt;Transistor Booster Stage&lt;/code&gt; part of the model.&lt;/p&gt;
+&lt;p&gt;The first step would be to put the given continuous-time transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2}{s^2 + (\omega_1 + \omega_2)s + \omega_1 \omega_2}
+$$
+From here, the continuous-time coefficients can be easily extracted
+$$
+b_2 = 1
+$$
+$$
+b_1 = 0
+$$
+$$
+b_0 = 0
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \omega_1 + \omega_2 = 2\pi 3 + 2\pi 600 = 1206\pi
+$$
+$$
+a_0 = \omega_1 \omega_2 = (2\pi 3)(2 \pi 600) = 7200\pi^2
+$$&lt;/p&gt;
+&lt;p&gt;Working the templates for the discrete-time coefficients results in the following
+$$
+B_0 = 4fs^2
+$$
+$$
+B_1 = -8fs^2
+$$
+$$
+B_2 = 4fs^2
+$$
+$$
+A_0 = 7200\pi^2 + 2412\pi fs + 4fs^2
+$$
+$$
+A_1 = 14400\pi^2 - 8fs^2
+$$
+$$
+A_2 = 7200\pi^2 - 2412\pi fs + 4fs^2
+$$&lt;/p&gt;
+&lt;p&gt;Showing once again the template of the second-order discrete-time transfer function
+$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p&gt;
+&lt;p&gt;Plugging the values of the coefficients recently found, gives the following equation
+$$
+{\scriptsize H(z) = \frac{4fs^2 - 8fs^2 z^{-1} + 4fs^2 z^{-2}}{(7200\pi^2 + 2412\pi fs + 4fs^2) +(14400\pi^2 - 8fs^2) z^{-1} + (7200\pi^2 - 2412\pi fs + 4fs^2) z^{-2}}}
+$$&lt;/p&gt;
+&lt;p&gt;After dividing by $4$, factorizing $fs$, and doing some algebra to simplify the equation, this can be expressed as:
+$$
+{\small H(z) = \frac{1 -2 z^{-1} + z^{-2}}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p&gt;
+&lt;p&gt;with $\Omega = \frac{\pi}{fs}$&lt;/p&gt;
+&lt;p&gt;The implementation of this discrete-time transfer function results in a filter with the following magnitude response:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-uncorrected&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/original_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (uncorrected)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/original_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Transistor Booster Stage (uncorrected)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-transistor-booster-stage-shown-at-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Luckily, in the corresponding section of this stage, the paper mentions that the expected gain in the bandpass is, in fact, $36dB$. Using this information, an additional gain, $g$, is included in the discrete-time transfer function:&lt;/p&gt;
+&lt;p&gt;$$
+{\small H(z) = \frac{g(1 -2 z^{-1} + z^{-2})}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p&gt;
+&lt;p&gt;where the equation, $36dB = \log_{10}(g) * 20$, can be used to obtain the value of $g$&lt;/p&gt;
+&lt;p&gt;$$
+g = 10^{\frac{36}{20}} = 63.0957
+$$&lt;/p&gt;
+&lt;p&gt;The resulting magnitude response resembles much more the magnitude response shown in the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-transistor-booster-stage-corrected&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/corrected_plot_bjt.png&#34; data-caption=&#34;Magnitude response of the implemented Transistor Booster Stage (corrected)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/corrected_plot_bjt.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Transistor Booster Stage (corrected)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This filter&amp;mdash;including its correction&amp;mdash;can be implemented with the following &lt;code&gt;MATLAB&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Transistor Booster Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+
+function y = bjtfilt(x, fs)
+
+% After working the math, I put all the discrete-time
+% coefficients in terms of this variable coeff
+coeff = pi/fs;
+
+B0 = 1;
+B1 = -2;
+B2 = 1;
+
+A0 = 1800.*coeff.^2 + 603.*coeff + 1;
+A1 = 3600.*coeff.^2 - 2;
+A2 = 1800.*coeff.^2 - 603.*coeff + 1;
+
+% We obtain the gain from
+% 36dB = log10(x) * 20
+amp = 10.^(36/20);
+B = amp .* [B0, B1, B2];
+A = [A0, A1, A2];
+
+y = filter(B, A, x);
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;implementation-of-the-op-amp-gain-stage&#34;&gt;Implementation of the Op-Amp Gain Stage&lt;/h2&gt;
+&lt;p&gt;Just as done during the &lt;code&gt;Transistor Booster Stage&lt;/code&gt;, the implementation of the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt; starts from a given continuous-time transfer function
+$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p&gt;
+&lt;p&gt;Putting this transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c})s + \frac{1}{R_t C_c R_b C_z}}{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c})s + \frac{1}{R_t C_c R_b C_z}}
+$$&lt;/p&gt;
+&lt;p&gt;The continous-time coefficients can be obtained
+$$
+b_2 = 1
+$$
+$$
+b_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c}
+$$
+$$
+b_0 = \frac{1}{R_t C_c R_b C_z}
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+a_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p&gt;
+&lt;p&gt;Some of these coefficients are equivalent (e.g., $a_0 = b_0$), therefore, they can be summarized in the following coefficients:
+$$
+ab_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+b_1 = a_1 + \frac{1}{R_b C_c}
+$$
+$$
+ab_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p&gt;
+&lt;p&gt;The next step is to obtain the discrete-time coefficients, these can be expressed in terms of the simplified list of continuous-time coefficients presented above:
+$$
+B_0 = ab_0 + b_1 c + c^2
+$$
+$$
+B_1 = 2ab_0 - 2c^2
+$$
+$$
+B_2 = ab_0 - b_1 c + c^2
+$$
+$$
+A_0 = ab_0 + a_1 c + c^2
+$$
+$$
+A_1 = 2ab_0 - 2c^2
+$$
+$$
+A_2 = ab_0 - a_1 c + c^2
+$$&lt;/p&gt;
+&lt;p&gt;In this case, the resulting magnitude response&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-implemented-op-amp-gain-stage&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_original.png&#34; data-caption=&#34;Magnitude response of the implemented Op-Amp Gain Stage&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/opamp_original.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the implemented Op-Amp Gain Stage
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;is quite similar to the magnitude response shown in the paper&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-magnitude-response-of-the-op-amp-gain-stage-shown-at-yeh-et-al-2007&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/mumt618/opamp_paper.png&#34; data-caption=&#34;Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)&#34;&gt;
+
+
+  &lt;img src=&#34;/media/mumt618/opamp_paper.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The different colors of the first plot represent the magnitude response with values of $D$ going from $0.1$ to $1.0$. This is the  &lt;code&gt;MATLAB&lt;/code&gt; function that implements this filter:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Op-Amp Gain Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+
+function y = opampfilt(x, fs, DIST)
+
+% Resistors and capacitors from the model
+Rt = 100000 * DIST;
+Rb = 100000*(1-DIST) + 4700;
+Cz = 0.000001;
+Cc = 0.000000000250;
+
+% Constant for the bilinear transform
+c = 2*fs;
+
+% Continuous-time coefficients (reduced)
+ab0 = 1 / (Rt*Cc*Rb*Cz);
+a1 = 1/(Rb*Cz) + 1/(Rt*Cc);
+b1 = a1 + 1/(Rb*Cc);
+
+% Discrete-time coefficients
+B0 = ab0 + b1*c + c.^2;
+B1 = 2*ab0 - 2*c.^2;
+B2 = ab0 - b1*c + c.^2;
+
+A0 = ab0 + a1*c + c.^2;
+A1 = B1;
+A2 = ab0 - a1*c + c.^2;
+
+B = [B0, B1, B2];
+A = [A0, A1, A2];
+
+y = filter(B, A, x);
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;diode-clipper&#34;&gt;Diode-Clipper&lt;/h3&gt;
+&lt;p&gt;At the end of the &lt;code&gt;Op-Amp Gain Stage&lt;/code&gt;, there is an additional step that simulates the diode that clips the samples exceeding a gain threshold, in the case of the digital implementation, that threshold consists of $abs(x[n]) \geq 1.0$. The diode-clipper has been implemented using one of the proposed methods in the paper:&lt;/p&gt;
+&lt;p&gt;$$
+\text{clipper}(x) = \frac{x}{(1 + |x|^n)^{1/n}}
+$$&lt;/p&gt;
+&lt;p&gt;with $n = 2.5$&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;MATLAB&lt;/code&gt; code for the clipping function is the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% Diode clipper
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+
+function x = diodeclip(x)
+
+n = 2.5;
+
+for i=1:length(x)
+    x(i) = x(i) / (1 + abs(x(i)).^n).^(1/n);
+end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a final step, I provide a script that cascades the two stages of the models to process an input audio example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;% DS-1, main script
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+
+% Sample audio
+[x, fs] = audioread(&#39;guitar_clean.wav&#39;);
+
+% Bipolar Junction Transistor Stage
+y = bjtfilt(x, fs);
+
+% Op-amp Gain Stage
+D = 1; % D lies between [0, 1]
+y = opampfilt(y, fs, D);
+
+% Diode clipper
+y = diodeclip(y);
+
+s = audioplayer(y, fs);
+play(s);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here is an example of the model applied to an audio sample of a clean electric guitar&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/guitar_clean.wav&#34;&gt;Original audio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/bjt.wav&#34;&gt;Transistor Booster Stage only&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/opamp.wav&#34;&gt;Op-Amp Gain Stage only&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/mumt618/bjt_opamp.wav&#34;&gt;Transistor Booster Stage and Op-Amp Gain Stage&lt;/a&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This audio sample has been obtained from &lt;a href=&#34;https://freesound.org/people/LG/sounds/16054/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeSound&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

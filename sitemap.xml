@@ -3,67 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/</loc>
+    <loc>/courses/mcgill/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>/courses/mcgill/mumt615/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>/courses/mcgill/mumt616/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>/courses/mcgill/mumt618/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/harmalysis/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <loc>/publication/harmonic_reductions/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/ichiro-fujinaga/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/laurent-feisthauer/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/nestor-napoles-lopez/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/modulation_tonicization/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/harmalysis/</loc>
     <lastmod>2020-05-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -90,16 +100,6 @@
   <url>
     <loc>/publication/keydetection19/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -134,22 +134,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -168,48 +153,15 @@
   </url>
   
   <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
   </url>
   
 </urlset>
