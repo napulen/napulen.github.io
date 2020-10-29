@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATLAB | Néstor Nápoles López</title>
+    <link>/tag/matlab/</link>
+      <atom:link href="/tag/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <description>MATLAB</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
+      <title>MATLAB</title>
+      <link>/tag/matlab/</link>
+    </image>
+    
+    <item>
+      <title>Barberpole Phasing and Flanging Illusions</title>
+      <link>/project/external-mumt501/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-mumt501/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boss DS-1</title>
+      <link>/project/external-mumt618/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-mumt618/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

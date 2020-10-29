@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Symbolic Music Processing | Néstor Nápoles López</title>
+    <link>/tag/symbolic-music-processing/</link>
+      <atom:link href="/tag/symbolic-music-processing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Symbolic Music Processing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
+      <title>Symbolic Music Processing</title>
+      <link>/tag/symbolic-music-processing/</link>
+    </image>
+    
+    <item>
+      <title>HMM for Key Detection</title>
+      <link>/project/external-mumt621/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-mumt621/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
