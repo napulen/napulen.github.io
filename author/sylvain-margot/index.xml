@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laurent Feisthauer | Néstor Nápoles López</title>
-    <link>/author/laurent-feisthauer/</link>
-      <atom:link href="/author/laurent-feisthauer/index.xml" rel="self" type="application/rss+xml" />
-    <description>Laurent Feisthauer</description>
+    <title>Sylvain Margot | Néstor Nápoles López</title>
+    <link>/author/sylvain-margot/</link>
+      <atom:link href="/author/sylvain-margot/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sylvain Margot</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Néstor Nápoles López</copyright><lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url>
-      <title>Laurent Feisthauer</title>
-      <link>/author/laurent-feisthauer/</link>
+      <title>Sylvain Margot</title>
+      <link>/author/sylvain-margot/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/mendelssohn/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/publication/mendelssohn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Local Keys, Modulations, and Tonicizations</title>
-      <link>/publication/modulation_tonicization/</link>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/modulation_tonicization/</guid>
       <description></description>
     </item>
     
