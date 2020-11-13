@@ -95,5 +95,130 @@
       <description>&lt;iframe width=&#34;480&#34; height=&#34;360&#34; src=&#34;https://medias.ircam.fr/embed/media/x86476e&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
+    <item>
+      <title>Linux with Tensorflow in MSI GL65 (with RTX2070)</title>
+      <link>/post/msigl65/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/post/msigl65/</guid>
+      <description>&lt;p&gt;I have been a linux user for a few years now.&lt;/p&gt;
+&lt;p&gt;I have also been interested in playing games in my computer (although being a gamer nowadays feels like a full-time job, so I don&amp;rsquo;t consider myself a hardcore gamer).&lt;/p&gt;
+&lt;p&gt;I often run a dual boot system, doing most of my daily chores on Linux, and playing during the weekends on my MS Windows partition.&lt;/p&gt;
+&lt;p&gt;To my surprise, installing a linux partition in this particular laptop was straightforward. No special settings on the bootloader, no special proprietary drivers for my WiFi. It just worked out of the box after I booted and installed a live usb flash drive.&lt;/p&gt;
+&lt;p&gt;Of course, the proprietary graphics driver, CUDA, and cuDNN have to be installed independently after the fresh OS install if you are interested in using the graphics card to train some deep learning models.&lt;/p&gt;
+&lt;p&gt;Those components are what I will be covering in this post.&lt;/p&gt;
+&lt;p&gt;I will also be assuming that you are running an Ubuntu 20.04 distro.&lt;/p&gt;
+&lt;p&gt;The steps should be fairly similar for other Debian-based distros.&lt;/p&gt;
+&lt;h2 id=&#34;installing-proprietary-nvidia-drivers&#34;&gt;Installing proprietary NVIDIA drivers&lt;/h2&gt;
+&lt;p&gt;You have a few options for installing the graphic drivers. If you don&amp;rsquo;t feel like modding your default OS too much, I recommend you to simply install them from the &lt;code&gt;Additional Drivers&lt;/code&gt; tab in your &lt;code&gt;Software &amp;amp; Updates&lt;/code&gt; menu in Ubuntu.&lt;/p&gt;
+&lt;p&gt;Launch the &lt;code&gt;Activities&lt;/code&gt; menu and type &lt;code&gt;Additional Drivers&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You should see the option for your NVIDIA RTX2070 there.&lt;/p&gt;
+&lt;p&gt;Install the latest version available and tested.&lt;/p&gt;
+&lt;p&gt;In my case, and at the time of this writing, that is &lt;code&gt;nvidia-driver-450&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;installing-cuda&#34;&gt;Installing CUDA&lt;/h2&gt;
+&lt;p&gt;Tensorflow works with CUDA v10.1.&lt;/p&gt;
+&lt;p&gt;The CUDA toolkit for v10.1 can be found in the package manager.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install nvidia-cuda-toolkit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Check the version&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Sun_Jul_28_19:07:16_PDT_2019
+Cuda compilation tools, release 10.1, V10.1.243
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are in &lt;code&gt;v10.1&lt;/code&gt;, you are good to go.&lt;/p&gt;
+&lt;h2 id=&#34;installing-cudnn&#34;&gt;Installing cuDNN&lt;/h2&gt;
+&lt;p&gt;Tensorflow requires cuDNN v7.6.&lt;/p&gt;
+&lt;p&gt;You can obtain the library either as a &lt;code&gt;.deb&lt;/code&gt; package or by downloading the zipped &lt;code&gt;.so&lt;/code&gt; libraries.&lt;/p&gt;
+&lt;p&gt;At the time of this writing, the &lt;code&gt;.deb&lt;/code&gt; package is only available for Ubuntu &amp;lt;=18.04 and the folder structure differs from the folder structure of my cuda library installed from the package manager.&lt;/p&gt;
+&lt;p&gt;I suggest downloading the &lt;code&gt;.so&lt;/code&gt; libraries.&lt;/p&gt;
+&lt;p&gt;You can either download the zipped files of &lt;a href=&#34;https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.5.32/Production/10.1_20191031/cudnn-10.1-linux-x64-v7.6.5.32.tgz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v7.6.5&lt;/a&gt;, or browse the &lt;a href=&#34;https://developer.nvidia.com/rdp/cudnn-archive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;archive&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note that you need to make an account to download these zipped files from NVIDIA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Uncompress the file somewhere in your file system&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ tar xvf cudnn-10.1-linux-x64-v7.6.5.32.tgz 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That should generate a folder named &lt;code&gt;cuda&lt;/code&gt; wherever you uncompressed it.&lt;/p&gt;
+&lt;p&gt;For your convenience, make a variable &lt;code&gt;CUDNNDIR&lt;/code&gt; that points to wherever place you uncompressed the file in.&lt;/p&gt;
+&lt;p&gt;In my case, I uncompressed inside my &lt;code&gt;Download&lt;/code&gt; folder, so this is how it looks&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ CUDNNDIR=~/Downloads/cuda
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the structure of my uncompressed file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ tree $CUDNNDIR
+
+.
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so -&amp;gt; libcudnn.so.7
+│   ├── libcudnn.so.7 -&amp;gt; libcudnn.so.7.6.5
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+└── NVIDIA_SLA_cuDNN_Support.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In my Ubuntu 20.04 and using the &lt;code&gt;nvidia-cuda-toolkit&lt;/code&gt; package from aptitude, the library is installed here:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;CUDADIR=/lib/cuda
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also suggest making a variable that points to that place. Replace &lt;code&gt;/lib/cuda&lt;/code&gt; with your location if that&amp;rsquo;s not where the library was installed.&lt;/p&gt;
+&lt;p&gt;The structure of my &lt;code&gt;CUDADIR&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ tree $CUDADIR
+
+/lib/cuda
+├── bin
+├── include
+├── lib64
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;CUDADIR&lt;/code&gt; is where we need to install the &lt;code&gt;cuDNN&lt;/code&gt; library.&lt;/p&gt;
+&lt;p&gt;Installing, in this context, is basically copying the headers and shared library. Then, making these files available to external libraries like tensorflow.&lt;/p&gt;
+&lt;p&gt;Copy the headers&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp ${CUDNNDIR}/include/*.h ${CUDADIR}/include/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copy the shared libraries&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp ${CUDNNDIR}/lib64/libcudnn* ${CUDADIR}/lib64
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The file structure of the CUDA library should look something like this now&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;/lib/cuda
+├── bin
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so
+│   ├── libcudnn.so.7
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change permissions to the recently copied files&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo chmod a+r ${CUDADIR}/include/cudnn*.h ${CUDADIR}/lib64/libcudnn*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That installed cuDNN in your system.&lt;/p&gt;
+&lt;p&gt;At least in my case, these files are still not reachable by tensorflow. You can achieve that by exporting the path to your &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; variable.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export LD_LIBRARY_PATH=${CUDADIR}/lib64:$LD_LIBRARY_PATH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now check whether tensorflow 2 is able to see your gpu&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;$ python3
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import tensorflow as tf
+&amp;gt;&amp;gt;&amp;gt; tf.config.list_physical_devices(&#39;GPU&#39;) 
+[PhysicalDevice(name=&#39;/physical_device:GPU:0&#39;, device_type=&#39;GPU&#39;)]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you get a non-empty list as the result of &lt;code&gt;list_physical_devices(&#39;GPU&#39;)&lt;/code&gt;, that should be a good indicator.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;export&lt;/code&gt; instruction is not persistent and the changes will be lost after you close your terminal.&lt;/p&gt;
+&lt;p&gt;Make it permanent by adding it to your &lt;code&gt;~/.bashrc&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;Putting new statements at the end of the file is usually the best practice.&lt;/p&gt;
+&lt;p&gt;When you do that, spell the &lt;code&gt;$CUDADIR&lt;/code&gt; folder as an absolute path, do not use the &lt;code&gt;$CUDADIR&lt;/code&gt; variable.&lt;/p&gt;
+&lt;p&gt;You should be all set. Try training something and check the console to corroborate it is doing it through your RTX2070.&lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
