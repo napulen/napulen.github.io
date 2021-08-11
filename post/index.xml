@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Néstor Nápoles López</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Néstor Nápoles López</copyright><image><url>/media/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url><title>Posts</title><link>/post/</link></image><item><title>Voice leading in repeating harmonies</title><link>/post/repeatedharmonies/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>/post/repeatedharmonies/</guid><description>&lt;p>It is common to find progressions where the same roman numeral repeats itself:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://user-images.githubusercontent.com/7258463/99705663-05f77180-2a68-11eb-9008-f84494a1e3ed.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>I think in these cases, a common procedure for &lt;em>good&lt;/em> voice leading is to prefer a change of the voicing (e.g., change of position in the three upper voices), penalizing the algorithm for proposing the exact same voicing twice.&lt;/p>
+&lt;p>I wanted to make sure that the policy coincides with the practice in existing music.&lt;/p>
+&lt;p>I looked for repeated harmonies like these in 69 annotated Bach Chorales and found &lt;strong>192 instances&lt;/strong>.&lt;/p>
+&lt;p>The analyzed Bach chorales are located in the &lt;a href="http://kern.ccarh.org/" target="_blank" rel="noopener">KernScores&lt;/a> website.&lt;/p>
+&lt;p>They can be visualized interactively in the &lt;a href="https://verovio.humdrum.org/" target="_blank" rel="noopener">Verovio Humdrum Viewer&lt;/a>.&lt;/p>
+&lt;p>They can also be scraped with a single query to the Kern Scores server: &lt;a href="https://kern.humdrum.org/data?l=BachChoralesAnalyzed">https://kern.humdrum.org/data?l=BachChoralesAnalyzed&lt;/a>&lt;/p>
+&lt;p>I used the last approach to collect the data for this experiment. The code can found in this &lt;a href="https://github.com/napulen/jupyter_notebooks/blob/master/repeatedharmonies/repeatedharmonies.ipynb" target="_blank" rel="noopener">Jupyter Notebook&lt;/a>.&lt;/p>
+&lt;p>Out of the 192 instances found:&lt;/p>
+&lt;ul>
+&lt;li>In 78% of them, the voicing &lt;strong>changes&lt;/strong>&lt;/li>
+&lt;li>In 22% of them, the voicing &lt;strong>remains the same&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Here are a few of the instances I found. Red means different voicing and green means same voicing.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://user-images.githubusercontent.com/7258463/99707873-0d6c4a00-2a6b-11eb-9dc5-e42eaaabe324.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>For completeness, here is the full table. Offsets are given in quarter notes from the beginning of the score (starting from &lt;code>0.0&lt;/code>). In all instances, &lt;code>chord1&lt;/code> and &lt;code>chord2&lt;/code> are contiguous and annotated by a human expert:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>file&lt;/th>
+&lt;th>chord1_offset&lt;/th>
+&lt;th>chord1_notes&lt;/th>
+&lt;th>chord2_offset&lt;/th>
+&lt;th>chord2_notes&lt;/th>
+&lt;th>same_voicing?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>chor315.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor001.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor024.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;F#5&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor050.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor323.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor176.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor200.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>29.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>48.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>50.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor311.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor019.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>35.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor136.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor303.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor248.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor028.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor101.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor255.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>2.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>59.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>60.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor110.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor153.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;A2&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor336.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor224.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor164.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor191.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor040.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor361.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor213.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor282.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;G5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor345.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor067.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor366.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>43.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>44.0&lt;/td>
+&lt;td>[&amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor268.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>29.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>57.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>58.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor354.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor276.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor339.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor299.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>11.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>41.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor048.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>2.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>38.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor306.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>55.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>56.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor281.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor273.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor305.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor158.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>57.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>58.0&lt;/td>
+&lt;td>[&amp;lsquo;C3&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor054.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor098.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A#3&amp;rsquo;, &amp;lsquo;F#2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor368.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>45.0&lt;/td>
+&lt;td>[&amp;lsquo;G5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>46.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>49.0&lt;/td>
+&lt;td>[&amp;lsquo;F3&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>50.0&lt;/td>
+&lt;td>[&amp;lsquo;B-2&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>51.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>52.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor009.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor069.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>61.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>62.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor258.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;B2&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor157.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor223.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor177.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor187.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>31.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor328.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor002.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor290.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor088.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor030.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor201.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>55.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>56.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor032.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor272.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor183.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor090.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor046.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor217.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor117.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;A-3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A-3&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor165.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor057.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor068.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor230.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor124.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor146.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor350.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>38.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>46.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>47.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This would suggest that, in the context of an &lt;strong>automatic voice leading algorithm&lt;/strong>,
+if two identical harmonies appear contiguously, they should be voiced differently.
+For example, by changing the position in the three upper voices and/or changing the octave of the bass.&lt;/p></description></item><item><title>Linux with Tensorflow in MSI GL65 (with RTX2070)</title><link>/post/msigl65/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/post/msigl65/</guid><description>&lt;p>I have been a linux user for a few years now.&lt;/p>
+&lt;p>I have also been interested in playing games in my computer (although being a gamer nowadays feels like a full-time job, so I don&amp;rsquo;t consider myself a hardcore gamer).&lt;/p>
+&lt;p>I often run a dual boot system, doing most of my daily chores on Linux, and playing during the weekends on my MS Windows partition.&lt;/p>
+&lt;p>To my surprise, installing a linux partition in this particular laptop was straightforward. No special settings on the bootloader, no special proprietary drivers for my WiFi. It just worked out of the box after I booted and installed a live usb flash drive.&lt;/p>
+&lt;p>Of course, the proprietary graphics driver, CUDA, and cuDNN have to be installed independently after the fresh OS install if you are interested in using the graphics card to train some deep learning models.&lt;/p>
+&lt;p>Those components are what I will be covering in this post.&lt;/p>
+&lt;p>I will also be assuming that you are running an Ubuntu 20.04 distro.&lt;/p>
+&lt;p>The steps should be fairly similar for other Debian-based distros.&lt;/p>
+&lt;h2 id="installing-proprietary-nvidia-drivers">Installing proprietary NVIDIA drivers&lt;/h2>
+&lt;p>You have a few options for installing the graphic drivers. If you don&amp;rsquo;t feel like modding your default OS too much, I recommend you to simply install them from the &lt;code>Additional Drivers&lt;/code> tab in your &lt;code>Software &amp;amp; Updates&lt;/code> menu in Ubuntu.&lt;/p>
+&lt;p>Launch the &lt;code>Activities&lt;/code> menu and type &lt;code>Additional Drivers&lt;/code>&lt;/p>
+&lt;p>You should see the option for your NVIDIA RTX2070 there.&lt;/p>
+&lt;p>Install the latest version available and tested.&lt;/p>
+&lt;p>In my case, and at the time of this writing, that is &lt;code>nvidia-driver-450&lt;/code>.&lt;/p>
+&lt;h2 id="installing-cuda">Installing CUDA&lt;/h2>
+&lt;p>Tensorflow works with CUDA v10.1.&lt;/p>
+&lt;p>The CUDA toolkit for v10.1 can be found in the package manager.&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo apt-get install nvidia-cuda-toolkit
+&lt;/code>&lt;/pre>
+&lt;p>Check the version&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Sun_Jul_28_19:07:16_PDT_2019
+Cuda compilation tools, release 10.1, V10.1.243
+&lt;/code>&lt;/pre>
+&lt;p>If you are in &lt;code>v10.1&lt;/code>, you are good to go.&lt;/p>
+&lt;h2 id="installing-cudnn">Installing cuDNN&lt;/h2>
+&lt;p>Tensorflow requires cuDNN v7.6.&lt;/p>
+&lt;p>You can obtain the library either as a &lt;code>.deb&lt;/code> package or by downloading the zipped &lt;code>.so&lt;/code> libraries.&lt;/p>
+&lt;p>At the time of this writing, the &lt;code>.deb&lt;/code> package is only available for Ubuntu &amp;lt;=18.04 and the folder structure differs from the folder structure of my cuda library installed from the package manager.&lt;/p>
+&lt;p>I suggest downloading the &lt;code>.so&lt;/code> libraries.&lt;/p>
+&lt;p>You can either download the zipped files of &lt;a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.5.32/Production/10.1_20191031/cudnn-10.1-linux-x64-v7.6.5.32.tgz" target="_blank" rel="noopener">v7.6.5&lt;/a>, or browse the &lt;a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank" rel="noopener">archive&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Note that you need to make an account to download these zipped files from NVIDIA&lt;/p>
+&lt;/blockquote>
+&lt;p>Uncompress the file somewhere in your file system&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tar xvf cudnn-10.1-linux-x64-v7.6.5.32.tgz
+&lt;/code>&lt;/pre>
+&lt;p>That should generate a folder named &lt;code>cuda&lt;/code> wherever you uncompressed it.&lt;/p>
+&lt;p>For your convenience, make a variable &lt;code>CUDNNDIR&lt;/code> that points to wherever place you uncompressed the file in.&lt;/p>
+&lt;p>In my case, I uncompressed inside my &lt;code>Download&lt;/code> folder, so this is how it looks&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ CUDNNDIR=~/Downloads/cuda
+&lt;/code>&lt;/pre>
+&lt;p>This is the structure of my uncompressed file&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tree $CUDNNDIR
+.
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so -&amp;gt; libcudnn.so.7
+│   ├── libcudnn.so.7 -&amp;gt; libcudnn.so.7.6.5
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+└── NVIDIA_SLA_cuDNN_Support.txt
+&lt;/code>&lt;/pre>
+&lt;p>In my Ubuntu 20.04 and using the &lt;code>nvidia-cuda-toolkit&lt;/code> package from aptitude, the library is installed here:&lt;/p>
+&lt;pre>&lt;code class="language-bash">CUDADIR=/lib/cuda
+&lt;/code>&lt;/pre>
+&lt;p>I also suggest making a variable that points to that place. Replace &lt;code>/lib/cuda&lt;/code> with your location if that&amp;rsquo;s not where the library was installed.&lt;/p>
+&lt;p>The structure of my &lt;code>CUDADIR&lt;/code>:&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tree $CUDADIR
+/lib/cuda
+├── bin
+├── include
+├── lib64
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code>&lt;/pre>
+&lt;p>The &lt;code>CUDADIR&lt;/code> is where we need to install the &lt;code>cuDNN&lt;/code> library.&lt;/p>
+&lt;p>Installing, in this context, is basically copying the headers and shared library. Then, making these files available to external libraries like tensorflow.&lt;/p>
+&lt;p>Copy the headers&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo cp ${CUDNNDIR}/include/*.h ${CUDADIR}/include/
+&lt;/code>&lt;/pre>
+&lt;p>Copy the shared libraries&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo cp ${CUDNNDIR}/lib64/libcudnn* ${CUDADIR}/lib64
+&lt;/code>&lt;/pre>
+&lt;p>The file structure of the CUDA library should look something like this now&lt;/p>
+&lt;pre>&lt;code class="language-bash">/lib/cuda
+├── bin
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so
+│   ├── libcudnn.so.7
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code>&lt;/pre>
+&lt;p>Change permissions to the recently copied files&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo chmod a+r ${CUDADIR}/include/cudnn*.h ${CUDADIR}/lib64/libcudnn*
+&lt;/code>&lt;/pre>
+&lt;p>That installed cuDNN in your system.&lt;/p>
+&lt;p>At least in my case, these files are still not reachable by tensorflow. You can achieve that by exporting the path to your &lt;code>LD_LIBRARY_PATH&lt;/code> variable.&lt;/p>
+&lt;pre>&lt;code class="language-bash">export LD_LIBRARY_PATH=${CUDADIR}/lib64:$LD_LIBRARY_PATH
+&lt;/code>&lt;/pre>
+&lt;p>Now check whether tensorflow 2 is able to see your gpu&lt;/p>
+&lt;pre>&lt;code class="language-python">$ python3
+Python 3.8.5 (default, Jul 28 2020, 12:59:40)
+[GCC 9.3.0] on linux
+Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import tensorflow as tf
+&amp;gt;&amp;gt;&amp;gt; tf.config.list_physical_devices('GPU')
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+&lt;/code>&lt;/pre>
+&lt;p>If you get a non-empty list as the result of &lt;code>list_physical_devices('GPU')&lt;/code>, that should be a good indicator.&lt;/p>
+&lt;p>The &lt;code>export&lt;/code> instruction is not persistent and the changes will be lost after you close your terminal.&lt;/p>
+&lt;p>Make it permanent by adding it to your &lt;code>~/.bashrc&lt;/code> file.&lt;/p>
+&lt;p>Putting new statements at the end of the file is usually the best practice.&lt;/p>
+&lt;p>When you do that, spell the &lt;code>$CUDADIR&lt;/code> folder as an absolute path, do not use the &lt;code>$CUDADIR&lt;/code> variable.&lt;/p>
+&lt;p>You should be all set. Try training something and check the console to corroborate it is doing it through your RTX2070.&lt;/p>
+&lt;p>Cheers.&lt;/p></description></item></channel></rss>

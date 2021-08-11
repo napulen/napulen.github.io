@@ -1,0 +1,3932 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Néstor Nápoles López</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Néstor Nápoles López</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Néstor Nápoles López</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>/media/icon_hu03a8b75004573f102e451e8733e2a105_6045_512x512_fill_lanczos_center_2.png</url><title>Néstor Nápoles López</title><link>/</link></image><item><title>AugmentedNet</title><link>/project/augmentednet/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/augmentednet/</guid><description/></item><item><title>harmalysis</title><link>/project/harmalysis/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/harmalysis/</guid><description/></item><item><title>Python basics</title><link>/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/rfscVS0vtbw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>What is the difference between lists and tuples?&lt;/summary>
+&lt;p>&lt;p>Lists&lt;/p>
+&lt;ul>
+&lt;li>Lists are mutable - they can be changed&lt;/li>
+&lt;li>Slower than tuples&lt;/li>
+&lt;li>Syntax: &lt;code>a_list = [1, 2.0, 'Hello world']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Tuples&lt;/p>
+&lt;ul>
+&lt;li>Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li>
+&lt;li>Tuples are faster than lists&lt;/li>
+&lt;li>Syntax: &lt;code>a_tuple = (1, 2.0, 'Hello world')&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-3">
+&lt;summary>Is Python case-sensitive?&lt;/summary>
+&lt;p>Yes&lt;/p>
+&lt;/details></description></item><item><title>Visualization</title><link>/courses/example/visualization/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/courses/example/visualization/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/hSPmj7mK6ng" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>When is a heatmap useful?&lt;/summary>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-3">
+&lt;summary>Write Plotly code to render a bar chart&lt;/summary>
+&lt;p>&lt;pre>&lt;code class="language-python">import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == 'Canada'&amp;quot;)
+fig = px.bar(data_canada, x='year', y='pop')
+fig.show()
+&lt;/code>&lt;/pre>
+&lt;/p>
+&lt;/details></description></item><item><title>Statistics</title><link>/courses/example/stats/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/courses/example/stats/</guid><description>&lt;p>Introduction to statistics for data science.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;p>The general form of the &lt;strong>normal&lt;/strong> probability density function is:&lt;/p>
+&lt;p>$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>What is the parameter $\mu$?&lt;/summary>
+&lt;p>The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p>
+&lt;/details></description></item><item><title>justkeydding</title><link>/project/justkeydding/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/justkeydding/</guid><description/></item><item><title>romanyh</title><link>/project/romanyh/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/romanyh/</guid><description/></item><item><title>Beethoven Piano Sonatas</title><link>/project/beethovenscores/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/beethovenscores/</guid><description/></item><item><title>Haydn "Sun" String Quartets</title><link>/project/haydnsun/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/haydnsun/</guid><description/></item><item><title>MiniBach</title><link>/project/minibach/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>/project/minibach/</guid><description/></item><item><title>Example Talk</title><link>/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>AugmentedNet: A Roman Numeral Analysis Network with Synthetic Training Examples and Additional Tonal Tasks</title><link>/publication/augmentednet/</link><pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate><guid>/publication/augmentednet/</guid><description/></item><item><title>Voice leading in repeating harmonies</title><link>/post/repeatedharmonies/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>/post/repeatedharmonies/</guid><description>&lt;p>It is common to find progressions where the same roman numeral repeats itself:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://user-images.githubusercontent.com/7258463/99705663-05f77180-2a68-11eb-9008-f84494a1e3ed.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>I think in these cases, a common procedure for &lt;em>good&lt;/em> voice leading is to prefer a change of the voicing (e.g., change of position in the three upper voices), penalizing the algorithm for proposing the exact same voicing twice.&lt;/p>
+&lt;p>I wanted to make sure that the policy coincides with the practice in existing music.&lt;/p>
+&lt;p>I looked for repeated harmonies like these in 69 annotated Bach Chorales and found &lt;strong>192 instances&lt;/strong>.&lt;/p>
+&lt;p>The analyzed Bach chorales are located in the &lt;a href="http://kern.ccarh.org/" target="_blank" rel="noopener">KernScores&lt;/a> website.&lt;/p>
+&lt;p>They can be visualized interactively in the &lt;a href="https://verovio.humdrum.org/" target="_blank" rel="noopener">Verovio Humdrum Viewer&lt;/a>.&lt;/p>
+&lt;p>They can also be scraped with a single query to the Kern Scores server: &lt;a href="https://kern.humdrum.org/data?l=BachChoralesAnalyzed">https://kern.humdrum.org/data?l=BachChoralesAnalyzed&lt;/a>&lt;/p>
+&lt;p>I used the last approach to collect the data for this experiment. The code can found in this &lt;a href="https://github.com/napulen/jupyter_notebooks/blob/master/repeatedharmonies/repeatedharmonies.ipynb" target="_blank" rel="noopener">Jupyter Notebook&lt;/a>.&lt;/p>
+&lt;p>Out of the 192 instances found:&lt;/p>
+&lt;ul>
+&lt;li>In 78% of them, the voicing &lt;strong>changes&lt;/strong>&lt;/li>
+&lt;li>In 22% of them, the voicing &lt;strong>remains the same&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Here are a few of the instances I found. Red means different voicing and green means same voicing.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://user-images.githubusercontent.com/7258463/99707873-0d6c4a00-2a6b-11eb-9dc5-e42eaaabe324.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>For completeness, here is the full table. Offsets are given in quarter notes from the beginning of the score (starting from &lt;code>0.0&lt;/code>). In all instances, &lt;code>chord1&lt;/code> and &lt;code>chord2&lt;/code> are contiguous and annotated by a human expert:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>file&lt;/th>
+&lt;th>chord1_offset&lt;/th>
+&lt;th>chord1_notes&lt;/th>
+&lt;th>chord2_offset&lt;/th>
+&lt;th>chord2_notes&lt;/th>
+&lt;th>same_voicing?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>chor315.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor001.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor024.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;F#5&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor050.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor323.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor176.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor200.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>29.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>48.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>50.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor311.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor019.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>35.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor136.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor303.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor248.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor028.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor101.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor255.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>2.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>59.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>60.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor110.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor153.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;D2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;A2&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor336.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor224.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor164.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor191.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor040.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor361.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor213.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor282.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;G5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor345.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor067.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor366.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>43.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>44.0&lt;/td>
+&lt;td>[&amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor268.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>29.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>57.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>58.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor354.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor276.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor339.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>28.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor299.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>11.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>41.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor048.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>2.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>38.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor306.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>55.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>56.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor281.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor273.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor305.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor158.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>57.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>58.0&lt;/td>
+&lt;td>[&amp;lsquo;C3&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor054.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor098.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A#3&amp;rsquo;, &amp;lsquo;F#2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor368.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>45.0&lt;/td>
+&lt;td>[&amp;lsquo;G5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>46.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>49.0&lt;/td>
+&lt;td>[&amp;lsquo;F3&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>50.0&lt;/td>
+&lt;td>[&amp;lsquo;B-2&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>51.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>52.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor009.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor069.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>19.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>61.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>62.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor258.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B2&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;B2&amp;rsquo;, &amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor157.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor223.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>42.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor177.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;C#5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>35.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>36.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor187.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>31.5&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor328.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>20.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>27.0&lt;/td>
+&lt;td>[&amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>30.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor002.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor290.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E3&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;C#3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor088.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>21.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor030.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E2&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor201.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>5.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>13.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>40.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>41.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;E-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>55.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>56.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor032.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor272.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor183.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>31.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>32.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor090.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor046.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;F#3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor217.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>12.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F#4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor117.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>3.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;A-3&amp;rsquo;]&lt;/td>
+&lt;td>4.0&lt;/td>
+&lt;td>[&amp;lsquo;A-3&amp;rsquo;, &amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;C5&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;A-4&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor165.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>15.0&lt;/td>
+&lt;td>[&amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F2&amp;rsquo;]&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>16.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>17.0&lt;/td>
+&lt;td>[&amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor057.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;E5&amp;rsquo;, &amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor068.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor230.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>23.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>25.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>26.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;D3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>33.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>34.0&lt;/td>
+&lt;td>[&amp;lsquo;D5&amp;rsquo;, &amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;B-3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor124.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>0.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>1.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>8.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;A2&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;B4&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;G2&amp;rsquo;]&lt;/td>
+&lt;td>10.0&lt;/td>
+&lt;td>[&amp;lsquo;G4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor146.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;G#4&amp;rsquo;, &amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>9.0&lt;/td>
+&lt;td>[&amp;lsquo;E4&amp;rsquo;, &amp;lsquo;B3&amp;rsquo;, &amp;lsquo;G#3&amp;rsquo;, &amp;lsquo;E3&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chor350.krn&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>6.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>7.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;A4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>22.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;E-4&amp;rsquo;, &amp;lsquo;G3&amp;rsquo;, &amp;lsquo;C3&amp;rsquo;]&lt;/td>
+&lt;td>24.0&lt;/td>
+&lt;td>[&amp;lsquo;E-5&amp;rsquo;, &amp;lsquo;G4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;, &amp;lsquo;C4&amp;rsquo;]&lt;/td>
+&lt;td>False&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>38.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>39.0&lt;/td>
+&lt;td>[&amp;lsquo;C5&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;A3&amp;rsquo;, &amp;lsquo;F3&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>46.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>47.0&lt;/td>
+&lt;td>[&amp;lsquo;B-4&amp;rsquo;, &amp;lsquo;F4&amp;rsquo;, &amp;lsquo;D4&amp;rsquo;, &amp;lsquo;B-2&amp;rsquo;]&lt;/td>
+&lt;td>True&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This would suggest that, in the context of an &lt;strong>automatic voice leading algorithm&lt;/strong>,
+if two identical harmonies appear contiguously, they should be voiced differently.
+For example, by changing the position in the three upper voices and/or changing the octave of the bass.&lt;/p></description></item><item><title>Data Quality Matters: Iterative Corrections on a Corpus of Mendelssohn String Quartets and Implications for MIR Analysis</title><link>/publication/mendelssohn/</link><pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate><guid>/publication/mendelssohn/</guid><description/></item><item><title>Harmonic Reductions As a Strategy for Creative Data Augmentation</title><link>/publication/harmonic_reductions/</link><pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate><guid>/publication/harmonic_reductions/</guid><description/></item><item><title>On Local Keys, Modulations, and Tonicizations</title><link>/publication/modulation_tonicization/</link><pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate><guid>/publication/modulation_tonicization/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/J1VZygSumN0?start=1927" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe></description></item><item><title>Harmalysis: A Language for the Annotation of Roman Numerals in Symbolic Music Representations</title><link>/publication/harmalysis/</link><pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate><guid>/publication/harmalysis/</guid><description/></item><item><title>Do-Re-Myth: An Ear Training Game</title><link>/publication/doremyth/</link><pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate><guid>/publication/doremyth/</guid><description/></item><item><title>Key-Finding Based on a Hidden Markov Model and Key Profiles</title><link>/publication/keydetection19/</link><pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate><guid>/publication/keydetection19/</guid><description/></item><item><title>The Effects of Translation Between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML</title><link>/publication/effects_of_translation/</link><pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate><guid>/publication/effects_of_translation/</guid><description/></item><item><title>Musical Tic-Tac-Toe</title><link>/publication/musical_tictactoe/</link><pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/musical_tictactoe/</guid><description/></item><item><title>Dandelot - Reading Music as a Game</title><link>/publication/dandelot/</link><pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/dandelot/</guid><description>&lt;h2 id="the-video-looks-promising-where-is-the-code">The video looks promising, where is the code?&lt;/h2>
+&lt;p>Although the intention of &lt;em>dandelot&lt;/em> is to be available for free for anyone to play, some of the assets used for developing the game are proprietary. For the time being, the code is not available online.&lt;/p>
+&lt;p>If you &lt;strong>really&lt;/strong> want to play it, drop an email and I will send you a compiled version of the game. If you want the code to extend it or fork it into your own, we can talk about that.&lt;/p></description></item><item><title>Slides</title><link>/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+&lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Efficiently write slides in Markdown&lt;/li>
+&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
+&lt;li>Supports speaker notes&lt;/li>
+&lt;li>Mobile friendly slides&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="controls">Controls&lt;/h2>
+&lt;ul>
+&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
+&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
+&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
+&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
+&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
+&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
+&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
+&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hakimel/reveal.js#pdf-export" target="_blank" rel="noopener">PDF Export&lt;/a>: &lt;code>E&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
+&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
+&lt;p>Code block:&lt;/p>
+&lt;pre>&lt;code class="language-python">porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+print(&amp;quot;Eating...&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>In-line math: $x + y = z$&lt;/p>
+&lt;p>Block math:&lt;/p>
+&lt;p>$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p>
+&lt;hr>
+&lt;h2 id="fragments">Fragments&lt;/h2>
+&lt;p>Make content appear incrementally&lt;/p>
+&lt;pre>&lt;code>{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code>&lt;/pre>
+&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
+&lt;p>&lt;span class="fragment " >
+One
+&lt;/span>
+&lt;span class="fragment " >
+&lt;strong>Two&lt;/strong>
+&lt;/span>
+&lt;span class="fragment " >
+Three
+&lt;/span>&lt;/p>
+&lt;hr>
+&lt;p>A fragment can accept two optional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
+&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
+&lt;p>Add speaker notes to your presentation&lt;/p>
+&lt;pre>&lt;code class="language-markdown">{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code>&lt;/pre>
+&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
+&lt;aside class="notes">
+&lt;ul>
+&lt;li>Only the speaker can read these notes&lt;/li>
+&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
+&lt;/ul>
+&lt;/aside>
+&lt;hr>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;ul>
+&lt;li>black: Black background, white text, blue links (default)&lt;/li>
+&lt;li>white: White background, black text, blue links&lt;/li>
+&lt;li>league: Gray background, white text, blue links&lt;/li>
+&lt;li>beige: Beige background, dark text, brown links&lt;/li>
+&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>night: Black background, thick white text, orange links&lt;/li>
+&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
+&lt;li>simple: White background, black text, blue links&lt;/li>
+&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;section data-noprocess data-shortcode-slide
+data-background-image="/media/boards.jpg"
+>
+&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
+&lt;p>Customize the slide style and background&lt;/p>
+&lt;pre>&lt;code class="language-markdown">{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
+&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
+&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
+&lt;pre>&lt;code class="language-css">.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+color: navy;
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Encoding Matters</title><link>/publication/encoding_matters/</link><pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate><guid>/publication/encoding_matters/</guid><description>&lt;iframe width="480" height="360" src="https://medias.ircam.fr/embed/media/x86476e" frameborder="0" allowfullscreen>&lt;/iframe></description></item><item><title>Linux with Tensorflow in MSI GL65 (with RTX2070)</title><link>/post/msigl65/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/post/msigl65/</guid><description>&lt;p>I have been a linux user for a few years now.&lt;/p>
+&lt;p>I have also been interested in playing games in my computer (although being a gamer nowadays feels like a full-time job, so I don&amp;rsquo;t consider myself a hardcore gamer).&lt;/p>
+&lt;p>I often run a dual boot system, doing most of my daily chores on Linux, and playing during the weekends on my MS Windows partition.&lt;/p>
+&lt;p>To my surprise, installing a linux partition in this particular laptop was straightforward. No special settings on the bootloader, no special proprietary drivers for my WiFi. It just worked out of the box after I booted and installed a live usb flash drive.&lt;/p>
+&lt;p>Of course, the proprietary graphics driver, CUDA, and cuDNN have to be installed independently after the fresh OS install if you are interested in using the graphics card to train some deep learning models.&lt;/p>
+&lt;p>Those components are what I will be covering in this post.&lt;/p>
+&lt;p>I will also be assuming that you are running an Ubuntu 20.04 distro.&lt;/p>
+&lt;p>The steps should be fairly similar for other Debian-based distros.&lt;/p>
+&lt;h2 id="installing-proprietary-nvidia-drivers">Installing proprietary NVIDIA drivers&lt;/h2>
+&lt;p>You have a few options for installing the graphic drivers. If you don&amp;rsquo;t feel like modding your default OS too much, I recommend you to simply install them from the &lt;code>Additional Drivers&lt;/code> tab in your &lt;code>Software &amp;amp; Updates&lt;/code> menu in Ubuntu.&lt;/p>
+&lt;p>Launch the &lt;code>Activities&lt;/code> menu and type &lt;code>Additional Drivers&lt;/code>&lt;/p>
+&lt;p>You should see the option for your NVIDIA RTX2070 there.&lt;/p>
+&lt;p>Install the latest version available and tested.&lt;/p>
+&lt;p>In my case, and at the time of this writing, that is &lt;code>nvidia-driver-450&lt;/code>.&lt;/p>
+&lt;h2 id="installing-cuda">Installing CUDA&lt;/h2>
+&lt;p>Tensorflow works with CUDA v10.1.&lt;/p>
+&lt;p>The CUDA toolkit for v10.1 can be found in the package manager.&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo apt-get install nvidia-cuda-toolkit
+&lt;/code>&lt;/pre>
+&lt;p>Check the version&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Sun_Jul_28_19:07:16_PDT_2019
+Cuda compilation tools, release 10.1, V10.1.243
+&lt;/code>&lt;/pre>
+&lt;p>If you are in &lt;code>v10.1&lt;/code>, you are good to go.&lt;/p>
+&lt;h2 id="installing-cudnn">Installing cuDNN&lt;/h2>
+&lt;p>Tensorflow requires cuDNN v7.6.&lt;/p>
+&lt;p>You can obtain the library either as a &lt;code>.deb&lt;/code> package or by downloading the zipped &lt;code>.so&lt;/code> libraries.&lt;/p>
+&lt;p>At the time of this writing, the &lt;code>.deb&lt;/code> package is only available for Ubuntu &amp;lt;=18.04 and the folder structure differs from the folder structure of my cuda library installed from the package manager.&lt;/p>
+&lt;p>I suggest downloading the &lt;code>.so&lt;/code> libraries.&lt;/p>
+&lt;p>You can either download the zipped files of &lt;a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.5.32/Production/10.1_20191031/cudnn-10.1-linux-x64-v7.6.5.32.tgz" target="_blank" rel="noopener">v7.6.5&lt;/a>, or browse the &lt;a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank" rel="noopener">archive&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Note that you need to make an account to download these zipped files from NVIDIA&lt;/p>
+&lt;/blockquote>
+&lt;p>Uncompress the file somewhere in your file system&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tar xvf cudnn-10.1-linux-x64-v7.6.5.32.tgz
+&lt;/code>&lt;/pre>
+&lt;p>That should generate a folder named &lt;code>cuda&lt;/code> wherever you uncompressed it.&lt;/p>
+&lt;p>For your convenience, make a variable &lt;code>CUDNNDIR&lt;/code> that points to wherever place you uncompressed the file in.&lt;/p>
+&lt;p>In my case, I uncompressed inside my &lt;code>Download&lt;/code> folder, so this is how it looks&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ CUDNNDIR=~/Downloads/cuda
+&lt;/code>&lt;/pre>
+&lt;p>This is the structure of my uncompressed file&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tree $CUDNNDIR
+.
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so -&amp;gt; libcudnn.so.7
+│   ├── libcudnn.so.7 -&amp;gt; libcudnn.so.7.6.5
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+└── NVIDIA_SLA_cuDNN_Support.txt
+&lt;/code>&lt;/pre>
+&lt;p>In my Ubuntu 20.04 and using the &lt;code>nvidia-cuda-toolkit&lt;/code> package from aptitude, the library is installed here:&lt;/p>
+&lt;pre>&lt;code class="language-bash">CUDADIR=/lib/cuda
+&lt;/code>&lt;/pre>
+&lt;p>I also suggest making a variable that points to that place. Replace &lt;code>/lib/cuda&lt;/code> with your location if that&amp;rsquo;s not where the library was installed.&lt;/p>
+&lt;p>The structure of my &lt;code>CUDADIR&lt;/code>:&lt;/p>
+&lt;pre>&lt;code class="language-bash">$ tree $CUDADIR
+/lib/cuda
+├── bin
+├── include
+├── lib64
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code>&lt;/pre>
+&lt;p>The &lt;code>CUDADIR&lt;/code> is where we need to install the &lt;code>cuDNN&lt;/code> library.&lt;/p>
+&lt;p>Installing, in this context, is basically copying the headers and shared library. Then, making these files available to external libraries like tensorflow.&lt;/p>
+&lt;p>Copy the headers&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo cp ${CUDNNDIR}/include/*.h ${CUDADIR}/include/
+&lt;/code>&lt;/pre>
+&lt;p>Copy the shared libraries&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo cp ${CUDNNDIR}/lib64/libcudnn* ${CUDADIR}/lib64
+&lt;/code>&lt;/pre>
+&lt;p>The file structure of the CUDA library should look something like this now&lt;/p>
+&lt;pre>&lt;code class="language-bash">/lib/cuda
+├── bin
+├── include
+│   └── cudnn.h
+├── lib64
+│   ├── libcudnn.so
+│   ├── libcudnn.so.7
+│   ├── libcudnn.so.7.6.5
+│   └── libcudnn_static.a
+├── nvvm
+│   └── libdevice -&amp;gt; ../../nvidia-cuda-toolkit/libdevice
+└── version.txt
+&lt;/code>&lt;/pre>
+&lt;p>Change permissions to the recently copied files&lt;/p>
+&lt;pre>&lt;code class="language-bash">sudo chmod a+r ${CUDADIR}/include/cudnn*.h ${CUDADIR}/lib64/libcudnn*
+&lt;/code>&lt;/pre>
+&lt;p>That installed cuDNN in your system.&lt;/p>
+&lt;p>At least in my case, these files are still not reachable by tensorflow. You can achieve that by exporting the path to your &lt;code>LD_LIBRARY_PATH&lt;/code> variable.&lt;/p>
+&lt;pre>&lt;code class="language-bash">export LD_LIBRARY_PATH=${CUDADIR}/lib64:$LD_LIBRARY_PATH
+&lt;/code>&lt;/pre>
+&lt;p>Now check whether tensorflow 2 is able to see your gpu&lt;/p>
+&lt;pre>&lt;code class="language-python">$ python3
+Python 3.8.5 (default, Jul 28 2020, 12:59:40)
+[GCC 9.3.0] on linux
+Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import tensorflow as tf
+&amp;gt;&amp;gt;&amp;gt; tf.config.list_physical_devices('GPU')
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+&lt;/code>&lt;/pre>
+&lt;p>If you get a non-empty list as the result of &lt;code>list_physical_devices('GPU')&lt;/code>, that should be a good indicator.&lt;/p>
+&lt;p>The &lt;code>export&lt;/code> instruction is not persistent and the changes will be lost after you close your terminal.&lt;/p>
+&lt;p>Make it permanent by adding it to your &lt;code>~/.bashrc&lt;/code> file.&lt;/p>
+&lt;p>Putting new statements at the end of the file is usually the best practice.&lt;/p>
+&lt;p>When you do that, spell the &lt;code>$CUDADIR&lt;/code> folder as an absolute path, do not use the &lt;code>$CUDADIR&lt;/code> variable.&lt;/p>
+&lt;p>You should be all set. Try training something and check the console to corroborate it is doing it through your RTX2070.&lt;/p>
+&lt;p>Cheers.&lt;/p></description></item><item><title/><link>/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/admin/config.yml</guid><description/></item><item><title>MUMT 501: Barberpole Phasing and Flanging Illusions</title><link>/reports/mcgill/mumt501/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt501/</guid><description>&lt;p>One of the barberpole phasing and flanging illusions described in Equeda et al. (2015).&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://www.mcgill.ca/study/2021-2022/courses/mumt-501" target="_blank" rel="noopener">MUMT 501: Digital Audio Signal Processing&lt;/a>, I implemented one of the barberpole phasing and flanging illusions discussed in a paper by &lt;a href="https://research.aalto.fi/en/publications/barberpole-phasing-and-flanging-illusions" target="_blank" rel="noopener">Esqueda et al. (2015)&lt;/a>. The paper write-up can also be accessed in &lt;a href="/media/mumt501/mumt501_finalproject.pdf">PDF&lt;/a> form. The slides of the final presentation I made can be accessed &lt;a href="/media/mumt501/mumt501_slides.pdf">here&lt;/a>.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>In his work of additive synthesis, Shepard introduced an infinitely
+ascending chromatic scale.&lt;/p>
+&lt;figure id="figure-an-infinitely-ascending-chromatic-scale-as-presented-by-shepard">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="An infinitely ascending chromatic scale as presented by Shepard" srcset="
+/media/mumt501/shepard_notation_hu302ddc6d558f40ac2321e2aa0c9a56c4_29700_0484974840bc5a93a8cd81f0d01c3191.png 400w,
+/media/mumt501/shepard_notation_hu302ddc6d558f40ac2321e2aa0c9a56c4_29700_5b4d09936d0e7921b3a97549e95d5907.png 760w,
+/media/mumt501/shepard_notation_hu302ddc6d558f40ac2321e2aa0c9a56c4_29700_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt501/shepard_notation_hu302ddc6d558f40ac2321e2aa0c9a56c4_29700_0484974840bc5a93a8cd81f0d01c3191.png"
+width="760"
+height="136"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+An infinitely ascending chromatic scale as presented by Shepard
+&lt;/figcaption>&lt;/figure>
+&lt;p>This auditory illusion resembles some similarity to the effect caused by
+barber-poles in american and british barber shops. In the case of the
+barber-poles, one image with colored stripes in diagonal is attached to
+a rotating cylinder and presented over and over in circles. The
+interesting thing about this process is that the cycle is difficult to
+perceive, and therefore, creates the illusion of the stripes ascending
+forever.&lt;/p>
+&lt;p>Similarly, the auditory illusion proposed by Shepard is nothing but an
+analogy in the auditory domain, presenting a cycle of raising harmonics
+that repeats every octave.&lt;/p>
+&lt;p>In order to achieve this auditory illusion, we could summarize the steps
+proposed by Shepard as following:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Computing several harmonics &lt;em>one octave apart&lt;/em> from each other&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The harmonics in the middle must be &lt;em>louder&lt;/em> than the ones at the
+beginning or end of the frequency spectrum&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We need to change the gain of each harmonic as time goes on, for
+example, using some spectral envelope&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Shepard achieves the change of gain for each harmonic by using a
+raised-cosine spectral envelope.&lt;/p>
+&lt;figure id="figure-a-time-varying-spectral-envelope-used-to-create-the-illusion-of-the-infinitely-ascending-chromatic-scale-as-presented-by-shepard">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="A time-varying spectral envelope used to create the illusion of the infinitely ascending chromatic scale, as presented by Shepard" srcset="
+/media/mumt501/shepard_envelope_hu07327376619e7ae317b4a27b40831589_13997_c20ab8af18182199154d856e16b3c0b1.png 400w,
+/media/mumt501/shepard_envelope_hu07327376619e7ae317b4a27b40831589_13997_e98acbac6abbf2d0b1d398dc9b4b5e49.png 760w,
+/media/mumt501/shepard_envelope_hu07327376619e7ae317b4a27b40831589_13997_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt501/shepard_envelope_hu07327376619e7ae317b4a27b40831589_13997_c20ab8af18182199154d856e16b3c0b1.png"
+width="598"
+height="377"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+A time-varying spectral envelope used to create the illusion of the infinitely ascending chromatic scale, as presented by Shepard
+&lt;/figcaption>&lt;/figure>
+&lt;p>It is mainly this idea of the raised-cosine spectral envelope that has
+been preserved and reformulated in the audio effects proposed by
+Esqueda, Välimäki, and Parker. This type of effects have been called
+&lt;em>barber-pole&lt;/em> flanging and phasing illusions, in accordance to the
+similarity to the barber-poles, mentioned before in the introduction.&lt;/p>
+&lt;p>Esqueda, Välimäki, and Parker present three different ideas for
+implementing barber-pole phasing and flanging audio effects: A network
+of cascaded time-varying notch filters, a synchronized dual flanger, and
+a single-sideband modulation filter.&lt;/p>
+&lt;p>In the following sections of this paper, I will briefly introduce the
+concept of each of these filters proposed by Esqueda, Välimäki, and
+Parker. Then, in the following section I am going to provide my
+experience implementing one of them, the network of cascaded
+time-varying notch filters.&lt;/p>
+&lt;h2 id="cascaded-time-varying-notch-filters">Cascaded Time-Varying Notch Filters&lt;/h2>
+&lt;p>In the original proposal by Shepard, the methodology considers the
+creation of the auditory illusion by means of the additive synthesis of
+several harmonics, which are one octave apart, and whose gain is shaped
+by the raised-cosine spectral envelope.&lt;/p>
+&lt;p>This and the other audio effects, however, are dealing with a different
+problem, which involves not the attempt to &lt;em>synthesize&lt;/em> the illusion
+from scratch, but instead, having an input signal and filtering it in
+some way so the illusion emerges from the content of the signal itself.&lt;/p>
+&lt;p>Phasers and flangers work by creating sweeping &lt;em>notches&lt;/em> in the spectrum
+of the original signal, these are the selected mechanisms by Esqueda,
+Välimäki, and Parker to create the barber-pole illusions.&lt;/p>
+&lt;figure id="figure-the-magnitude-response-of-a-cascaded-network-of-notch-filters-as-presented-by-esqueda-välimäki-and-parker">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The magnitude response of a cascaded network of notch-filters as presented by Esqueda, Välimäki, and Parker" srcset="
+/media/mumt501/esqueda_magnituderesponse_hu44f3d9801c58f4062178445beb00d0b1_13799_8904aa140200f7f62a721ad0ecdc8514.png 400w,
+/media/mumt501/esqueda_magnituderesponse_hu44f3d9801c58f4062178445beb00d0b1_13799_f235c4d7cb0ce5bdb797b31d55cfc42f.png 760w,
+/media/mumt501/esqueda_magnituderesponse_hu44f3d9801c58f4062178445beb00d0b1_13799_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt501/esqueda_magnituderesponse_hu44f3d9801c58f4062178445beb00d0b1_13799_8904aa140200f7f62a721ad0ecdc8514.png"
+width="453"
+height="357"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+The magnitude response of a cascaded network of notch-filters as presented by Esqueda, Välimäki, and Parker
+&lt;/figcaption>&lt;/figure>
+&lt;p>The magnitude of a network of cascaded notch-filters is presented.&lt;/p>
+&lt;p>Each notch in the magnitude response represents the contribution of a
+different notch-filter.&lt;/p>
+&lt;p>In general, this method of generating the auditory illusion is the one
+that feels the closest to the original proposal by Shepard. For
+Shepard, each harmonic represented an additional element in the chain of
+additive synthesis. By contrast, in this audio effect each notch-filter
+is an additional element in the network that shapes the spectrum of the
+original signal so that the barber-pole illusion emerges.&lt;/p>
+&lt;p>The level of gain of each notch-filter, in this case attenuation, is
+also controlled by a raised-cosine envelope, and time-varying for every
+sample of the signal.&lt;/p>
+&lt;h2 id="synchronized-dual-flanger">Synchronized Dual Flanger&lt;/h2>
+&lt;p>The second effect proposed by Esqueda, Välimäki, and Parker is a dual
+flanger.&lt;/p>
+&lt;p>The design of the system starts as a single flanger. The first
+interesting characteristic of this flanger is the decision of using a
+sawtooth waves as the Low-Frequency Oscillator (LFO) that modulates the
+gain of the delayed signal, as well as another sawtooth wave that
+modulates the length of the delay.&lt;/p>
+&lt;p>The motivation for using a sawtooth LFO is simple and elegant, it
+provides an &lt;em>unidirectional&lt;/em> growth over time that abruptly restarts for
+the beginning of the next cycle. The auditory illusion requires that the
+sweeping of the notches moves in the same direction for the entire
+cycle, the sawtooth LFO provides exactly that.&lt;/p>
+&lt;p>One drawback introduced by this approach is the abrupt interruption
+introduced by restarting the cycle from one instant to another, which
+can give away the cyclic behavior of the system, and which is enemy to
+the purpose of creating the auditory illusion. In order to soften the
+transition between one cycle and another, the second flanger is added.
+Hence, the dual flanger system.&lt;/p>
+&lt;p>The second flanger is an identical copy of the first flanger, it also
+has a sawtooth LFO modulating the delay range and gain of the flanger,
+the main difference is that both LFOs are in a $\frac{pi}{2}$ phase
+with respect to their corresponding LFOs in the first flanger.&lt;/p>
+&lt;figure id="figure-the-phase-relationship-between-the-four-lfos-involved-in-the-dual-flanger-system-as-presented-by-esqueda-välimäki-and-parker">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The phase relationship between the four LFOs involved in the dual flanger system as presented by Esqueda, Välimäki, and Parker" srcset="
+/media/mumt501/esqueda_flangerphase_hu80487b5d46a6fa736041f7509a5f4f29_19109_8158cdca9031a5414b99cfb450705576.png 400w,
+/media/mumt501/esqueda_flangerphase_hu80487b5d46a6fa736041f7509a5f4f29_19109_13424c9c75ebf59c406cd55d216f6c94.png 760w,
+/media/mumt501/esqueda_flangerphase_hu80487b5d46a6fa736041f7509a5f4f29_19109_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt501/esqueda_flangerphase_hu80487b5d46a6fa736041f7509a5f4f29_19109_8158cdca9031a5414b99cfb450705576.png"
+width="432"
+height="340"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+The phase relationship between the four LFOs involved in the dual flanger system as presented by Esqueda, Välimäki, and Parker
+&lt;/figcaption>&lt;/figure>
+&lt;p>Figure 4 shows the phase relationship between the two flangers in the dual-flanger system.&lt;/p>
+&lt;h2 id="single-sideband-modulation">Single-Sideband Modulation&lt;/h2>
+&lt;p>The third method presented by Esqueda, Välimäki, and Parker consists of
+a system based on the combination of a signal and a frequency-shifted
+version of the same signal (single-sideband modulation).&lt;/p>
+&lt;p>Three main important considerations have to be addressed in the method
+proposed by Esqueda, Välimäki, and Parker. The first consideration is
+that the frequency-shifted copy of the signal should be added to the
+original signal only after delaying it for a short period. It is the
+short delay that generates the notches in the spectrum of the output
+signal of the system.&lt;/p>
+&lt;p>The second consideration is that it is necessary to have linearity
+between the frequency shifter and the delay given to the modulated
+signal. Once this two considerations are met, the system will produce
+notches that are linearly distributed across the spectrum and that sweep
+in the same direction.&lt;/p>
+&lt;p>Since the notches produced by the system are linearly distributed, this
+does not favor the emergence of the barber-pole illusion. In order for
+this to happen, the notches need to be one octave apart from each other,
+as in the method by Shepard.&lt;/p>
+&lt;p>The third consideration deals with this problem, Esqueda, Välimäki, and
+Parker suggest replacing the delay line of the system for a chain of
+first-order all-pass filters acting as an spectral delay.&lt;/p>
+&lt;p>With this final modification, the system is able to produce sweeping
+notches that are one octave from each other provided that the settings
+on each of the all-pass filters are accurately optimized to meet the
+desired group-delay curve.&lt;/p>
+&lt;h2 id="implementation-of-the-cascaded-time-varying-notch-filters">Implementation of the cascaded time-varying notch-filters&lt;/h2>
+&lt;p>The description of the systems presented by Esqueda, Välimäki, and
+Parker is informative regarding the methodologies that should be
+followed to accomplish an implementation of each of the systems.&lt;/p>
+&lt;p>Here we follow the methodologies proposed for the first system, the
+network of cascaded notch-filters, to implement a prototype of the audio
+effect in MATLAB.&lt;/p>
+&lt;p>The code of the implementation is given as an accompanying resource to
+this paper, the code consists of several functions that compute all of
+the parameters required for the system to operate on any given input
+signal. The accompanying implementation also provides two main scripts,
+one that provides an entry-point for the filter, which should be called
+to process an input signal, furthermore, another script tests and makes
+use of this entry-point with a white-noise signal and a combination of
+parameters that successfully create a barber-pole auditory illusion.&lt;/p>
+&lt;p>The first step in the process of implementing this audio effect is to
+separate the global parameters of the system from the time-varying
+parameters, i.e., the parameters that should be computed every
+short-time (in practice, every sample) in which the filter is operating.&lt;/p>
+&lt;p>This division between global and time-varying parameters is not given by
+the original proposal of Esqueda, Välimäki, and Parker. Therefore, it
+represents an interpretation of the parameters and workflow of the
+original methodology that must be made in order to effectively implement
+a prototype of the working system.&lt;/p>
+&lt;p>The global parameters of the audio effect are the following:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$M$: The number of notch-filters in the cascade&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$F_s$: The sampling rate of the system&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$K$: The number of frequencies per cycle. Given by
+$K = \text{floor}(F_s/p)$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$Q$: A control of the bandwidth of the notch-filters&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$p$: The repetition rate of the cycle (how many times is the
+system reaching an octave every second), in Hertz&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$L_{min}$: Minimum loudness level, in decibels&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$L_{max}$: Maximum loudness level, in decibels&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The time-varying parameters of the audio effect are the following:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$f_c(m,k)$: Center frequency of the $m^{th}$ filter in the
+$k^{th}$ frequency index of the cycle&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$L_c(m,k)$: Loudness of the $k^{th}$ frequency of the $m^{th}$
+filter, in decibels&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$G$: The normalized version of gain $L_c$, in the range
+$[0,1]$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\beta$: A factor that involves the bandwidth and the gain at the
+bandwidth, used to compute the coefficients of the notch-filters&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Once the most important parameters of the system have been defined and
+classified accordingly, the next step is to define the workflow of the
+system, especially for the time-varying part of the system which is the
+most complicated to implement, as it involves the computation of the
+coefficients for all of the filters involved in the network.&lt;/p>
+&lt;p>Given that the parameter $K$ dictates the number of frequencies that
+have to be computed every cycle, this parameter defines the length of
+the short-time sections of the signal that have to be processed by the
+system. In fact, using the definition provided by Esqueda, Välimäki,
+and Parker for computing the value of $K$, we can observe that it is
+equivalent to &lt;em>the number of samples that exist in one cycle&lt;/em>. This
+means that there is a relationship of one sample for one frequency in
+every case, for any sampling rate or repetition rate of the system. At
+this point, we can safely assume that our implementation of the audio
+effect has to effectively compute a new set of notch-filters for every
+sample of the input signal.&lt;/p>
+&lt;p>The implementation that we followed, considers then, that the global
+parameters will be provided by the user to the system. One exception are
+the global parameters which can be obtained from other global parameters
+(e.g., $K$), these are not required from the user and are computed
+internally instead.&lt;/p>
+&lt;p>Once the global parameters are present in the system, we then start
+processing the signal.&lt;/p>
+&lt;p>The methodology from Esqueda, Välimäki, and Parker provides the
+transfer function used to compute each of the notch-filters of the
+system.&lt;/p>
+&lt;p>$$H(z) =
+\frac{
+\big(
+\frac{
+1 + g \beta
+}{
+1 + \beta
+}
+\big) -
+2 \big(
+\frac{
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+}
+)
+}{
+1 + \beta
+}
+\big) z^{-1} +
+\big(
+\frac{
+1 - G \beta
+}{
+1 + \beta
+}
+\big) z^{-2}
+}{
+1 -
+2 \big(
+\frac{
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+}
+)
+}{
+1 + \beta
+}
+\big) z^{-1} +
+\big(
+\frac{
+1 - \beta
+}{
+1 + \beta
+}
+\big) z^{-2}
+}
+$$&lt;/p>
+&lt;p>The most efficient way to compute the network of cascaded notch-filters
+would be to anticipate the system by multiplying the transfer function
+of a network of notch-filters to get one resulting system and use this
+system to filter the input signal, however, since the number of
+notch-filters in our network is an unknown parameter, $M$, controlled
+by the user, it is not easy to come with a strategy to pre-compute all
+the possible numbers of notch-filters in the network and their
+combinations with different parameters, such as the rate of the cycle of
+the audio effect.&lt;/p>
+&lt;p>Therefore, I have decided that it is probably an easier strategy to use
+this transfer function to go back to the difference equation of the
+system, and compute the pertinent values of the coefficients of the
+system &lt;em>as they are needed&lt;/em>.&lt;/p>
+&lt;p>The difference equation of a notch-filter is the following:&lt;/p>
+&lt;p>$$y[n] = b_0 x[n] - b_1 x[n-1] + b_2 x[n-2] + a_1 y[n-1] - a_2 y[n-2]$$&lt;/p>
+&lt;p>Where the coefficients of the system correspond to&lt;/p>
+&lt;p>$$b_0 = \frac{
+1 + G \beta
+}{
+1 + \beta
+}$$&lt;/p>
+&lt;p>$$b_1 =
+\frac{
+2
+\cos(
+\frac{
+2 \pi f_c
+}{
+F_s
+})
+}{
+1 + \beta
+}$$&lt;/p>
+&lt;p>$$b_2 = \frac{
+1 - G \beta
+}{
+1 + \beta
+}$$&lt;/p>
+&lt;p>$$a_1 = b_1$$&lt;/p>
+&lt;p>$$a_2 = \frac{
+1 - \beta
+}{
+1 + \beta
+}$$&lt;/p>
+&lt;p>The final implementation consists then of a delay-line of second order
+which filters the input signal through a cascade of $M$ notch-filters.
+The coefficients of the notch-filters are computed for every sample,
+according to the properties of each notch-filter, namely, their center
+frequency $f_c$ and the attenuation computed for that center frequency
+$(L_c, G)$.&lt;/p>
+&lt;p>The implementation was done in Matlab, and all the source code is
+available &lt;a href="/media/mumt501/barberpole.zip">here&lt;/a>.&lt;/p>
+&lt;p>As an example, here is an audio input to the system and what it comes out.&lt;/p>
+&lt;p>Input [&lt;a href="/media/mumt501/input.wav">wav&lt;/a>]&lt;/p>
+&lt;audio controls >
+&lt;source src="/media/mumt501/input.wav" type="audio/wav">
+&lt;/audio>
+&lt;p>Output [&lt;a href="/media/mumt501/output.wav">wav&lt;/a>]
+&lt;audio controls >
+&lt;source src="/media/mumt501/output.wav" type="audio/wav">
+&lt;/audio>
+&lt;/p>
+&lt;h2 id="conclusions">Conclusions&lt;/h2>
+&lt;p>In this paper, I outline the implementation of a cascaded notch-filter
+system to create auditory illusions from an input signal. The reference
+methodology by Esqueda, Välimäki, and Parker was very informative
+about the parameters, formulas and methodologies used to test the filter
+and generate the sound samples and the plots presented in their paper.
+The implementation proposed here used the transfer function presented in
+the reference methodology and used it to get the difference equation of
+a notch-filter, computing its parameters for every sample and using
+those coefficients to filter the input signal through a delay-line of
+second order.&lt;/p></description></item><item><title>MUMT 615: Melodic Tension Experiment</title><link>/reports/mcgill/mumt615/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt615/</guid><description>&lt;p>An experiment on melodic tension, implemented with jsPsych.&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://perceptionofcompositionalstructures.github.io/" target="_blank" rel="noopener">MUMT 615: Perception of Compositional Structures&lt;/a>, we designed an experiment on melodic tension.&lt;/p>
+&lt;p>I participated developing the code of the experiment. &lt;a href="https://www.mcgill.ca/music/erica-huynh" target="_blank" rel="noopener">Erica Huynh&lt;/a> designed the experiment and wrote the paper, and &lt;a href="https://www.timothymledger.com/" target="_blank" rel="noopener">Timothy Ledger&lt;/a> composed the musical examples.&lt;/p>
+&lt;p>The experiment was implemented using the &lt;a href="https://www.jspsych.org/" target="_blank" rel="noopener">jsPsych&lt;/a> library.&lt;/p>
+&lt;p>The live experiment website is available &lt;a href="https://melodictension-7fd48.firebaseapp.com/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>The source code of the experiment is available in a &lt;a href="https://github.com/napulen/melodictension" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p>
+&lt;p>The paper with our results is available &lt;a href="https://perceptionofcompositionalstructures.github.io/Docs/Group2_TensionInMelody_FinalProject_HuynhLedgerNapoles.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>MUMT 616: Inharmonicity</title><link>/reports/mcgill/mumt616/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt616/</guid><description>&lt;p>Inharmonicity in the context of plucked strings.&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://www.mcgill.ca/study/2018-2019/courses/mumt-616" target="_blank" rel="noopener">MUMT 616: Timbre as a Form-Bearing Dimension in Music&lt;/a>, I talked about inharmonicity in the context of plucked strings.&lt;/p>
+&lt;p>The slides are available &lt;a href="/media/mumt616/inharmonicity_presentation.pdf">here&lt;/a>.&lt;/p>
+&lt;p>Five examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#no-inharmonicity">No inharmonicity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#low-inharmonicity">Low inharmonicity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mid-inharmonicity">Mid inharmonicity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#high-inharmonicity">High inharmonicity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#extreme-inharmonicity">Extreme inharmonicity&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The musical examples were generated from &lt;a href="https://imslp.org/wiki/4_Pieces_for_Guitar_%28Ponce%2C_Manuel%29" target="_blank" rel="noopener">Manuel María Ponce&amp;rsquo;s Valse for Solo Guitar&lt;/a>.&lt;/p>
+&lt;p>The inharmonicity was computed for each partial using the following formula:&lt;/p>
+&lt;p>$$ f_n = nf_0 \sqrt{1 + Bn^2} $$&lt;/p>
+&lt;p>where $f_n$ is the frequency of a given partial, and the $B$ parameter controls the inharmonicity.&lt;/p>
+&lt;p>The &lt;a href="https://supercollider.github.io/" target="_blank" rel="noopener">SuperCollider programming language&lt;/a> was used to generate the audio examples with varying inharmonicity.&lt;/p>
+&lt;p>The code is &lt;a href="#supercollider-code-for-generating-the-audio-samples">listed here&lt;/a> for reference.&lt;/p>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="no-inharmonicity">No inharmonicity&lt;/h3>
+&lt;p>
+&lt;figure id="figure-no-inharmonicity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="No inharmonicity" srcset="
+/media/mumt616/noinh_hu3447068a3089e3ca70a85421b77fe198_38579_18ddbab9aba5322df97a21716b99295b.png 400w,
+/media/mumt616/noinh_hu3447068a3089e3ca70a85421b77fe198_38579_51e6f01b5cceebfb9fcc42ee958e879b.png 760w,
+/media/mumt616/noinh_hu3447068a3089e3ca70a85421b77fe198_38579_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt616/noinh_hu3447068a3089e3ca70a85421b77fe198_38579_18ddbab9aba5322df97a21716b99295b.png"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+No inharmonicity
+&lt;/figcaption>&lt;/figure>
+&lt;audio controls >
+&lt;source src="/media/mumt616/noinh.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/p>
+&lt;h3 id="low-inharmonicity">Low inharmonicity&lt;/h3>
+&lt;p>
+&lt;figure id="figure-low-inharmonicity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Low inharmonicity" srcset="
+/media/mumt616/lowinh_hu78079ced20d0fc2c78b50bbc225b27c4_44857_1596364f265393a5ef7a66c5e0a34e19.png 400w,
+/media/mumt616/lowinh_hu78079ced20d0fc2c78b50bbc225b27c4_44857_6cd6dea77ba81dfc6969341c70539e81.png 760w,
+/media/mumt616/lowinh_hu78079ced20d0fc2c78b50bbc225b27c4_44857_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt616/lowinh_hu78079ced20d0fc2c78b50bbc225b27c4_44857_1596364f265393a5ef7a66c5e0a34e19.png"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Low inharmonicity
+&lt;/figcaption>&lt;/figure>
+&lt;audio controls >
+&lt;source src="/media/mumt616/lowinh.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/p>
+&lt;h3 id="mid-inharmonicity">Mid inharmonicity&lt;/h3>
+&lt;p>
+&lt;figure id="figure-mid-inharmonicity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Mid inharmonicity" srcset="
+/media/mumt616/midinh_hu6b068451de51be629af7196440ff5c74_53469_56f79f875f4eb490e996fad667353c6a.png 400w,
+/media/mumt616/midinh_hu6b068451de51be629af7196440ff5c74_53469_4309d0db7d71aca20f94e88fb3090a91.png 760w,
+/media/mumt616/midinh_hu6b068451de51be629af7196440ff5c74_53469_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt616/midinh_hu6b068451de51be629af7196440ff5c74_53469_56f79f875f4eb490e996fad667353c6a.png"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Mid inharmonicity
+&lt;/figcaption>&lt;/figure>
+&lt;audio controls >
+&lt;source src="/media/mumt616/midinh.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/p>
+&lt;h3 id="high-inharmonicity">High inharmonicity&lt;/h3>
+&lt;p>
+&lt;figure id="figure-high-inharmonicity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="High inharmonicity" srcset="
+/media/mumt616/highinh_hu1f6c9d2afb852368c70d9e713ef60d98_41591_7d9eec8a6fec8f04b98ac00875832817.png 400w,
+/media/mumt616/highinh_hu1f6c9d2afb852368c70d9e713ef60d98_41591_47c0218d77503cfbb68fd46075836cae.png 760w,
+/media/mumt616/highinh_hu1f6c9d2afb852368c70d9e713ef60d98_41591_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt616/highinh_hu1f6c9d2afb852368c70d9e713ef60d98_41591_7d9eec8a6fec8f04b98ac00875832817.png"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+High inharmonicity
+&lt;/figcaption>&lt;/figure>
+&lt;audio controls >
+&lt;source src="/media/mumt616/highinh.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/p>
+&lt;h3 id="extreme-inharmonicity">Extreme inharmonicity&lt;/h3>
+&lt;p>
+&lt;figure id="figure-extreme-inharmonicity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Extreme inharmonicity" srcset="
+/media/mumt616/crazyinh_hu80d20975f461b567ef096a81e422d9de_38902_51bfedc69522b4c3d43fc4139b1ce07c.png 400w,
+/media/mumt616/crazyinh_hu80d20975f461b567ef096a81e422d9de_38902_c00a81da4a6110e8d7ab9852abd05d99.png 760w,
+/media/mumt616/crazyinh_hu80d20975f461b567ef096a81e422d9de_38902_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt616/crazyinh_hu80d20975f461b567ef096a81e422d9de_38902_51bfedc69522b4c3d43fc4139b1ce07c.png"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Extreme inharmonicity
+&lt;/figcaption>&lt;/figure>
+&lt;audio controls >
+&lt;source src="/media/mumt616/crazyinh.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/p>
+&lt;h2 id="supercollider-code-for-generating-the-audio-samples">SuperCollider code for generating the audio samples&lt;/h2>
+&lt;pre>&lt;code class="language-supercollider">(
+SynthDef(\inh, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0,fB = 180|
+var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+var son = DWGPluckedStiff.ar(freq, amp, gate,0.1,1,c3,inp,1,MouseX.kr(0,200));
+DetectSilence.ar(son, 0.001, doneAction:2);
+Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+(
+SynthDef(\har, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0|
+var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);
+var inp = amp * LFClipNoise.ar(2000) * EnvGen.ar(env,gate);
+var son = DWGPlucked.ar(freq, amp, gate,0.1,1,c3,inp,1);
+DetectSilence.ar(son, 0.001, doneAction:2);
+Out.ar(out, Pan2.ar(son * 0.1, pan));
+}).add;
+)
+(
+SynthDef(\noinh,
+{
+|out=0, freq=440, amp=0.4, fB=0| //partials = 4
+// Number of partials cannot change dynamically in the SynthDef :(
+var sig, env, partials = 16;
+// Need an envelope, otherwise the sinewaves play forever
+env = Env.linen(0.03, 0.5, 0.15, amp);
+// Summing the sinewaves
+sig = Mix.fill(partials,
+{
+arg i;
+// Need a 1-based-index for the partials
+var n = i+1, harmonic, partial, ampdecay;
+harmonic = n*freq;
+partial = harmonic * sqrt(1 + (fB* n**2));
+ampdecay = 1/n;
+SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+}
+);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+SynthDef(\sineSynth,
+{
+|out=0, freq=440, amp=0.4|
+var sig;
+sig = SinOsc.ar(freq, 0, amp);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+SynthDef(\lowinh,
+{
+|out=0, freq=440, amp=0.4, fB=0.005| //partials = 4
+// Number of partials cannot change dynamically in the SynthDef :(
+var sig, env, partials = 20;
+// Need an envelope, otherwise the sinewaves play forever
+env = Env.linen(0.03, 0.4, 0.15, amp);
+// Summing the sinewaves
+sig = Mix.fill(partials,
+{
+arg i;
+// Need a 1-based-index for the partials
+var n = i+1, harmonic, partial, ampdecay;
+harmonic = n*freq;
+partial = harmonic * sqrt(1 + (fB* n**2));
+ampdecay = 1/n;
+SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+}
+);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+SynthDef(\midinh,
+{
+|out=0, freq=440, amp=0.4, fB=0.015| //partials = 4
+// Number of partials cannot change dynamically in the SynthDef :(
+var sig, env, partials = 20;
+// Need an envelope, otherwise the sinewaves play forever
+env = Env.linen(0.03, 0.4, 0.15, amp);
+// Summing the sinewaves
+sig = Mix.fill(partials,
+{
+arg i;
+// Need a 1-based-index for the partials
+var n = i+1, harmonic, partial, ampdecay;
+harmonic = n*freq;
+partial = harmonic * sqrt(1 + (fB* n**2));
+ampdecay = 1/n;
+SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+}
+);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+SynthDef(\highinh,
+{
+|out=0, freq=440, amp=0.4, fB=0.0874| //partials = 4
+// Number of partials cannot change dynamically in the SynthDef :(
+var sig, env, partials = 20;
+// Need an envelope, otherwise the sinewaves play forever
+env = Env.linen(0.03, 0.4, 0.15, amp);
+// Summing the sinewaves
+sig = Mix.fill(partials,
+{
+arg i;
+// Need a 1-based-index for the partials
+var n = i+1, harmonic, partial, ampdecay;
+harmonic = n*freq;
+partial = harmonic * sqrt(1 + (fB* n**2));
+ampdecay = 1/n;
+SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+}
+);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+SynthDef(\crazyinh,
+{
+|out=0, freq=440, amp=0.4, fB=1| //partials = 4
+// Number of partials cannot change dynamically in the SynthDef :(
+var sig, env, partials = 20;
+// Need an envelope, otherwise the sinewaves play forever
+env = Env.linen(0.03, 0.4, 0.15, amp);
+// Summing the sinewaves
+sig = Mix.fill(partials,
+{
+arg i;
+// Need a 1-based-index for the partials
+var n = i+1, harmonic, partial, ampdecay;
+harmonic = n*freq;
+partial = harmonic * sqrt(1 + (fB* n**2));
+ampdecay = 1/n;
+SinOsc.ar(partial, 0, ampdecay * EnvGen.kr(env,doneAction:2));
+}
+);
+Out.ar(out, Pan2.ar(sig));
+}).add;
+)
+(
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+m.p(\noinh).play;
+)
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+(
+m = SimpleMIDIFile.read(&amp;quot;/op28n20.mid&amp;quot;);
+m.p(\lowinh).play;
+)
+(
+Routine.run {
+var s, m, synth, release;
+s = Server.default;
+s.sync;
+s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+release = 0.3;
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+m.p(\lowinh).play;
+3.wait;
+// Wait for the Synth to release before stopping the recording.
+release.wait;
+s.stopRecording;
+};
+)
+s.stopRecording;
+(
+Routine.run {
+var s, synth, release;
+s = Server.default;
+s.sync;
+s.record(path: &amp;quot;~/out.wav&amp;quot;.standardizePath);
+release = 0.3;
+synth = Synth(\noinh, [freq: 30.midicps]);
+2.wait;
+synth.set(0);
+// Wait for the Synth to release before stopping the recording.
+release.wait;
+s.stopRecording;
+};
+)
+(
+x = Synth(\sineSynth);
+f = {
+arg m;
+x.set(&amp;quot;freq&amp;quot;, m.midicps);
+m.postln;
+};
+m = SimpleMIDIFile.read(&amp;quot;/Stimulus 1 major.mid&amp;quot;);
+//x = Synth(\sineSynth);
+m.playNotesWithFunction(f)
+)
+&lt;/code>&lt;/pre></description></item><item><title>MUMT 618: Implementation of Boss DS-1</title><link>/reports/mcgill/mumt618/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt618/</guid><description>&lt;p>MATLAB implementation of a digital model of distortion by Yeh et al. (2007).&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This is a report for my final project of the &lt;a href="https://www.music.mcgill.ca/~gary/618/" target="_blank" rel="noopener">MUMT 618: Computational Modeling of Musical Acoustic Systems&lt;/a> class at McGill University.&lt;/p>
+&lt;p>I will describe my experience implementing a digital model of distortion that has been presented in the paper titled &lt;em>&amp;ldquo;Simplified, physically-informed models of distortion and overdrive guitar effects pedals&amp;rdquo;&lt;/em>, presented in 2007 by David Yeh, Jonathan Abel, and Julius Smith at the DAFx'07 Conference.&lt;/p>
+&lt;p>Although this paper describes two models:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Boss DS-1&lt;/strong>, a distortion pedal&lt;/li>
+&lt;li>&lt;strong>Ibanez TS-9&lt;/strong>, an overdrive pedal&lt;/li>
+&lt;/ol>
+&lt;p>I have only implemented the model of the &lt;strong>Boss DS-1&lt;/strong> distortion pedal. The implementation provided has been done in &lt;code>MATLAB&lt;/code> and does not opertate in real-time, however, a real-time implementation should not be difficult to derivate from the given code. I also provide a few audio examples of the audio effect. As of my knowledge, there are no existing audio examples or code for this model previous to this write-up, therefore, I consider it is a valuable contribution for anyone following the ideas of this paper for reproducing or improving the model.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>A high-level overview can be seen in the following diagram from the paper&lt;/p>
+&lt;figure id="figure-overview-of-the-boss-ds-1-model-obtained-from-yeh-et-al-2007">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)" srcset="
+/media/mumt618/overview_hu6e408257a878ae0605892a6aca0482ae_15486_81beaf8b6c2e6d0b6cccd843a9e78a5a.png 400w,
+/media/mumt618/overview_hu6e408257a878ae0605892a6aca0482ae_15486_354879a045f741622d1a4aba26b4ee19.png 760w,
+/media/mumt618/overview_hu6e408257a878ae0605892a6aca0482ae_15486_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/overview_hu6e408257a878ae0605892a6aca0482ae_15486_81beaf8b6c2e6d0b6cccd843a9e78a5a.png"
+width="624"
+height="208"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Overview of the Boss DS-1 model, obtained from Yeh et al. (2007)
+&lt;/figcaption>&lt;/figure>
+&lt;p>It is possible that all of these stages may have an audible effect in the output produced by the physical pedal, however, the model only provides a continuous-time transfer function for the &lt;code>Gain + filter&lt;/code> and the &lt;code>Saturating nonlin&lt;/code> stages, therefore, this implementation concentrates in these two stages only.&lt;/p>
+&lt;p>The diagrams presented in the paper are excerpts of the circuit, which are sometimes difficult to follow, therefore, as an additional resource, it was very helpful to consult this article from &lt;a href="https://www.electrosmash.com/boss-ds1-analysis" target="_blank" rel="noopener">ElectroSmash&lt;/a>. In this document, a full view of the schematic is displayed with the different stages labeled.&lt;/p>
+&lt;figure id="figure-schematic-of-the-boss-ds-1-obtained-from-electrosmashcom">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Schematic of the Boss DS-1, obtained from ElectroSmash.com" srcset="
+/media/mumt618/schematic_hud9b77b0b8d94a09d45ca160851f8f871_642541_7204c381666214ae720ce738eab75026.jpg 400w,
+/media/mumt618/schematic_hud9b77b0b8d94a09d45ca160851f8f871_642541_caf8b27eb53b22c7558877d0223cad41.jpg 760w,
+/media/mumt618/schematic_hud9b77b0b8d94a09d45ca160851f8f871_642541_1200x1200_fit_q75_lanczos.jpg 1200w"
+src="/media/mumt618/schematic_hud9b77b0b8d94a09d45ca160851f8f871_642541_7204c381666214ae720ce738eab75026.jpg"
+width="760"
+height="221"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Schematic of the Boss DS-1, obtained from ElectroSmash.com
+&lt;/figcaption>&lt;/figure>
+&lt;p>The &lt;code>Gain + filter&lt;/code> stage in the paper&amp;rsquo;s diagram corresponds to the &lt;code>Transistor Booster&lt;/code> stage of the schematic, its main component is a bipolar junction transistor. The &lt;code>Saturating nonlin&lt;/code> stage of the paper&amp;rsquo;s diagram corresponds roughly to the &lt;code>Op-Amp Gain Stage&lt;/code>. From now on, I will refer to the names of the schematic as I find them more intuitive.&lt;/p>
+&lt;h2 id="transistor-booster-stage">Transistor Booster Stage&lt;/h2>
+&lt;p>This stage corresponds to a single bipolar junction transistor, the continuous-time transfer function provided in the paper is the following:&lt;/p>
+&lt;p>$$
+H(s) = \frac{s^{2}}{(s + \omega_1) (s + \omega_2)}
+$$&lt;/p>
+&lt;p>where $ \omega_1 = 2\pi3 $ and $ \omega_2 = 2\pi600 $&lt;/p>
+&lt;h2 id="op-amp-gain-stage">Op-Amp Gain Stage&lt;/h2>
+&lt;p>This stage corresponds to the main nonlinearity of the circuit, according to the paper. One parameter is provided in this stage to control the amount of distortion that the audio effect will output. The continuous-time transfer function is defined as following:&lt;/p>
+&lt;p>$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p>
+&lt;p>where
+$$R_t = 100 000 D $$
+$$R_b = (1-D)100 000 + 4700$$
+$$C_z = 0.000 001$$
+$$C_c = 0.000 000 000 250$$
+and $D$ is the &lt;strong>distortion&lt;/strong> knob that controls the depth of the effect and ranges from $[0, 1]$.&lt;/p>
+&lt;p>As one may guess, these continuous-time transfer functions require discretization in order to be implemented in a digital system. In order to discretize them, Yeh et al. propose the use of the &lt;em>bilinear transform&lt;/em>. In the paper&amp;mdash;as well as in David Yeh&amp;rsquo;s PhD dissertation&amp;mdash;a list of (very useful) templates has been included, which helps in the process of discretizing the two continuous-time transfer functions used in this model. The relevant templates for this implementation are the templates corresponding to second-order filters.&lt;/p>
+&lt;h2 id="bilinear-transform">Bilinear Transform&lt;/h2>
+&lt;p>In order to discretize a continuous-time transfer function, first, we should put the continuous-time transfer function in the following form
+$$
+H(s) = \frac{b_2 s^2 + b_1 s + b_0}{a_2 s^2 + a_1 s + a_0}
+$$&lt;/p>
+&lt;p>Once we compute the corresponding coefficients, they can be placed in a discrete-time transfer function of the form&lt;/p>
+&lt;p>$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p>
+&lt;p>The discrete-time coefficients of this transfer function can be obtained from the following equations
+$$
+B_0 = b_0 + b_1 c = b_2 c^2
+$$
+$$
+B_1 = 2b_0 - 2b_2 c^2
+$$
+$$
+B_2 = b_0 - b_1 c = b_2 c^2
+$$
+$$
+A_0 = a_0 + a_1 c = a_2 c^2
+$$
+$$
+A_1 = 2a_0 - 2a_2 c^2
+$$
+$$
+A_2 = a_0 - a_1 c = a_2 c^2
+$$&lt;/p>
+&lt;p>After plugging the coefficients into the discrete-time transfer function, we should be able to implement the resulting transfer function as a digital filter.&lt;/p>
+&lt;h2 id="implementation-of-the-transistor-booster-stage">Implementation of the Transistor Booster Stage&lt;/h2>
+&lt;p>Using the steps described above, I now describe the implementation of the &lt;code>Transistor Booster Stage&lt;/code> part of the model.&lt;/p>
+&lt;p>The first step would be to put the given continuous-time transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2}{s^2 + (\omega_1 + \omega_2)s + \omega_1 \omega_2}
+$$
+From here, the continuous-time coefficients can be easily extracted
+$$
+b_2 = 1
+$$
+$$
+b_1 = 0
+$$
+$$
+b_0 = 0
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \omega_1 + \omega_2 = 2\pi 3 + 2\pi 600 = 1206\pi
+$$
+$$
+a_0 = \omega_1 \omega_2 = (2\pi 3)(2 \pi 600) = 7200\pi^2
+$$&lt;/p>
+&lt;p>Working the templates for the discrete-time coefficients results in the following
+$$
+B_0 = 4fs^2
+$$
+$$
+B_1 = -8fs^2
+$$
+$$
+B_2 = 4fs^2
+$$
+$$
+A_0 = 7200\pi^2 + 2412\pi fs + 4fs^2
+$$
+$$
+A_1 = 14400\pi^2 - 8fs^2
+$$
+$$
+A_2 = 7200\pi^2 - 2412\pi fs + 4fs^2
+$$&lt;/p>
+&lt;p>Showing once again the template of the second-order discrete-time transfer function
+$$
+H(z) = \frac{B_0 + B_1 z^{-1} + B_2 z^{-2}}{A_0 + A_1 z^{-1} + A_2 z^{-2}}
+$$&lt;/p>
+&lt;p>Plugging the values of the coefficients recently found, gives the following equation
+$$
+{\scriptsize H(z) = \frac{4fs^2 - 8fs^2 z^{-1} + 4fs^2 z^{-2}}{(7200\pi^2 + 2412\pi fs + 4fs^2) +(14400\pi^2 - 8fs^2) z^{-1} + (7200\pi^2 - 2412\pi fs + 4fs^2) z^{-2}}}
+$$&lt;/p>
+&lt;p>After dividing by $4$, factorizing $fs$, and doing some algebra to simplify the equation, this can be expressed as:
+$$
+{\small H(z) = \frac{1 -2 z^{-1} + z^{-2}}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p>
+&lt;p>with $\Omega = \frac{\pi}{fs}$&lt;/p>
+&lt;p>The implementation of this discrete-time transfer function results in a filter with the following magnitude response:&lt;/p>
+&lt;figure id="figure-magnitude-response-of-the-implemented-transistor-booster-stage-uncorrected">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Magnitude response of the implemented Transistor Booster Stage (uncorrected)" srcset="
+/media/mumt618/original_plot_bjt_hu9221cd1d625480fe498fee5b20ff5fbe_13901_e7dc15db3b9555cfbbe26cc5cd4ebf32.png 400w,
+/media/mumt618/original_plot_bjt_hu9221cd1d625480fe498fee5b20ff5fbe_13901_38b68b9cc2ba1b8ef79e43a79baaabbf.png 760w,
+/media/mumt618/original_plot_bjt_hu9221cd1d625480fe498fee5b20ff5fbe_13901_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/original_plot_bjt_hu9221cd1d625480fe498fee5b20ff5fbe_13901_e7dc15db3b9555cfbbe26cc5cd4ebf32.png"
+width="610"
+height="399"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Magnitude response of the implemented Transistor Booster Stage (uncorrected)
+&lt;/figcaption>&lt;/figure>
+&lt;p>By inspecting the original magnitude response shown in the paper, it can be concluded that the implemented filter should output above $30dB$ of gain in its bandpass.&lt;/p>
+&lt;figure id="figure-magnitude-response-of-the-transistor-booster-stage-shown-at-yeh-et-al-2007">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)" srcset="
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_26ba8bc741e70028793f357d6a5828ac.png 400w,
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_9ac33f0781674bbc46e5987cea4887c7.png 760w,
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_26ba8bc741e70028793f357d6a5828ac.png"
+width="610"
+height="403"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Magnitude response of the Transistor Booster Stage shown at Yeh et al. (2007)
+&lt;/figcaption>&lt;/figure>
+&lt;p>Luckily, in the corresponding section of this stage, the paper mentions that the expected gain in the bandpass is, in fact, $36dB$. Using this information, an additional gain, $g$, is included in the discrete-time transfer function:&lt;/p>
+&lt;p>$$
+{\small H(z) = \frac{g(1 -2 z^{-1} + z^{-2})}{(1800 \Omega^2 + 603 \Omega + 1) + (3600 \Omega^2 - 2) z^{-1} + (1800\Omega^2 - 603\Omega + 1) z^{-2}} }
+$$&lt;/p>
+&lt;p>where the equation, $36dB = \log_{10}(g) * 20$, can be used to obtain the value of $g$&lt;/p>
+&lt;p>$$
+g = 10^{\frac{36}{20}} = 63.0957
+$$&lt;/p>
+&lt;p>The resulting magnitude response resembles much more the magnitude response shown in the paper&lt;/p>
+&lt;figure id="figure-magnitude-response-of-the-implemented-transistor-booster-stage-corrected">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Magnitude response of the implemented Transistor Booster Stage (corrected)" srcset="
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_26ba8bc741e70028793f357d6a5828ac.png 400w,
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_9ac33f0781674bbc46e5987cea4887c7.png 760w,
+/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/corrected_plot_bjt_hu4046e766756e82f4130c690fb16fc4ab_12340_26ba8bc741e70028793f357d6a5828ac.png"
+width="610"
+height="403"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Magnitude response of the implemented Transistor Booster Stage (corrected)
+&lt;/figcaption>&lt;/figure>
+&lt;p>This filter&amp;mdash;including its correction&amp;mdash;can be implemented with the following &lt;code>MATLAB&lt;/code> function:&lt;/p>
+&lt;pre>&lt;code class="language-matlab">% Transistor Booster Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+function y = bjtfilt(x, fs)
+% After working the math, I put all the discrete-time
+% coefficients in terms of this variable coeff
+coeff = pi/fs;
+B0 = 1;
+B1 = -2;
+B2 = 1;
+A0 = 1800.*coeff.^2 + 603.*coeff + 1;
+A1 = 3600.*coeff.^2 - 2;
+A2 = 1800.*coeff.^2 - 603.*coeff + 1;
+% We obtain the gain from
+% 36dB = log10(x) * 20
+amp = 10.^(36/20);
+B = amp .* [B0, B1, B2];
+A = [A0, A1, A2];
+y = filter(B, A, x);
+end
+&lt;/code>&lt;/pre>
+&lt;h2 id="implementation-of-the-op-amp-gain-stage">Implementation of the Op-Amp Gain Stage&lt;/h2>
+&lt;p>Just as done during the &lt;code>Transistor Booster Stage&lt;/code>, the implementation of the &lt;code>Op-Amp Gain Stage&lt;/code> starts from a given continuous-time transfer function
+$$
+H(s) = \frac{(s + \frac{1}{R_t C_c}) (s + \frac{1}{R_b C_z}) + \frac{s}{R_b C_c}}{(s + \frac{1}{R_t C_c})(s + \frac{1}{R_b C_z})}
+$$&lt;/p>
+&lt;p>Putting this transfer function in the form of the bilinear transform template
+$$
+H(s) = \frac{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c})s + \frac{1}{R_t C_c R_b C_z}}{s^2 + (\frac{1}{R_b C_z} + \frac{1}{R_t C_c})s + \frac{1}{R_t C_c R_b C_z}}
+$$&lt;/p>
+&lt;p>The continous-time coefficients can be obtained
+$$
+b_2 = 1
+$$
+$$
+b_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c} + \frac{1}{R_b C_c}
+$$
+$$
+b_0 = \frac{1}{R_t C_c R_b C_z}
+$$
+$$
+a_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+a_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p>
+&lt;p>Some of these coefficients are equivalent (e.g., $a_0 = b_0$), therefore, they can be summarized in the following coefficients:
+$$
+ab_2 = 1
+$$
+$$
+a_1 = \frac{1}{R_b C_z} + \frac{1}{R_t C_c}
+$$
+$$
+b_1 = a_1 + \frac{1}{R_b C_c}
+$$
+$$
+ab_0 = \frac{1}{R_t C_c R_b C_z}
+$$&lt;/p>
+&lt;p>The next step is to obtain the discrete-time coefficients, these can be expressed in terms of the simplified list of continuous-time coefficients presented above:
+$$
+B_0 = ab_0 + b_1 c + c^2
+$$
+$$
+B_1 = 2ab_0 - 2c^2
+$$
+$$
+B_2 = ab_0 - b_1 c + c^2
+$$
+$$
+A_0 = ab_0 + a_1 c + c^2
+$$
+$$
+A_1 = 2ab_0 - 2c^2
+$$
+$$
+A_2 = ab_0 - a_1 c + c^2
+$$&lt;/p>
+&lt;p>In this case, the resulting magnitude response&lt;/p>
+&lt;figure id="figure-magnitude-response-of-the-implemented-op-amp-gain-stage">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Magnitude response of the implemented Op-Amp Gain Stage" srcset="
+/media/mumt618/opamp_original_hu8b32de2c1ea14b977bae4797833cb04d_22486_25fafe544d8a7192add5b13fb95851b6.png 400w,
+/media/mumt618/opamp_original_hu8b32de2c1ea14b977bae4797833cb04d_22486_dd4f67f547a739d7cbf684417af6a43d.png 760w,
+/media/mumt618/opamp_original_hu8b32de2c1ea14b977bae4797833cb04d_22486_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/opamp_original_hu8b32de2c1ea14b977bae4797833cb04d_22486_25fafe544d8a7192add5b13fb95851b6.png"
+width="610"
+height="411"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Magnitude response of the implemented Op-Amp Gain Stage
+&lt;/figcaption>&lt;/figure>
+&lt;p>is quite similar to the magnitude response shown in the paper&lt;/p>
+&lt;figure id="figure-magnitude-response-of-the-op-amp-gain-stage-shown-at-yeh-et-al-2007">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)" srcset="
+/media/mumt618/opamp_paper_hu4be6455aba7765aed90b014b7f1a058f_61641_6fe86135e3e68920ac92481bd4c9cf52.png 400w,
+/media/mumt618/opamp_paper_hu4be6455aba7765aed90b014b7f1a058f_61641_eb71a98ae50ca19dbe2290c28eb17d98.png 760w,
+/media/mumt618/opamp_paper_hu4be6455aba7765aed90b014b7f1a058f_61641_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt618/opamp_paper_hu4be6455aba7765aed90b014b7f1a058f_61641_6fe86135e3e68920ac92481bd4c9cf52.png"
+width="605"
+height="457"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Magnitude response of the Op-Amp Gain Stage shown at Yeh et al. (2007)
+&lt;/figcaption>&lt;/figure>
+&lt;p>The different colors of the first plot represent the magnitude response with values of $D$ going from $0.1$ to $1.0$. This is the &lt;code>MATLAB&lt;/code> function that implements this filter:&lt;/p>
+&lt;pre>&lt;code class="language-matlab">% Op-Amp Gain Stage
+% Implementation by Nestor Napoles Lopez
+% based on the paper by Yeh et al. (2007)
+function y = opampfilt(x, fs, DIST)
+% Resistors and capacitors from the model
+Rt = 100000 * DIST;
+Rb = 100000*(1-DIST) + 4700;
+Cz = 0.000001;
+Cc = 0.000000000250;
+% Constant for the bilinear transform
+c = 2*fs;
+% Continuous-time coefficients (reduced)
+ab0 = 1 / (Rt*Cc*Rb*Cz);
+a1 = 1/(Rb*Cz) + 1/(Rt*Cc);
+b1 = a1 + 1/(Rb*Cc);
+% Discrete-time coefficients
+B0 = ab0 + b1*c + c.^2;
+B1 = 2*ab0 - 2*c.^2;
+B2 = ab0 - b1*c + c.^2;
+A0 = ab0 + a1*c + c.^2;
+A1 = B1;
+A2 = ab0 - a1*c + c.^2;
+B = [B0, B1, B2];
+A = [A0, A1, A2];
+y = filter(B, A, x);
+end
+&lt;/code>&lt;/pre>
+&lt;h3 id="diode-clipper">Diode-Clipper&lt;/h3>
+&lt;p>At the end of the &lt;code>Op-Amp Gain Stage&lt;/code>, there is an additional step that simulates the diode that clips the samples exceeding a gain threshold, in the case of the digital implementation, that threshold consists of $abs(x[n]) \geq 1.0$. The diode-clipper has been implemented using one of the proposed methods in the paper:&lt;/p>
+&lt;p>$$
+\text{clipper}(x) = \frac{x}{(1 + |x|^n)^{1/n}}
+$$&lt;/p>
+&lt;p>with $n = 2.5$&lt;/p>
+&lt;p>The &lt;code>MATLAB&lt;/code> code for the clipping function is the following:&lt;/p>
+&lt;pre>&lt;code class="language-matlab">% Diode clipper
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+function x = diodeclip(x)
+n = 2.5;
+for i=1:length(x)
+x(i) = x(i) / (1 + abs(x(i)).^n).^(1/n);
+end
+end
+&lt;/code>&lt;/pre>
+&lt;p>As a final step, I provide a script that cascades the two stages of the models to process an input audio example:&lt;/p>
+&lt;pre>&lt;code class="language-matlab">% DS-1, main script
+% Implementation by Nestor Napoles Lopez, December 2018
+% based on the paper by Yeh et al. (2007)
+% Sample audio
+[x, fs] = audioread('guitar_clean.wav');
+% Bipolar Junction Transistor Stage
+y = bjtfilt(x, fs);
+% Op-amp Gain Stage
+D = 1; % D lies between [0, 1]
+y = opampfilt(y, fs, D);
+% Diode clipper
+y = diodeclip(y);
+s = audioplayer(y, fs);
+play(s);
+&lt;/code>&lt;/pre>
+&lt;p>Here is an example of the model applied to an audio sample of a clean electric guitar&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>:&lt;/p>
+&lt;p>Original audio [&lt;a href="/media/mumt618/guitar_clean.wav">wav&lt;/a>]
+&lt;audio controls >
+&lt;source src="/media/mumt618/guitar_clean.wav" type="audio/wav">
+&lt;/audio>
+&lt;/p>
+&lt;p>Transistor Booster Stage only [&lt;a href="/media/mumt618/bjt.wav">wav&lt;/a>]
+&lt;audio controls >
+&lt;source src="/media/mumt618/bjt.wav" type="audio/wav">
+&lt;/audio>
+&lt;/p>
+&lt;p>Op-Amp Gain Stage only [&lt;a href="/media/mumt618/opamp.wav">wav&lt;/a>]
+&lt;audio controls >
+&lt;source src="/media/mumt618/opamp.wav" type="audio/wav">
+&lt;/audio>
+&lt;/p>
+&lt;p>Transistor Booster Stage and Op-Amp Gain Stage [&lt;a href="/media/mumt618/bjt_opamp.wav">wav&lt;/a>]
+&lt;audio controls >
+&lt;source src="/media/mumt618/bjt_opamp.wav" type="audio/wav">
+&lt;/audio>
+&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>This audio sample has been obtained from &lt;a href="https://freesound.org/people/LG/sounds/16054/" target="_blank" rel="noopener">FreeSound&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>MUMT 620: Cadence Game</title><link>/reports/mcgill/mumt620/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt620/</guid><description>&lt;p>A musical game mechanic where players compete to complete a &amp;ldquo;cadence&amp;rdquo;.&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://www.mcgill.ca/study/2020-2021/courses/mumt-620" target="_blank" rel="noopener">MUMT 620: Gestural Control of Sound Synthesis&lt;/a>, I developed a musical game mechanic, where players compete to complete a &amp;ldquo;cadence&amp;rdquo;.&lt;/p>
+&lt;p>The backend gestural interface of the game is implemented in &lt;a href="https://puredata.info/" target="_blank" rel="noopener">PureData&lt;/a> and the graphic interface in &lt;a href="http://danieliglesia.com/mobmuplat/" target="_blank" rel="noopener">MobMuPlat&lt;/a>.&lt;/p>
+&lt;p>The paper of the project is available &lt;a href="https://zenodo.org/record/2554665#.X5LY9JpE160" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>The source code is available &lt;a href="https://github.com/napulen/tictacchord" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>MUMT 621: Hidden Markov Model for Symbolic Key Detection</title><link>/reports/mcgill/mumt621/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/mumt621/</guid><description>&lt;p>A Hidden Markov Model (HMM) for retrieving the musical key of a MIDI file.&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://www.music.mcgill.ca/~ich/classes/mumt621_18/mumt621.html" target="_blank" rel="noopener">MUMT 621: Music Information Acquisition, Preservation, and Retrieval&lt;/a>, I designed and implemented a model for symbolic key detection.&lt;/p>
+&lt;p>The model was later extended to work with &lt;strong>audio&lt;/strong> data and to retrieve &lt;strong>local-key&lt;/strong> estimations as well. A &lt;a href="/publication/keydetection19">dedicated entry in this website&lt;/a> exists for the extended version, which was published in the proceedings of DLfM 2019.&lt;/p>
+&lt;p>This document describes the original class project. A PDF version of this document is also &lt;a href="/media/mumt621/hmm.pdf">available&lt;/a>.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Finding the key of a piece of Western art music has been in the interest
+of the Music Information Retrieval (MIR) community for several years
+already. Since they were introduced, the design or acquisition of
+key-profiles have been the preferred methodology to solve this problem.
+In this project, we combine the use of key-profiles with the
+capabilities of Hidden Markov Models (HMMs) to model the time-varying
+aspects of music to find the key of a piece of music by considering the
+pitch-class of every note in the piece as the observation symbol of an
+HMM.&lt;/p>
+&lt;figure id="figure-states-and-observation-symbols-of-the-proposed-hmm-the-blue-states-represent-major-keys-the-red-states-represent-minor-keys-the-green-boxes-represent-the-twelve-pitch-classes">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="States and observation symbols of the proposed HMM. The blue states represent major keys, the red states represent minor keys, the green boxes represent the twelve pitch-classes" srcset="
+/media/mumt621/hmm_hue78f7b8d3da2831c1bd7cd19bdecfb69_55242_efbd8e60327821c76c9f2065eb1c1d69.png 400w,
+/media/mumt621/hmm_hue78f7b8d3da2831c1bd7cd19bdecfb69_55242_6d13bc4f98f403af392eeef04270dc15.png 760w,
+/media/mumt621/hmm_hue78f7b8d3da2831c1bd7cd19bdecfb69_55242_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt621/hmm_hue78f7b8d3da2831c1bd7cd19bdecfb69_55242_efbd8e60327821c76c9f2065eb1c1d69.png"
+width="760"
+height="228"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+States and observation symbols of the proposed HMM. The blue states represent major keys, the red states represent minor keys, the green boxes represent the twelve pitch-classes
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="design-of-the-hidden-markov-model">Design of the Hidden Markov Model&lt;/h2>
+&lt;p>As mentioned, the proposed HMM consists of 24 hidden states and 12
+observation symbols.&lt;/p>
+&lt;h3 id="keys-as-hidden-states">Keys as hidden states&lt;/h3>
+&lt;p>The hidden states correspond to 24 different major and minor keys (i.e.,
+no distinction between enharmonics), each of these keys is represented
+as a hidden state in the model. All of the keys may transition to any of
+the other 23 keys, however, the probability of transitioning to neighbor
+keys in the circle of fifths is preferred over distant keys.&lt;/p>
+&lt;h3 id="pitch-classes-as-observation-symbols">Pitch-classes as observation symbols&lt;/h3>
+&lt;p>All major and minor keys are able to &lt;em>emit&lt;/em> any of the twelve
+pitch-classes before they transition to a new state, however, by
+acquiring the probability distributions from common key-profiles used
+for the task of key detection, the emission of &lt;em>diatonic&lt;/em> tones of the
+key are preferred over accidental tones.&lt;/p>
+&lt;figure id="figure-a-generic-overview-of-the-geometric-model-of-key-distance-starting-from-any-tonic">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="A generic overview of the geometric model of key distance, starting from any tonic" srcset="
+/media/mumt621/key_transitions_layers_huf88355d307b8c1fd56ee983d5cc14503_17480_30b3da11eba163a84d7d7ad2b81536bc.png 400w,
+/media/mumt621/key_transitions_layers_huf88355d307b8c1fd56ee983d5cc14503_17480_faadca37b527519b97c4c0a10c554350.png 760w,
+/media/mumt621/key_transitions_layers_huf88355d307b8c1fd56ee983d5cc14503_17480_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt621/key_transitions_layers_huf88355d307b8c1fd56ee983d5cc14503_17480_30b3da11eba163a84d7d7ad2b81536bc.png"
+width="376"
+height="374"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+A generic overview of the geometric model of key distance, starting from any tonic
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-the-key-distances-of-c-major">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The key distances of C Major" srcset="
+/media/mumt621/key_transitions_hue58da6863373d45d70f700b32f6003ab_25224_6390e80bfa028d496b5fc833d56fa23c.png 400w,
+/media/mumt621/key_transitions_hue58da6863373d45d70f700b32f6003ab_25224_a0dc5b0405143beb4caff84330359796.png 760w,
+/media/mumt621/key_transitions_hue58da6863373d45d70f700b32f6003ab_25224_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt621/key_transitions_hue58da6863373d45d70f700b32f6003ab_25224_6390e80bfa028d496b5fc833d56fa23c.png"
+width="377"
+height="376"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+The key distances of C Major
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="parameters-of-the-model">Parameters of the model&lt;/h2>
+&lt;h3 id="initial-probabilities">Initial probabilities&lt;/h3>
+&lt;p>The initial probabilities of the model are the same for each key, $p(state) = \frac{1}{24}$.&lt;/p>
+&lt;h3 id="state-transitions">State transitions&lt;/h3>
+&lt;p>The probability distributions for state transitions that happen after
+the initialization have been taken from a geometric model of key
+distance. The probability of a transition to another key in the next
+group of neighbors decreases exponentially. The geometric model of key
+distance can be observed in&lt;/p>
+&lt;p>Using this model, we can observe, for example, a list of the groups of
+neighbor keys for C Major, in descending order:&lt;/p>
+&lt;pre>&lt;code>Group Keys
+0 C
+1 G F a c
+2 d e f g
+3 D Eb A Bb
+4 E Ab bb b
+5 Db B
+6 eb f#
+7 c# ab
+8 F#
+&lt;/code>&lt;/pre>
+&lt;p>This structure of nine groups of neighbours repeats for all major and
+minor keys. We can use these groups to compute the transition
+probability for any key according to the following formula:&lt;/p>
+&lt;p>$$p(s) = \alpha^{(G-1) - s_g}$$&lt;/p>
+&lt;p>where $G$ is the number of groups of neighbor keys to the current
+tonic, according to the geometric model (i.e., $G=9$), $s_g$ is the
+group to which the key $s$ belongs, $\alpha$ is the probability
+ratio between a key of one group and a key from a contiguous group.&lt;/p>
+&lt;figure id="figure-probability-distribution-for-the-next-state-if-the-current-state-is-c-major">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Probability distribution for the next state if the current state is C Major" srcset="
+/media/mumt621/key_transitions_CMajor_hu98d87bcf83ce3b621ee74718275cc4a8_10020_5be111089714266fe49efeb107655d3e.png 400w,
+/media/mumt621/key_transitions_CMajor_hu98d87bcf83ce3b621ee74718275cc4a8_10020_d4620a92ba452323dae5dc2e685cbd81.png 760w,
+/media/mumt621/key_transitions_CMajor_hu98d87bcf83ce3b621ee74718275cc4a8_10020_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/mumt621/key_transitions_CMajor_hu98d87bcf83ce3b621ee74718275cc4a8_10020_5be111089714266fe49efeb107655d3e.png"
+width="654"
+height="389"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Probability distribution for the next state if the current state is C Major
+&lt;/figcaption>&lt;/figure>
+&lt;p>Figure 4 shows a plot of the probability distribution for the transition to the
+next key, if the current key is C Major.&lt;/p>
+&lt;h3 id="emission-probabilities">Emission probabilities&lt;/h3>
+&lt;p>The emission probability distributions have been taken from the common
+key-profiles used by other key detection algorithms. Particularly, we
+considered the same five pairs of key-profiles used in the comparison by
+Albrecht and Shanahan (2013).&lt;/p>
+&lt;h2 id="dataset">Dataset&lt;/h2>
+&lt;p>The model has been evaluated using sets of short musical compositions in
+all major and minor keys. Each set follows the format of the
+&lt;em>Well-Tempered Clavier&lt;/em> by Johann Sebastian Bach. The sets are: The
+Well-Tempered Clavier, Volume I, by Johann Sebastian Bach (24 MIDI
+files); The Well-Tempered Clavier (Part II), by Johann Sebastian Bach
+(24 MIDI files); Preludes Op.28, by Frédéric Chopin (24 midi files); 4
+of the 24 preludes from Op.11, by Alexander Scriabin (4 MIDI files);
+Preludes and Fugues Op.87, by Dmitri Shostakovich (48 MIDI files). In
+total, 124 MIDI files were used for testing the algorithm.&lt;/p>
+&lt;p>Even if these MIDI files have not been explicitly annotated with their
+keys and modulations, the main key of each of the selected pieces has
+been clearly established by the composer in the original scores, meaning
+an evaluation process of the algorithm is possible at least against the
+main key of the musical piece.&lt;/p>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>The best performance of the algorithm used a ratio of $\alpha = 10$,
+the key-profiles from Temperley for major keys, and the key-profiles
+from Sapp for minor keys. With this configuration, the algorithm guessed
+correctly 103 out of 124 keys in the MIDI files from the dataset.&lt;/p>
+&lt;p>The worst performance of the algorithm used a ratio of $\alpha = 2$,
+the key-profiles from Krumhansl and Kessler for major keys, and the
+key-profiles from Aarden and Essen for the minor keys. With this
+configuration, the algorithm guessed 49 out of 124 keys in the MIDI
+files from the dataset.&lt;/p></description></item><item><title>MUTH 251: Essay on Brahms Intermezzo Op.118 No.2</title><link>/reports/mcgill/muth251/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reports/mcgill/muth251/</guid><description>&lt;p>A short music-theoretical essay on Brahms Intermezzo Op.118 No.2&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>During the course &lt;a href="https://www.mcgill.ca/study/2020-2021/courses/muth-251" target="_blank" rel="noopener">MUTH 251: Theory and Analysis 4&lt;/a>, I wrote a short essay on Brahms Intermezzo Op.118 No.2.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>The Intermezzo Op.118 No.2 in A Major is one of the six piano pieces
+published in the&amp;mdash;late work&amp;mdash;Op.118. The piece has a large ternary
+form, characteristic of slow movements, with a main theme that extends
+from the anacrusis before the first measure to measure 49, an interior
+theme in F# minor that extends from measure 49 to measure 73, and
+finally (after a brief retransition), a return of the main theme that
+concludes the piece from measures 76 to 116. The structure of the three
+larger sections consist, in all cases, of small ternary forms described
+throughout this essay.&lt;/p>
+&lt;h2 id="main-theme-exposition">Main Theme: Exposition&lt;/h2>
+&lt;p>The piece starts with a simple and interesting motive in the upper
+voice, arguably the most important sonority of the intermezzo: A
+descending second from C# to B as an anacrusis of eighth notes,
+followed by an ascending third that culminates in a D half note at the
+beginning of measure 1. The pattern is repeated in the third beat of
+measure 1, this time replacing the ascending third with
+an&amp;mdash;unusual&amp;mdash;ascending seventh going to an A one line above the treble
+staff, at the beginning of measure 2.&lt;/p>
+&lt;p>These first two measures already introduced a lot of the material that
+will be used throughout the piece, namely, the descending seconds, the
+metric structure (which for now, remains accentuated on the first beat
+of the measure, as it is notated, but will change constantly throughout
+the piece), and the ascending seventh.&lt;/p>
+&lt;p>After the important motivic material from the beginning of the piece to
+the first two beats of measure 2, which I denominated &lt;em>Motive A&lt;/em>,
+follows another motive, which will be particularly important in its
+rhythmic structure rather than its intervallic configuration, a dotted
+eight followed by a sixteenth note. In the context of its first
+appearance, this motive, which I denominated &lt;em>Motive X&lt;/em>, is presented in
+two instances, first, in a pre-dominant harmony at the third beat of
+measure 2 and then a dominant seventh harmony at the beginning of
+measure 3.&lt;/p>
+&lt;p>As the piece continues, it will feel as if this &lt;em>Motive X&lt;/em> has been
+introduced by Brahms with the purpose of changing the pulse of the music
+at pleasure. Particularly, when it is presented with an augmentation of
+the rhythmic figure. Two pairs of descending seconds at measures 3 and 4
+complement &lt;em>Motive X&lt;/em> before &lt;em>Motive A&lt;/em> is reintroduced at the end of
+measure 4.&lt;/p>
+&lt;h2 id="main-theme-contrasting-middle">Main Theme: Contrasting Middle&lt;/h2>
+&lt;p>The harmonic material of the measures comprehending the beginning of the
+piece (i.e., 1-16) comply with the Exposition section of a small ternary
+form, ending with a PAC in the dominant (E Major) at measure 16.
+Following the closing PAC of the Exposition, starts the Contrasting
+Middle section of the Main Theme, at the third beat of measure 16. At
+this point, the notated meter and the experienced meter are in conflict
+as the third beat of measure 16 becomes the accentuated beat. In order
+to introduce the new meter, Brahms has made use of a more dense texture
+in the previous measure, particularly, a salient melodic movement of a
+tritone within two eighth notes in the third beat of measure 15, which
+intensifies the role of the third beat that is ultimately necessary for
+transitioning to the contrasting middle section.&lt;/p>
+&lt;p>The contrasting middle comes with its own set of motivic materials on
+the upper voice, which will be recurrent through the rest of the piece:
+a figure of a “pedal” dominant (and later tonic) at the third beat,
+followed by a descending second at the beginning of the measure,
+appearing for the first time on measure 17 with the notes E, F#, E. The
+motive, which I called “Motive B”, then adds a leap of a fifth between
+the pedal note and the descending seconds in measure 18, turning into E,
+B, A.&lt;/p>
+&lt;p>At measure 20 (i.e., third beat of measure 19 and first two beats of
+measure 20), the pedal at the beginning of the motive has moved to the
+tonic. First, replicating the intervallic relationships at the beginning
+of the contrasting middle with A, B, A (i.e., a pedal, an ascending
+second, and a descending second). However, the ascending second between
+the pedal and the second note of the motive is replaced by an ascending
+third in measure 22 (A, C, A), a configuration that did not appear in
+the pedal dominant.&lt;/p>
+&lt;p>By the time we arrive to measure 23 and 24, the almost infallible bass
+on the third beat of each measure of the contrasting middle has been
+removed, and with it, the experienced meter has again been compromised.
+Brahms clearly establishes the experienced meter at the beginning of
+measure 25, in accordance with the notated meter. This measure also
+signals the beginning of a sequential passage (measures 25-28, plus the
+resolution on the subdominant of measure 29) that concludes the
+contrasting middle of the Main Theme and moves into the Recapitulation.&lt;/p>
+&lt;h2 id="main-theme-recapitulation">Main Theme: Recapitulation&lt;/h2>
+&lt;p>Brahms “sneaks” an off-beat descending second at the second half of
+measure 29, that, together with the leap of a seventh above at measure
+30, confirms the return of &lt;em>Motive A&lt;/em>, or at least of its second half.
+What follows next seems to be a combination of the descending seconds
+accompanying &lt;em>Motive X&lt;/em> at the Exposition of the Main Theme and the
+descending eighth notes that initiate &lt;em>Motive A&lt;/em>. This hybrid motive
+makes up for the first quarter of the Recapitulation (measures 30-34).&lt;/p>
+&lt;p>A very interesting inversion of &lt;em>Motive A&lt;/em> follows next, at the third
+beat of measure 35. The rhythmic values of &lt;em>Motive A&lt;/em> are respected and
+the general intervals inverted: an ascending second in eighth notes
+followed by a descending third (third beat of measure 34 to first beat
+of measure 35), and then, the same ascending second followed by a
+descending seventh (end of measure 35 to measure 36). &lt;em>Motive X&lt;/em> also
+comes back in two instances, this time accompanied by a denser
+succession of eighth notes (measure 37).&lt;/p>
+&lt;p>Brahms, yet another time, overrides the experienced meter at the end of
+measure 38 and brings, unexpectedly, the motive of the contrasting
+middle (i.e., &lt;em>Motive B&lt;/em>) to the Recapitulation. The version of &lt;em>Motive
+B&lt;/em> has the tonic as the pedal, however, it preserves the same intervals
+presented originally at the dominant pedal during the Contrasting
+Middle.&lt;/p>
+&lt;p>During measure 41, something remarkable happens, a variation of the
+rhythmic &lt;em>Motive X&lt;/em> is presented (augmentation with a dotted quarter and
+an eighth note), which helps to override the experienced meter at the
+beginning of measure 42, in accordance to the notated meter. Brahms
+quickly departs from the new meter once more, at the end of measure 42,
+establishing again the third beat as the accentuated beat. The same play
+on the experienced meter repeats at measure 46, however, even though the
+rhythmic circumstances are analogous, this time, the meter cannot be
+reinterpreted at the third beat due to a surprising factor, Brahms has
+brought &lt;em>Motive A&lt;/em> to the voice of the contralto. &lt;em>Motive A&lt;/em> is
+anacrusic and we have listened to it several times, it becomes evident
+whenever it returns, and now it has come back.&lt;/p>
+&lt;p>The experienced meter is preserved as strong on the first beat of
+measure 47, and as we might expect from feeling those two eighth notes
+as an anacrusis to the rest of &lt;em>Motive A&lt;/em>, it continues into measure 48.
+This last measure also signals the end of the Recapitulation and the
+Main Theme of the Intermezzo.&lt;/p>
+&lt;p>By the end of the Main Theme, Brahms has taught us two important
+lessons:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>The absolute importance of &lt;em>Motive A.&lt;/em> &lt;em>Motive A&lt;/em>, which had been
+used mostly in the context of a sub-dominant harmony, is now
+concluding the PAC of the Main Theme. That big leap of a seventh
+could actually be the closing Tonic of the piece (and when we reach
+the end of the piece, we confirm that this is the case).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Experienced meter is crucial in this piece. &lt;em>Motive A&lt;/em> is anacrusic,
+containing two eighth notes on the third beat before the accentuated
+half note. &lt;em>Motive B&lt;/em>, on the other hand, is not anacrusic and, when
+introduced, is usually started on the third beat of the measure.
+This dual role of the third beat of being an anacrusis or the
+strongest beat is going to be (frequently) exploited by Brahms to
+move seamlessly through different experienced meters. Additionally,
+a dual role of the second beat is also going to be introduced in the
+Interior Theme.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="interior-theme-exposition">Interior Theme: Exposition&lt;/h2>
+&lt;p>If I had to extend on what Brahms meant with the &lt;em>in tempo&lt;/em> marking at
+the beginning of the exposition of the interior theme (measure 49), I
+would write: “Here, in measures 49-56, expression is achieved through
+accentuation and not through tempo rubato”.&lt;/p>
+&lt;p>Brahms has already presented us the resources needed to move the
+experienced meter of the music during the Main Theme. Now, it is time to
+put it in practice.&lt;/p>
+&lt;p>The Interior Theme follows the convention of modal mixture, it starts
+with F# minor. The experienced meter is in congruence with the notated
+meter. The motivic material does not resemble neither &lt;em>Motive A&lt;/em> nor
+&lt;em>Motive B.&lt;/em>&lt;/p>
+&lt;p>Right from the beginning, we are exposed to accompanying triplets in the
+bass and a melodic line in the upper voice. Until measure 51, the upper
+voice suggests the continuation of the metric stress on the first beat
+of each measure, then, a change in the rhythmic pattern at measure 52
+strengthens the second beat and its descending figure of step and
+thirds. This metric stress of the second beat is confirmed on measure
+53, however, it is quickly corrected on measure 54 and until the end of
+the Exposition.&lt;/p>
+&lt;h2 id="interior-theme-contrasting-middle">Interior Theme: Contrasting Middle&lt;/h2>
+&lt;p>The contrasting middle of the Interior Theme starts right after the
+repetition bar, at measure 57. The texture of this section is mostly
+homorhythmic-homophonic, in a choral style. The key features a modal
+mixture of F# Major, contrasting with the F# minor of the Exposition.&lt;/p>
+&lt;p>More importantly, the experienced meter of this section changes abruptly
+to a 2/4 meter, accentuating the second beat of measure 57 and
+continuing with an experienced 2/4 meter until the cadential six-four
+chord at measure 64. The contrasting middle concludes with a C#
+dominant seventh chord that brings back the theme of the Exposition,
+this time in the Recapitulation.&lt;/p>
+&lt;h2 id="interior-theme-recapitulation">Interior Theme: Recapitulation&lt;/h2>
+&lt;p>In measure 65, Motive C of the interior theme comes back. This time, the
+melodic line is not presented in the upper voice but alternating between
+the register of the tenor and the contralto. One substantial difference
+to the Exposition is that the play of modifying the experienced meter is
+absent. Brahms begins the rhythmic pattern to stress the second beat of
+measure 68 but abruptly replaces the culmination of that pattern with a
+quarter note rest at the beginning of measure 69.&lt;/p>
+&lt;p>The texture of the Recapitulation feels more based on counterpoint than
+the Exposition did. The experienced meter is kept in accordance to the
+notated meter and the PAC finally comes at measure 73, closing with the
+F# minor tonic.&lt;/p>
+&lt;h2 id="return-of-the-main-theme">Return of the Main Theme&lt;/h2>
+&lt;p>After the resolution of the PAC of the interior theme, a small
+retransition that continues with the triplet figures, extending from
+measures 73 to 76, helps to connect the Interior Theme with the return
+of the Main Theme.&lt;/p>
+&lt;p>During the Exposition, the texture of the upper voice is denser,
+particularly where the &lt;em>Motive X&lt;/em> is reintroduced. The Contrasting
+Middle returns in the third beat of measure 84. Just as it did during
+the Main Theme at the beginning, the Recapitulation is left intact,
+combining motivic material from &lt;em>Motive A&lt;/em> and &lt;em>Motive B&lt;/em>. The leap of
+the seventh, so salient at the beginning of the piece, now blends into
+the arpeggiated tonic triad, during the PAC that closes this beautiful
+Intermezzo.&lt;/p>
+&lt;h2 id="figures">Figures&lt;/h2>
+&lt;figure id="figure-motive-a">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Motive A." srcset="
+/media/muth251/motivea_hucc2af1841373a485223757f97d91c472_24198_44d0ea2a96b107eb13ff961d2c7a6ede.png 400w,
+/media/muth251/motivea_hucc2af1841373a485223757f97d91c472_24198_c5730809bfe1fb695d79f870e55b658e.png 760w,
+/media/muth251/motivea_hucc2af1841373a485223757f97d91c472_24198_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/muth251/motivea_hucc2af1841373a485223757f97d91c472_24198_44d0ea2a96b107eb13ff961d2c7a6ede.png"
+width="760"
+height="214"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Motive A.
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-motive-b-during-the-intermezzo-the-first-note-is-always-played-on-the-third-beat-of-the-measure-however-the-accentuation-is-the-one-suggested-in-this-figure">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Motive B. During the Intermezzo, the first note is always played on the third beat of the measure, however, the accentuation is the one suggested in this figure." srcset="
+/media/muth251/motiveb_huf2834604898b7183468dfeb5fd95cc3a_24250_71f22fe52264f3a065e209c31e924b19.png 400w,
+/media/muth251/motiveb_huf2834604898b7183468dfeb5fd95cc3a_24250_3936c85c2da8470be882d47243c1a8fd.png 760w,
+/media/muth251/motiveb_huf2834604898b7183468dfeb5fd95cc3a_24250_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/muth251/motiveb_huf2834604898b7183468dfeb5fd95cc3a_24250_71f22fe52264f3a065e209c31e924b19.png"
+width="760"
+height="184"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Motive B. During the Intermezzo, the first note is always played on the third beat of the measure, however, the accentuation is the one suggested in this figure.
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-motive-c-during-the-recapitulation-of-the-interior-theme-the-second-and-third-measures-of-this-figure-not-counting-the-anacrusis-change-slightly-however-i-have-considered-that-the-motive-in-the-exposition-and-the-recapitulation-are-the-same-motive">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Motive C. During the Recapitulation of the Interior Theme, the second and third measures of this Figure (not counting the anacrusis) change slightly, however, I have considered that the motive in the Exposition and the Recapitulation are the same motive." srcset="
+/media/muth251/motivec_hu3f8b2fd2db5c83a697530e8cf5dffd3d_32805_546afedcaf7b7dca869b8482b15ad329.png 400w,
+/media/muth251/motivec_hu3f8b2fd2db5c83a697530e8cf5dffd3d_32805_b7cf430d527db34fa64368dc5d0f032a.png 760w,
+/media/muth251/motivec_hu3f8b2fd2db5c83a697530e8cf5dffd3d_32805_1200x1200_fit_lanczos_2.png 1200w"
+src="/media/muth251/motivec_hu3f8b2fd2db5c83a697530e8cf5dffd3d_32805_546afedcaf7b7dca869b8482b15ad329.png"
+width="760"
+height="111"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+Motive C. During the Recapitulation of the Interior Theme, the second and third measures of this Figure (not counting the anacrusis) change slightly, however, I have considered that the motive in the Exposition and the Recapitulation are the same motive.
+&lt;/figcaption>&lt;/figure></description></item></channel></rss>
