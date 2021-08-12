@@ -32,14 +32,14 @@ summary: "Examples of encoding discrepancies that have been introduced either du
 featured: true
 
 links:
-# - name: Custom Link
-#   url: http://example.org
-url_pdf: "media/encoding_matters/encoding_matters.pdf"
+  - name: Reviews
+    url: "media/encoding_matters/napoles18encoding_reviews.pdf"
+url_pdf: "media/encoding_matters/napoles18encoding.pdf"
 url_code: 'https://github.com/napulen/encoding_matters'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-url_slides: 'media/encoding_matters/encoding_matters_slides.pdf'
+url_slides: 'media/encoding_matters/napoles18encoding_slides.pdf'
 # url_source: '#'
 url_video: 'https://medias.ircam.fr/x86476e'
 

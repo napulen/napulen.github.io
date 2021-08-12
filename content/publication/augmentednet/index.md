@@ -29,9 +29,9 @@ summary: "A new CRNN for automatic Roman numeral analysis."
 # - Source Themes
 featured: true
 
-# links:
-# - name: ISMIR Website
-#   url: https://program.ismir2020.net/poster_3-14.html
+links:
+- name: Reviews
+  url: "media/augmentednet/napoles21augmentednet_reviews.pdf"
 url_pdf: "media/augmentednet/napoles21augmentednet.pdf"
 url_code: "https://github.com/napulen/AugmentedNet"
 # url_dataset: "https://github.com/DDMAL/key_modulation_dataset"

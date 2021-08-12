@@ -35,14 +35,14 @@ summary: "A new key detection algorithm that works in the symbolic and audio dom
 featured: true
 
 links:
-# - name: Custom Link
-#   url: http://example.org
-url_pdf: "media/keydetection19/dlfm19-11.pdf"
+- name: Reviews
+  url: "media/justkeydding/napoles19key_reviews.pdf"
+url_pdf: "media/justkeydding/napoles19key.pdf"
 url_code: "https://github.com/napulen/justkeydding"
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-url_slides: "media/keydetection19/keydetection19_slides.pdf"
+url_slides: "media/justkeydding/napoles19key_slides.pdf"
 # url_source: '#'
 # url_video: '#'
 

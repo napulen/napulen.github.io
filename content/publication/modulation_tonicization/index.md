@@ -40,14 +40,14 @@ summary: "A dataset and methodology for the evaluation of changes of key"
 featured: true
 
 links:
-# - name: Custom Link
-#   url: http://example.org
-url_pdf: "media/modulation_tonicization/napoleslopez20local.pdf"
+- name: Reviews
+  url: "media/modulation_tonicization/napoles20local_reviews.pdf"
+url_pdf: "media/modulation_tonicization/napoles20local.pdf"
 url_code: "https://github.com/DDMAL/key_modulation_dataset"
 url_dataset: "https://github.com/DDMAL/key_modulation_dataset"
 # url_poster: '#'
 # url_project: ''
-url_slides: "media/modulation_tonicization/napoleslopez20local_slides.pdf"
+url_slides: "media/modulation_tonicization/napoles20local_slides.pdf"
 # url_source: '#'
 url_video: 'https://youtu.be/J1VZygSumN0?t=1927'
 
