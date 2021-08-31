@@ -30,10 +30,10 @@ tags:
 featured: false
 
 links:
-# - name: Custom Link
-#   url: http://example.org
+- name: Play on Browser!
+  url: https://napulen.github.io/dandelot
 # url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-# url_code: '#'
+url_code: 'https://github.com/napulen/dandelot'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
@@ -63,9 +63,3 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
-
-## The video looks promising, where is the code?
-
-Although the intention of *dandelot* is to be available for free for anyone to play, some of the assets used for developing the game are proprietary. For the time being, the code is not available online.
-
-If you **really** want to play it, drop an email and I will send you a compiled version of the game. If you want the code to extend it or fork it into your own, we can talk about that.
