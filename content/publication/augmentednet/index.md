@@ -34,7 +34,7 @@ links:
   url: "media/augmentednet/napoles21augmentednet_reviews.pdf"
 url_pdf: "media/augmentednet/napoles21augmentednet.pdf"
 url_code: "https://github.com/napulen/AugmentedNet"
-# url_dataset: "https://github.com/DDMAL/key_modulation_dataset"
+url_dataset: "https://github.com/napulen/AugmentedNet/releases/download/v1.0.0/dataset.zip"
 url_poster: 'media/augmentednet/napoles21augmentednet_poster.pdf'
 # url_project: ''
 # url_slides: "media/modulation_tonicization/napoleslopez20local_slides.pdf"
