@@ -6,15 +6,17 @@ title: Néstor Nápoles López
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate in Music Technology
+role: PhD in Music Technology
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: McGill University
   url: "https://www.mcgill.ca/music/"
+- name: Sibelius (Avid Technology)
+  url: "https://www.avid.com/sibelius"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.
+bio: I earned my PhD researching deep learning models for automatic Roman numeral analysis. Nowadays, I am one of the developers of the Sibelius music notation software. 
 
 # Interests to show in About widget
 interests:
@@ -71,6 +73,13 @@ email: "napulen@gmail.com"
 highlight_name: true
 ---
 
-I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.
+I am passionate about the use of modern technologies to
+learn, understand, create, and enjoy music.
+
+I wrote my PhD dissertation on deep learning models for
+automatic Roman numeral analysis. 
+
+Nowadays, I work as a developer (and AI Researcher) for the
+Sibelius music notation software, within Avid Technology. 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
