@@ -76,8 +76,8 @@ highlight_name: true
 I am passionate about the use of modern technologies to
 learn, understand, create, and enjoy music.
 
-I wrote my PhD dissertation on deep learning models for
-automatic Roman numeral analysis. 
+I wrote my PhD dissertation on [deep learning models for
+automatic Roman numeral analysis](https://escholarship.mcgill.ca/concern/theses/qr46r6307).
 
 Nowadays, I work as a developer (and AI Researcher) for the
 Sibelius music notation software, within Avid Technology. 
