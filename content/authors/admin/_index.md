@@ -9,11 +9,9 @@ superuser: true
 role: PhD in Music Technology
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: McGill University
-  url: "https://www.mcgill.ca/music/"
-- name: Sibelius (Avid Technology)
-  url: "https://www.avid.com/sibelius"
+# organizations:
+# - name: McGill University
+#  url: "https://www.mcgill.ca/music/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I earned my PhD researching deep learning models for automatic Roman numeral analysis. Nowadays, I am one of the developers of the Sibelius music notation software. 
@@ -46,9 +44,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:%6Ea%70%75%6c%65n%40%67m%61%69l%2E%63o%6D'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/napulen
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=flGxOu0AAAAJ&hl=en
@@ -76,10 +71,9 @@ highlight_name: true
 I am passionate about the use of modern technologies to
 learn, understand, create, and enjoy music.
 
-I wrote my PhD dissertation on [deep learning models for
+Within that broad goal, I specialize in symbolic music processing, computational music theory, audio signal processing, and deep learning.
+For example, I wrote my PhD dissertation on [deep learning models for
 automatic Roman numeral analysis](https://escholarship.mcgill.ca/concern/theses/qr46r6307).
 
-Nowadays, I work as a developer (and AI Researcher) for the
-Sibelius music notation software, within Avid Technology. 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
