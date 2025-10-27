@@ -14,7 +14,7 @@ role: PhD in Music Technology
 #  url: "https://www.mcgill.ca/music/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I earned my PhD researching deep learning models for automatic Roman numeral analysis. Nowadays, I am one of the developers of the Sibelius music notation software. 
+bio: My research focuses on deep learning models for music analysis and understanding. I earned my PhD studying automatic Roman numeral analysis and currently serve as Principal Machine Learning Scientist at Musical AI (https://wearemusical.ai).
 
 # Interests to show in About widget
 interests:
@@ -68,12 +68,10 @@ email: "napulen@gmail.com"
 highlight_name: true
 ---
 
-I am passionate about the use of modern technologies to
-learn, understand, create, and enjoy music.
+I am passionate about leveraging modern technologies to learn, understand, create, and enjoy music.
 
-Within that broad goal, I specialize in symbolic music processing, computational music theory, audio signal processing, and deep learning.
-For example, I wrote my PhD dissertation on [deep learning models for
-automatic Roman numeral analysis](https://escholarship.mcgill.ca/concern/theses/qr46r6307).
+As a researcher, I specialize in symbolic music processing, computational music theory, audio signal processing, and deep learning. My PhD dissertation (https://escholarship.mcgill.ca/concern/theses/qr46r6307) explored deep learning models for automatic Roman numeral analysis.
 
+As an industry professional, I have worked at Intel Corporation, Avid Technology, and currently at [Musical AI](https://wearemusical.ai), where I serve as Principal Machine Learning Scientist.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
