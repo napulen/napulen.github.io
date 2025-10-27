@@ -14,7 +14,8 @@ role: PhD in Music Technology
 #  url: "https://www.mcgill.ca/music/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on deep learning models for music analysis and understanding. I earned my PhD studying automatic Roman numeral analysis and currently serve as Principal Machine Learning Scientist at Musical AI (https://wearemusical.ai).
+bio: My research explores deep learning for music analysis and understanding. I currently serve as Principal Machine Learning Scientist at [wearemusical.ai](https://wearemusical.ai).
+
 
 # Interests to show in About widget
 interests:
