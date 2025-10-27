@@ -68,10 +68,10 @@ email: "napulen@gmail.com"
 highlight_name: true
 ---
 
-I am passionate about leveraging modern technologies to learn, understand, create, and enjoy music.
+I’m passionate about using modern technologies to learn, understand, and create music. 
 
-As a researcher, I specialize in symbolic music processing, computational music theory, audio signal processing, and deep learning. My PhD dissertation (https://escholarship.mcgill.ca/concern/theses/qr46r6307) explored deep learning models for automatic Roman numeral analysis.
+My research focuses on symbolic music processing, computational music theory, and deep learning, including my PhD work on [deep learning models for automatic Roman numeral analysis](https://escholarship.mcgill.ca/concern/theses/qr46r6307). 
 
-As an industry professional, I have worked at Intel Corporation, Avid Technology, and currently at [Musical AI](https://wearemusical.ai), where I serve as Principal Machine Learning Scientist.
+I’ve worked at Intel, Avid, and now serve as Principal Machine Learning Scientist at [Musical AI](https://wearemusical.ai).
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
